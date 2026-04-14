@@ -1,6 +1,8 @@
 # Generated Copilot instructions (from cursor-rules)
 .github/instructions/*.instructions.md
 Manuscript/build/
+Manuscript/.copilot/
+Manuscript/.github/
 
 # cursor-rules is a separate git repo
 cursor-rules/
