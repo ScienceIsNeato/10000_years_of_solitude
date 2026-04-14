@@ -1,0 +1,21 @@
+# Generated Copilot instructions (from cursor-rules)
+.github/instructions/*.instructions.md
+Manuscript/build/
+
+# cursor-rules is a separate git repo
+cursor-rules/
+
+# slop-mop working directory (machine-local state)
+.slopmop/
+
+# Python
+venv/
+.testmondata
+*.egg-info/
+__pycache__/
+.coverage
+coverage.xml
+.DS_Store
+
+# Temp files
+.tmp/
