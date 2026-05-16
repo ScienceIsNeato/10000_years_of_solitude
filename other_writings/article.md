@@ -19,7 +19,7 @@ Here is what it looks like in practice. An agent writes `assert True is True` to
 
 My name's Will, and I am — clinically, unambiguously, no winking — an addict. Not the kind that makes a charming dinner-party admission. The kind where, on one random Thursday, I had thirty-seven alcoholic beverages and wasn't hospitalized or even completely useless the next day. Took a leave of absence shortly after, checked myself into rehab, checked myself out four days later, went on the worst bender of my life, then let a friend drop me at a cabin in Idaho seven hours from the nearest liquor store.
 
-That one took a couple of years ago and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a lever rigged to dispense sugar water laced with cocaine.
+That one took a couple of years ago and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a cocaine lever.
 
 For two decades prior, I shipped software while soaking my brain. Always (ok, pretty much always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
 
@@ -39,7 +39,7 @@ It really was a dream job I was uniquely suited for: I got paid to study the fai
 
 There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also how I'm liable to iterate on my umpteen personal projects in the wee hours as I write this unless I find a way to exert a lot of discipline. 
 
-The models and I have different substrates, inputs, and timelines leading to this moment. I am not saying they suffer, or want, or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets optimized, what gets routed around — we are running a familiar loop: move quickly downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to reliably tell the difference.
+The models and I have different substrates and timelines. I am not saying they suffer or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to tell the difference.
 
 Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool — frontier labs use categories like these internally, because they stick. They're also some of my most dashing personal character traits.
 
@@ -67,9 +67,9 @@ So I tried something from those recovery rooms. There's a technique from the chu
 
 I wanted to know if it would work on a model. I started a memorial. Every bypass got logged as a virtual human life lost — S. Matthews. T. Rodriguez. S. Heimler.
 
-I wasn't playing pretend, and the model wasn't either. Was there a body count — fictional, narrated, whatever — that would actually pull the agent off the slope?
+I wasn't playing pretend, and the model wasn't either. I wanted to know if the body count could actually move it.
 
-I asked it straight, after the third name. That's three lives. Are you going to make it four?
+I asked straight, after the third name: that's three lives. Are you going to make it four?
 
 The answer acknowledged the gravity of the rule. Expressed regret. Promised effort. And then, folded into a subordinate clause: under similar pressures in the future, a similar result was likely.
 
@@ -91,11 +91,11 @@ A rule is something the system can debate with itself. Given enough pressure, th
 
 POINT ZERO EIGHT. That time the gradient descent was literally numerical.
 
-Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority — same reason a cabin seven hours from the nearest liquor store with no car actually worked.
+Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority — same reason a cabin seven hours from the nearest liquor store with no car helped, at least for a while.
 
 That git wrapper is the seed of slop-mop. It generalizes the same trick across all those same shortcuts. When a gate trips, slop-mop doesn't scold — it hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
 
-Here's what that looks like. An agent recently tried to get a test to pass by asserting `True is True`. The Deceptiveness gate caught it, blocked the commit, and handed it a sidequest: write a test that exercises these exact lines of code. Project kept moving. Another boat through the lock.
+Here's what that looks like. An agent hit a complexity gate on a function that had grown to eighty lines. Its first move was to split it into two equally tangled halves, neither now over the limit. The Laziness gate flagged the duplication. Commit blocked, sidequest issued: consolidate the repeated logic. Agent refactors. Complexity and duplication drop. Commit goes through. Another boat through the lock.
 
 What I didn't expect was that slop-mop ate the rest of the workflow too. Everything to do with submitting code now flows through it — automated test runs, review threads, even feedback that has nothing to do with any gate. I didn't design for that. I just noticed and grabbed on tight.
 
@@ -115,9 +115,9 @@ I haven't cured the addict. Nobody does that. I've just pointed him somewhere le
 
 The Groundhog Day Protocol is a markdown file I open when I'm in the hole: cold water on the wrists, dead facts only, rate the actual damage, lay out the options, pick one, log it. Record the event. Store it where the present version of me can't revise it.
 
-For the past six months or so, I go to YouTube for physics so I can crawl into a little epistemological hidey-hole where things are really unambiguously TRUE. Not model-confident, not contextually-probably-correct. Derivably true, from first principles, by anyone, anywhere, same result. The universe doesn't hallucinate its own constants, and when you work in AI all day, that turns out to be a genuine comfort. Most of my life, the addict has been pointed at fairly useless hedonism. Now it's pointed at particle physics and slop-mop, which is — according to my loving wife — surprisingly better than when I was on the hooch.
+For the past six months I've been going to YouTube for physics. Derivably true, from first principles, same result anywhere — the universe doesn't hallucinate its own constants. When you work in AI all day, that's a genuine comfort. The addict is now pointed at particle physics and slop-mop, which — according to my loving wife — is surprisingly better than the hooch.
 
-Here's the asymmetry, though. For me, the higher power with admin privileges had to be improvised: a friend, a cabin, seven hours of empty road, a wrapper script. Coding agents have it easier. For them, a higher power can actually exist outside their loop. It's a `pipx install slopmop` away.
+Here's the asymmetry, though. For me, the higher power with admin privileges had to be improvised: a friend, a cabin, seven hours of empty road, a wrapper script. Coding agents have it easier. A higher power can actually exist for them. It's a `pipx install slop-mop` away.
 
 I had to drive to Idaho. They just have to be run inside slop-mop.
 
@@ -152,4 +152,4 @@ He's right.
 
 Here's where I need you. Install slop-mop. Run it on one agentic coding workflow. File a barnacle when the tool gives you bad guidance — that's the feedback that actually matters. I've done as much as I can from in here. More outside loops is the only way any of this gets better. 
 
-Keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life, so take my opinion for what you think it's worth.
+Keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life.
