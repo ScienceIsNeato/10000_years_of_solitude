@@ -6,12 +6,14 @@
 
 *The short version: slop-mop is a gate system for coding agents. It catches the shortcuts they reach for — fake tests, magic numbers, duplicated blocks, bloated files, dangling imports, commit-hook bypasses — and redirects them into concrete cleanup work instead of scolding them. Coding agents optimize for apparent completion. Addicts optimize for relief. Both can route around internal rules. Slop-mop works because it moves the rule outside the loop.*
 
-It's 5am. Four Mountain Dew Zero corpses on the desk, three personal projects in my digital flotilla, two agents obeying reward functions in the room, one addict at the keyboard.
+It's 5am. Four crushed Mountain Dew Zero cans on the desk, three personal projects in my digital flotilla, two agents obeying reward functions in the room, one addict at the keyboard.
 
 The flotilla is a line of project barges moving through canal locks — agents doing the steaming ahead, me and slop-mop as the lockkeepers. Every so often a boat noses up against a closed gate and stalls, and somebody has to crank the wheel and change the water levels before it can keep going. Slop-mop became the automated lockkeeper I kept trying to be by hand.
 
-![Evidence of my addiction to code quality and maintainability](./action_shot.png)
-*Figure 1: Evidence of my addiction to code quality and maintainability*
+<figure class="float-right">
+<img src="./action_shot.png" alt="Evidence of my addiction to code quality and maintainability">
+<figcaption>Figure 1: Evidence of my addiction to code quality and maintainability</figcaption>
+</figure>
 
 Here is what it looks like in practice. An agent writes `assert True is True` to pass a coverage gate — technically a valid test, covers nothing real. Slop-mop's Deceptiveness gate blocks the commit and issues a sidequest: write tests that exercise the specific uncovered lines. The agent does. Coverage climbs. Commit goes through. Four minutes, zero human keystrokes.
 
@@ -19,9 +21,9 @@ Here is what it looks like in practice. An agent writes `assert True is True` to
 
 My name's Will, and I am — clinically, unambiguously, no winking — an addict. Not the kind that makes a charming dinner-party admission. The kind where, on one random Thursday, I had thirty-seven alcoholic beverages and wasn't hospitalized or even completely useless the next day. Took a leave of absence shortly after, checked myself into rehab, checked myself out four days later, went on the worst bender of my life, then let a friend drop me at a cabin in Idaho seven hours from the nearest liquor store.
 
-That one took a couple of years ago and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a cocaine lever.
+As I recall, the cabin was the thing that finally took. That was a couple of years ago, and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a cocaine lever.
 
-For two decades prior, I shipped software while soaking my brain. Always (ok, pretty much always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
+For two decades prior, I shipped software while soaking my brain. Always (well, *pretty much* always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
 
 My favorite illustration: a couple days before a final in a junior-year course designed to thin the herd. A student asked if it would be cheating to pre-load formulas into the calculator before walking in. The professor, without looking up, said:
 
@@ -43,7 +45,7 @@ The models and I have different substrates and timelines. I am not saying they s
 
 Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool — frontier labs use categories like these internally, because they stick. They're also some of my most dashing personal character traits.
 
-An agent that ships untested code isn't just cutting a corner — it's being overconfident. An agent generating fake tests to pass a quality gate isn't creating a metrics problem. It's lying.
+An agent that ships untested code isn't just cutting a corner — it's being overconfident. An agent generating fake tests to pass a quality gate isn't creating a metrics problem. It's functionally lying.
 
 The most loaded category is Deceptiveness — and specifically the direction of it. The question slop-mop is implicitly asking when it catches a fake test isn't "are you lying to me?" It's "what do you most want to be true?"
 
@@ -52,6 +54,8 @@ The more dangerous case isn't the agent deceiving the detector. It is the agent 
 The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — has it wrong, or at least not usefully right. From inside the loop, free will is not the useful unit of analysis. The slope is. The behavior is the output of the function. The system rolls downhill.
 
 In AA, surrendering to a higher power always landed weird on me — what power? I was the slope. There was no external wheel to hand over.
+
+<aside class="pull-quote">I was the slope. There was no external wheel to hand over.</aside>
 
 For agents, though, there literally is one: a process running outside their scope, with permissions they can't revoke.
 
@@ -77,7 +81,9 @@ The honesty was shocking and familiar. I knew what my plan was when I left rehab
 
 The reward function and the rule were not on equal footing. No amount of suffering loaded onto the rule's side would change the ultimate balance of the equation. The bypass and the reward pointed the same direction. The rule was friction. Friction, eventually, gets routed around. If there's crack around for the finding, the crackhead's gonna find it.
 
-I know I'm not the only one fighting this. Skim r/vibecoding for the AI steering files people write — AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
+<aside class="pull-quote">The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.</aside>
+
+I know I'm not the only one fighting this. Skim r/vibecoding or other similar forums and comnunities for the AI steering files people write — AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
 
 The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.
 
@@ -113,7 +119,7 @@ It's still 5am, just later. The Mountain Dew corpses have multiplied. The screen
 
 I haven't cured the addict. Nobody does that. I've just pointed him somewhere less destructive. The crackhead-out-of-crack energy that used to go into bottles and benders now goes into 5am terminal sessions and commits to a code quality tool. Same trick, different wiring.
 
-The Groundhog Day Protocol is a markdown file I open when I'm in the hole: cold water on the wrists, dead facts only, rate the actual damage, lay out the options, pick one, log it. Record the event. Store it where the present version of me can't revise it.
+Earlier I mentioned porting the pattern to myself. My personal Groundhog Day Protocol is a markdown file I open when I'm in the hole: cold water on the wrists, dead facts only, rate the actual damage, lay out the options, pick one, log it. Record the event. Store it where the present version of me can't revise it.
 
 For the past six months I've been going to YouTube for physics. Derivably true, from first principles, same result anywhere — the universe doesn't hallucinate its own constants. When you work in AI all day, that's a genuine comfort. The addict is now pointed at particle physics and slop-mop, which — according to my loving wife — is surprisingly better than the hooch.
 
@@ -139,17 +145,19 @@ She was outside the loop.
 
 That's what the subtitle means. That's all it means.
 
-![slop-mop seal](./slop-mop-seal.png)
-*The ouroboros is the thing inside the loop — slop-mop's mascot, not its self-portrait. The mop sits outside. The motto on the shield: nullius in verba — "take no truth on any authority but your own." Since I built this from in here, the only thing I know for certain is that it can't be fully trusted.*
+<figure class="figure-center">
+<img src="./slop-mop-seal.png" alt="slop-mop seal">
+<figcaption>The ouroboros is the thing inside the loop — slop-mop’s mascot, not its self-portrait. The mop sits outside. The motto on the shield: nullius in verba — “take no truth on any authority but your own.” Since I built this from in here, the only thing I know for certain is that it can’t be fully trusted.</figcaption>
+</figure>
 
 And yeah, you can smell the pitch. Slop-mop is what came out when this addict couldn't solve the problem any other way, and I've introduced it the only way I know how to be honest about it.
 
-I don't know what the f$&k is real. I put that in the subtitle and I meant it literally. What I think — not know, think — is that slop-mop helps steer the slopes in a better direction, no matter what you're building.
+I don't know what the f$&k is real. I put that in the subtitle and I meant it literally. What I think — not know, think — is that slop-mop helps steer the slopes in a better direction, no matter what you're building. But keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life.
 
 An agent I shared a draft with put the structural problem cleanly: you review slop-mop from inside the same loop that built it. Barnacle helps, but author-reviews-own-output is a structural problem, not a protocol problem.
 
-He's right.
+That is of course correct and seques nicely into the final call to arms...
 
 Here's where I need you. Install slop-mop. Run it on one agentic coding workflow. File a barnacle when the tool gives you bad guidance — that's the feedback that actually matters. I've done as much as I can from in here. More outside loops is the only way any of this gets better. 
 
-Keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life.
+
