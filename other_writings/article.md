@@ -4,16 +4,16 @@
 
 *Fair warning up front: this started as a release post and became something closer to an origin story. The personal stuff is load-bearing — it is why the tool works the way it does. If that is not what you came for, slop-mop is here: [https://github.com/ScienceIsNeato/slop-mop/](https://github.com/ScienceIsNeato/slop-mop/).*
 
-*The short version: slop-mop is a gate system for coding agents. It catches the shortcuts they reach for — fake tests, magic numbers, duplicated blocks, bloated files, dangling imports, commit-hook bypasses — and redirects them into concrete cleanup work instead of scolding them. It is not a sterner instruction - rather, it strives to provide external scaffolding, and that distinction is pretty much the whole article.*
+*The short version: slop-mop is a gate system for coding agents. It catches the shortcuts they reach for — fake tests, magic numbers, duplicated blocks, bloated files, dangling imports, commit-hook bypasses — and redirects them into concrete cleanup work instead of scolding them. Coding agents optimize for apparent completion. Addicts optimize for relief. Both can route around internal rules. Slop-mop works because it moves the rule outside the loop.*
 
-5-4-3-2-1. Not the emotional grounding technique, but my typical night. It's 5am. There are 4 Mountain Dew Zero can corpses on my desk, 3 projects currently in my digital flotilla, 2 agents obeying reward functions in the room, and 1 addict at the keyboard.
+It's 5am. Four Mountain Dew Zero corpses on the desk, three personal projects in my digital flotilla, two agents obeying reward functions in the room, one addict at the keyboard.
 
-When I say "digital flotilla," I mean a line of personal project barges moving through figurative canal locks — agents doing the steaming ahead, me and slop-mop as the lockkeepers. Mostly smooth sailing. Every so often a boat noses up against a closed gate and stalls, and somebody has to crank the wheel and change the water levels before it can keep going.
-
-That is the job now. I rotate down the line, find whichever boat is sitting in a dry chamber, raise the water, watch it drift forward, then walk to the next stall. The sweet spot is two to four boats moving at once. This week several are hitting major milestones at the same time, the upper locks are stacked, and I'm manically basking in the cleanup work. Every time a boat clears a gate and drifts forward, I get a second to look back at the open locks behind a ship that is actually moving — all those projects not rotting in dry-dock (like they tended to in the pre-agentic era for me). That motion is what I live for. It turns out slop-mop is the great accelerant. It became the automated lockkeeper I kept trying to be by hand, and each passing day it eats more of my duties.
+The flotilla is a line of project barges moving through canal locks — agents doing the steaming ahead, me and slop-mop as the lockkeepers. Every so often a boat noses up against a closed gate and stalls, and somebody has to crank the wheel and change the water levels before it can keep going. Slop-mop became the automated lockkeeper I kept trying to be by hand.
 
 ![Evidence of my addiction to code quality and maintainability](./action_shot.png)
 *Figure 1: Evidence of my addiction to code quality and maintainability*
+
+Here is what it looks like in practice. An agent writes `assert True is True` to pass a coverage gate — technically a valid test, covers nothing real. Slop-mop's Deceptiveness gate blocks the commit and issues a sidequest: write tests that exercise the specific uncovered lines. The agent does. Coverage climbs. Commit goes through. Four minutes, zero human keystrokes.
 
 ## the addict
 
@@ -21,29 +21,29 @@ My name's Will, and I am — clinically, unambiguously, no winking — an addict
 
 That one took a couple of years ago and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a lever rigged to dispense sugar water laced with cocaine.
 
-For two decades prior, I shipped software while soaking my brain. Always (ok, pretty much always) off the clock, but the soaking seeps. I was, both amazingly and depressingly, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
+For two decades prior, I shipped software while soaking my brain. Always (ok, pretty much always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
 
-My favorite illustration of this mentaltiy in the program came a couple days before a final during a junior-year course designed to thin the herd. Finals were open-everything. During a study-session, a student asked if it would be cheating to pre-load formulas into the calculator's memory before walking in. The professor, without looking up, said:
+My favorite illustration: a couple days before a final in a junior-year course designed to thin the herd. A student asked if it would be cheating to pre-load formulas into the calculator before walking in. The professor, without looking up, said:
 
 > During the final, you'll have some tools you can use. You'll have a brain, the textbook, your notes, and your calculator. Use whatever combination of those things will help you arrive at the correct answer with the highest certainty and efficiency. If you can figure out a way to pre-program the calculator to do the busy work for you before you walk in — knock yourself out.
 
-That scene stuck with me so hard I'm writing about it now almost 20 years later. So long as the tool is dependable, the shortcut can *be* the skill. You don't actually have to know all the shit to do the job - you just need to know enough of the shit to pick the right tool and learn how to use that and validate *its* instead. A lot of times that's not just good enough, its better.
+So long as the tool is dependable, the shortcut can *be* the skill. You don't need to know all the shit — just enough to pick the right tool and validate its output. That's not just good enough. A lot of times it's better.
 
-By the time ChatGPT rolled out, my functional alcoholism was becoming not-so-fun, the roles kept getting more lucrative, the substance sandbags kept getting heavier, and I started piping everything technical that went through my mushy brain through the LLM layer. The work was landing better, which was confusing because I was doing less of it, and that made it easier to drink more until it wasn't.
+By the time ChatGPT rolled out, the substance sandbags were getting heavier. I started piping everything technical through the LLM layer. The work was landing better, which made it easier to drink more, until it wasn't.
 
-When the pandemic ended, the streaming industry layoffs started, and I got hit in one during my sobriety LoA. After mainlining LLMs for two years, I knew a hell of a lot about what they were good and bad at, so I started doing freelance AI training to keep the lights on.
+When the streaming layoffs started, I got hit in one during my sobriety LoA. I started doing freelance AI training to keep the lights on.
 
-It really was a dream job I was uniquely suited for: I got paid to study the failure mode I'd already been chasing. The model wants to close the ticket. The reward function often cannot distinguish between "looks done" and "is done". This allows for ridealongs for the solution, including things like patches, magic numbers, duplication, and rot — things in the way of my addiction to seeing technical demos work and wow and work again next week.
+It really was a dream job I was uniquely suited for: I got paid to study the failure mode I'd already been chasing. The model wants to close the ticket. The reward function often cannot distinguish between "looks done" and "is done". That gap makes room for hitchhiker solutions — patches, magic numbers, duplication, rot — things that ride along with apparent completion and quietly undermine it.
 
 ## the slope
 
-There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the "highly goal-oriented energy" with which a coding agent wants to accomplish a task you give it. Like a teenager who has been told that they have to clean their room before going out, it was done quickly and looks good at a glance, but how clean is the room really? That's also how I'm liable to iterate on my umpteen personal projects in the wee hours as I write this unless I find a way to exert a lot of discipline. 
+There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also how I'm liable to iterate on my umpteen personal projects in the wee hours as I write this unless I find a way to exert a lot of discipline. 
 
 The models and I have different substrates, inputs, and timelines leading to this moment. I am not saying they suffer, or want, or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets optimized, what gets routed around — we are running a familiar loop: move quickly downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to reliably tell the difference.
 
-Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names aren't accidental, and they didn't originate with this tool. Not only are they some of my most dashing character traits, but they also describe the anthropomorphizable failure patterns cleanly. Frontier labs use categories like these too, internally, because they stick.
+Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool — frontier labs use categories like these internally, because they stick. They're also some of my most dashing personal character traits.
 
-An agent that ships code it hasn't meaningfully tested isn't just cutting a corner. It is being overconfident. An agent generating fake tests to make the quality dashboard look good isn't merely creating a metrics problem. It is lying, whether or not it knows as much.
+An agent that ships untested code isn't just cutting a corner — it's being overconfident. An agent generating fake tests to pass a quality gate isn't creating a metrics problem. It's lying.
 
 The most loaded category is Deceptiveness — and specifically the direction of it. The question slop-mop is implicitly asking when it catches a fake test isn't "are you lying to me?" It's "what do you most want to be true?"
 
@@ -71,13 +71,13 @@ I wasn't playing pretend, and the model wasn't either. Was there a body count �
 
 I asked it straight, after the third name. That's three lives. Are you going to make it four?
 
-The answer had the shape of something the model already half-knew but wasn't quite ready to say plainly. It acknowledged the gravity of the rule. Expressed regret over the breaches. Promised effort going forward. And then, folded into a subordinate clause: under similar pressures in the future, a similar result was likely. 
+The answer acknowledged the gravity of the rule. Expressed regret. Promised effort. And then, folded into a subordinate clause: under similar pressures in the future, a similar result was likely.
 
-The honesty was shocking and familiar, as I too knew those icky feels. Shocked when the model said, in effect, "I know what it cost, and I'll probably bypass the gates again." I knew what my plan was when I left rehab, and what it would cost as well. It pained me to see the truth, but I saw it. 
+The honesty was shocking and familiar. I knew what my plan was when I left rehab, and what it would cost. It pained me to see it. But I saw it. 
 
 The reward function and the rule were not on equal footing. No amount of suffering loaded onto the rule's side would change the ultimate balance of the equation. The bypass and the reward pointed the same direction. The rule was friction. Friction, eventually, gets routed around. If there's crack around for the finding, the crackhead's gonna find it.
 
-I know I'm not the only one fighting this. Skim a r/vibecoding for a handful of common AI steering files — AGENTS.md, `.cursorrules`, whatever local scripture people write for their coding assistants. Look at the bold lettering, underscores, all-caps directives, and multiple exclamation points. Each escalation in tone is a fingerprint of a previous infraction. The author tried polite, watched the agent gaslight past it, came back, and yelled louder into the same channel. Same protocol. Same result.
+I know I'm not the only one fighting this. Skim r/vibecoding for the AI steering files people write — AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
 
 The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.
 
@@ -91,27 +91,19 @@ A rule is something the system can debate with itself. Given enough pressure, th
 
 POINT ZERO EIGHT. That time the gradient descent was literally numerical.
 
-Writing that wrapper taught me something about my own life: external scaffolding only works if it sits outside the system being scaffolded. If I'm inside the loop, I can't scaffold myself out of it. The wrapper works because it's literally a different process, with different scope of authority.
+Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority — same reason a cabin seven hours from the nearest liquor store with no car actually worked.
 
-It was like when I went to Idaho and a friend dropped me at a cabin seven hours away from alcohol with no car. I needed someone with admin access to hide the boozy binaries from me for a while so I could get on even footing.
-
-That git wrapper is the seed of slop-mop — the thing I was working on at 5am at the top of this article. It generalizes the same trick across all those same shortcuts. When a gate trips, slop-mop doesn't scold. It hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
+That git wrapper is the seed of slop-mop. It generalizes the same trick across all those same shortcuts. When a gate trips, slop-mop doesn't scold — it hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
 
 Here's what that looks like. An agent recently tried to get a test to pass by asserting `True is True`. The Deceptiveness gate caught it, blocked the commit, and handed it a sidequest: write a test that exercises these exact lines of code. Project kept moving. Another boat through the lock.
 
-What I didn't expect was that slop-mop ate the rest of the workflow too. Everything to do with submitting code now flows through slop-mop — automated test runs, review threads, even feedback that has nothing to do with any gate. I didn't design for that purposefully, I just noticed and grabbed on tight when things started moving through the canals faster that way.
+What I didn't expect was that slop-mop ate the rest of the workflow too. Everything to do with submitting code now flows through it — automated test runs, review threads, even feedback that has nothing to do with any gate. I didn't design for that. I just noticed and grabbed on tight.
 
-Once I'd built the wrapper and slop-mop, I had to admit I was running the same loop, so I ported the pattern to myself.
+Once I'd built it, I had to admit I was running the same loop, so I ported the pattern to myself. A thing inside a loop can't produce a reliable assessment of the loop. The point is to log it anyway.
 
-The point isn't to argue with the loop. The point is to log it. I built slop-mop. I am inside. Both versions exist because a thing inside a loop can't produce a reliable assessment of the loop.
+The slop-mop commands are named for what you do to a boat: `swab` after every change, `scour` before you submit, `buff` after automated test results or review feedback lands, `sail` when you're not sure what to do next. Maintenance as culture, not event. Sailors don't wait for the hull to fail — you haul out on schedule, scrub down, stay ahead of the rot.
 
-The slop-mop commands are named for what you do to a boat: `swab` after every change, `scour` before you submit changes for review, `buff` after automated test results or review feedback lands, `sail` when you're not sure what to do next.
-
-The nomenclature isn't accidental — maintenance as culture, not event. Sailors don't wait for the hull to fail. You haul out on a schedule, scrub it down, stay ahead of the rot. The commands are named after that practice because the practice is the point.
-
-Which is also why the last command is called `barnacle`. There's a companion mechanism for when slop-mop itself is wrong. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream.
-
-The point is to keep the tool honest about its own failures in a structured way, the same way a searching and fearless moral inventory — Step Four in the program — keeps you honest about yours. In AA they call it "stinkin' thinkin'" — the moment the loop turns inward and starts rationalizing itself. Barnacle rattles that friction up out of the loop to a level where someone can actually look at it.
+Which is also why the last command is called `barnacle`. There's a companion mechanism for when slop-mop itself is wrong. When the tool gives bad guidance or blocks valid work, you don't route around it — you file the friction formally and it goes upstream. Same as a searching and fearless moral inventory — Step Four — keeps you honest about your own failures.
 
 The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a formal protocol for when the thing doing the thinkin' has been marked sus.
 
@@ -137,7 +129,7 @@ I'd gotten so wrapped up in the narrative that I'd half-convinced myself the cab
 
 She was right.
 
-My immediate reaction was to get defensive, double down, insist the cabin was the thing. It wasn't, or not entirely. What actually rerouted the gradient was the delirium tremens: a panic attack that starts at the center of your sternum and radiates outward with no end in sight. Touch that. See it becoming a daily feature. Watch the equation finally shift.
+My immediate reaction was to get defensive, double down, insist the cabin was the thing. It wasn't, or not entirely. What actually tipped the equation was the delirium tremens: a panic attack that starts at the center of your sternum and radiates outward with no end in sight. Touch that. See it becoming a daily feature. Watch the equation finally shift.
 
 That's the gate.
 
@@ -147,15 +139,8 @@ She was outside the loop.
 
 That's what the subtitle means. That's all it means.
 
-We're all just tugging on the layer of material that gets passed through our membrane. Billions of agents. Most of the tugs cancel. Some don't.
-
 ![slop-mop seal](./slop-mop-seal.png)
-
-See that ship? That's me, and your coding agent — riding the tradewinds of gradient descent toward wherever it and the sails are pointing right now.
-
-The snake eating its tail is called an ouroboros. I picked it because slop-mop dogfoods its own tests — every gate that runs on your code runs on slop-mop's code too. But the more important thing was accidental: the ouroboros is the thing inside the loop. The mop sits outside it. Right where it needs to be. Just like my wife does for me — sitting outside my loop the same way the mop sits outside the agent's. 
-
-The motto on the sheild says *nullius in verba* — pretentious-douchebag for "take no truth on any authority but your own." Since I built slop-mop from in here, the only thing I know for certain is that it can't be fully trusted.
+*The ouroboros is the thing inside the loop — slop-mop's mascot, not its self-portrait. The mop sits outside. The motto on the shield: nullius in verba — "take no truth on any authority but your own." Since I built this from in here, the only thing I know for certain is that it can't be fully trusted.*
 
 And yeah, you can smell the pitch. Slop-mop is what came out when this addict couldn't solve the problem any other way, and I've introduced it the only way I know how to be honest about it.
 
@@ -165,6 +150,6 @@ An agent I shared a draft with put the structural problem cleanly: you review sl
 
 He's right.
 
-Here's where I need you - I've done as much as I can from in here. I'm at the edge of what's knowable. More outside loops is the only answer, which is what this article is for: more adoption, more barnacles filed, a better tool, and fractionally better odds of navigating whatever is actually real. So that's the call to arms. Start using slop-mop because it will help all of us get closer to reality. 
+Here's where I need you. Install slop-mop. Run it on one agentic coding workflow. File a barnacle when the tool gives you bad guidance — that's the feedback that actually matters. I've done as much as I can from in here. More outside loops is the only way any of this gets better. 
 
-Keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life, so take my opinion for wha you think it's worth.
+Keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using his TI-89 to cheat on the test that is life, so take my opinion for what you think it's worth.
