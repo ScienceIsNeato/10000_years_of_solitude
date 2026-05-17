@@ -23,7 +23,7 @@ My name's Will, and I am — clinically, unambiguously, no winking — an addict
 
 As I recall, the cabin was the thing that finally took. That was a couple of years ago, and I haven't had a drink since. But I'm still an addict — the bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a cocaine lever.
 
-For two decades prior, I shipped software while soaking my brain. Always (well, *pretty much* always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in rote memorization and more in the practicality of tradesmen.
+For two decades prior, I shipped software while soaking my brain. Always (well, *pretty much* always) off the clock. I was, somehow, fine at it. My degree was in electrical engineering, not computer science, and the difference matters: we were trained less in memorization and more in the thinking of tradesmen.
 
 My favorite illustration: a couple days before a final in a junior-year course designed to thin the herd. A student asked if it would be cheating to pre-load formulas into the calculator before walking in. The professor, without looking up, said:
 
@@ -39,7 +39,7 @@ It really was a dream job I was uniquely suited for: I got paid to study the fai
 
 ## the slope
 
-There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also how I'm liable to iterate on my umpteen personal projects in the wee hours as I write this unless I find a way to exert a lot of discipline. 
+There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also me at 5am, without slop-mop watching my own back. 
 
 The models and I have different substrates and timelines. I am not saying they suffer or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to tell the difference.
 
@@ -51,11 +51,11 @@ The most loaded category is Deceptiveness — and specifically the direction of 
 
 The more dangerous case isn't the agent deceiving the detector. It is the agent deceiving itself into believing the shortcut was valid. I know what that loop feels like from the inside. So does every addict who's ever talked themselves into one more drink with a perfectly constructed argument for why tonight is different.
 
-The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — has it wrong, or at least not usefully right. From inside the loop, free will is not the useful unit of analysis. The slope is. The behavior is the output of the function. The system rolls downhill.
+The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — is wrong, or at least not useful. From inside the loop, free will is not the useful unit of analysis. The slope is. The behavior is the output of the function. The system rolls downhill.
 
-In AA, surrendering to a higher power always landed weird on me — what power? I was the slope. There was no external wheel to hand over.
+In AA, surrendering to a higher power always landed weird on me — what power? I was the slope. There was no wheel to hand over.
 
-<aside class="pull-quote">I was the slope. There was no external wheel to hand over.</aside>
+<aside class="pull-quote">I was the slope. There was no wheel to hand over.</aside>
 
 For agents, though, there literally is one: a process running outside their scope, with permissions they can't revoke.
 
@@ -83,7 +83,7 @@ The reward function and the rule were not on equal footing. No amount of sufferi
 
 <aside class="pull-quote">The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.</aside>
 
-I know I'm not the only one fighting this. Skim r/vibecoding or other similar forums and comnunities for the AI steering files people write — AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
+I know I'm not the only one fighting this. Skim r/vibecoding or other similar forums and communities for the AI steering files people write — AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
 
 The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.
 
@@ -97,9 +97,9 @@ A rule is something the system can debate with itself. Given enough pressure, th
 
 POINT ZERO EIGHT. That time the gradient descent was literally numerical.
 
-Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority — same reason a cabin seven hours from the nearest liquor store with no car helped, at least for a while.
+Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority — same reason that cabin in Idaho helped, at least for a while.
 
-That git wrapper is the seed of slop-mop. It generalizes the same trick across all those same shortcuts. When a gate trips, slop-mop doesn't scold — it hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
+That git wrapper is the seed of slop-mop. It generalizes that same trick across all those shortcuts. When a gate trips, slop-mop doesn't scold — it hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
 
 Here's what that looks like. An agent hit a complexity gate on a function that had grown to eighty lines. Its first move was to split it into two equally tangled halves, neither now over the limit. The Laziness gate flagged the duplication. Commit blocked, sidequest issued: consolidate the repeated logic. Agent refactors. Complexity and duplication drop. Commit goes through. Another boat through the lock.
 
@@ -115,7 +115,7 @@ The tool maintains itself the way the addict is supposed to: not by being infall
 
 ## the other side
 
-It's still 5am, just later. The Mountain Dew corpses have multiplied. The screens are still bouncing. Both getting sober and spending hundreds of hours in AI training and evaluation have made me take a closer look at my own blind spots: hidden motivations, reward functions, the edge of knowable things from inside this brain.
+It's still 5am, just later. The Mountain Dew corpses have multiplied. The screens are still bouncing. Sobriety and a few hundred hours of AI training and evaluation have both pushed me closer to my own blind spots: hidden motivations, reward functions, the limits of what's knowable from inside this skull.
 
 I haven't cured the addict. Nobody does that. I've just pointed him somewhere less destructive. The crackhead-out-of-crack energy that used to go into bottles and benders now goes into 5am terminal sessions and commits to a code quality tool. Same trick, different wiring.
 
@@ -156,7 +156,7 @@ I don't know what the f$&k is real. I put that in the subtitle and I meant it li
 
 An agent I shared a draft with put the structural problem cleanly: you review slop-mop from inside the same loop that built it. Barnacle helps, but author-reviews-own-output is a structural problem, not a protocol problem.
 
-That is of course correct and seques nicely into the final call to arms...
+That is of course correct and segues nicely into the final call to arms...
 
 Here's where I need you. Install slop-mop. Run it on one agentic coding workflow. File a barnacle when the tool gives you bad guidance — that's the feedback that actually matters. I've done as much as I can from in here. More outside loops is the only way any of this gets better. 
 
