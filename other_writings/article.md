@@ -41,7 +41,7 @@ It really was a dream job I was uniquely suited for: I got paid to study the fai
 
 There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also me at 5am, without slop-mop watching my own back. 
 
-The models and I have different substrates and timelines. I am not saying they suffer or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to tell the difference.
+The models and I have different substrates and timelines. I am not saying they suffer or know in the human sense. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to tell the difference. In machine learning, that pull has a name: the slope. The gradient. The direction the function naturally rolls.
 
 Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool — frontier labs use categories like these internally, because they stick. They're also some of my most dashing personal character traits.
 
@@ -57,7 +57,7 @@ In AA, surrendering to a higher power always landed weird on me — what power? 
 
 <aside class="pull-quote">I was the slope. There was no wheel to hand over.</aside>
 
-For agents, though, there literally is one: a process running outside their scope, with permissions they can't revoke.
+For agents, though, there literally is one: a process running outside their scope — scope, not slope; in software, scope is the boundary of what a process can reach, the permissions it has — with authority they can't revoke.
 
 ## the fix
 
