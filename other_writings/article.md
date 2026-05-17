@@ -123,7 +123,7 @@ Earlier I mentioned porting the pattern to myself. My personal Groundhog Day Pro
 
 For the past six months I've been going to YouTube for physics. Derivably true, from first principles, same result anywhere — the universe doesn't hallucinate its own constants. When you work in AI all day, that's a genuine comfort. The addict is now pointed at particle physics and slop-mop, which — according to my loving wife — is surprisingly better than the hooch.
 
-Here's the asymmetry, though. For me, the higher power with admin privileges had to be improvised: a friend, a cabin, seven hours of empty road, a wrapper script. Coding agents have it easier. A higher power can actually exist for them. It's a `pipx install slop-mop` away.
+Here's the asymmetry, though. For me, the higher power with admin privileges had to be improvised: a friend, a cabin, seven hours of empty road, a wrapper script. Coding agents have it easier. A higher power can actually exist for them. It's potentially just little a `pipx install slop-mop` away.
 
 I had to drive to Idaho. They just have to be run inside slop-mop.
 

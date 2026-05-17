@@ -1,5 +1,19 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Ops Task: GitHub Actions Storage Audit (2026-05-11)
+
+- Completed account-level repository audit for `ScienceIsNeato` focused on Actions storage drivers.
+- Identified top 5 repositories by estimated active storage contributors (cache + non-expired artifacts).
+- Prepared report with prioritized mitigation actions in `ACTIONS_STORAGE_REPORT.md`.
+- Added cleanup utility `cursor-rules/scripts/gh_actions_storage_cleanup.py` (dry-run by default, `--apply` for deletion).
+- Validated cleanup utility with dry-run across top 5 repos; identified immediate artifact cleanup candidates in `fogofdog-frontend` and `ChronicChronicler`.
+- Executed cleanup with `--apply` via absolute script path from outside repo root; deleted 69 artifacts totaling ~265.06 MB (`fogofdog-frontend`: 63 artifacts / 220.59 MB, `ChronicChronicler`: 6 artifacts / 44.47 MB).
+
+## Ad-hoc Manuscript Task: Slop-Mop Article Compression (2026-05-13)
+
+- Compressed `other_writings/article.md` from 3,041 words to 2,079 words by trimming repeated scaffolding, loop, and slop-mop explanation beats.
+- Kept the wrapper story, the Groundhog Day framing, and the ending intact while restoring enough connective tissue to avoid an overcompressed draft.
+
 ## Current Phase: Phase 1d — Wiki Article Prose (IN PROGRESS)
 
 ### What Was Done
