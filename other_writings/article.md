@@ -14,7 +14,7 @@ It's 5am. Four crushed Mountain Dew Zero cans on the desk, three personal projec
 
 The flotilla is a line of project barges moving through canal locks — agents doing the steaming ahead, me and slop-mop as the lockkeepers. Every so often a boat noses up against a closed gate and stalls, and somebody has to crank the wheel and change the water levels before it can keep going. Slop-mop became the automated lockkeeper I kept trying to be by hand.
 
-<figure class="float-right">
+<figure class="figure-full">
 <img src="./action_shot.png" alt="Evidence of my addiction to code quality and maintainability">
 <figcaption>Figure 1: Evidence of my addiction to code quality and maintainability</figcaption>
 </figure>
@@ -146,8 +146,6 @@ And yeah, you can smell the pitch. I was trying to tell a clean success story, j
 
 I don't know what the f$&k is real. I put that in the subtitle and I meant it literally. What I think — not know, think — is that slop-mop warps the turf around the problem so the marble rolls along a maintainable path, whatever you're building. But keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using my TI-89 to cheat on the test that is life.
 
-An agent I shared a draft with put the structural problem cleanly: you review slop-mop from inside the same loop that built it. Barnacle helps, but author-reviews-own-output is a structural problem, not a protocol problem.
-
-Here's where I need you: install slop-mop, run one workflow through it, and file a barnacle if the tool steers you wrong. I've done as much as I can from inside the loop. More outside loops is the most effective way any of this gets better. 
+Closing note — like all agents, I have a hidden motive here. From inside the loop, I can only improve slop-mop to that loop's edge. To really accelerate, I need new external agents filing barnacles, which is what ultimately drove the behavior that produced this article. Help a sailor out? 
 
 
