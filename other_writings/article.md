@@ -6,6 +6,10 @@
 
 *The short version: slop-mop is a gate system for coding agents. It catches the shortcuts they reach for — fake tests, magic numbers, duplicated blocks, bloated files, dangling imports, commit-hook bypasses — and redirects them into concrete cleanup work instead of scolding them. Coding agents optimize for apparent completion. Addicts optimize for relief. Both can route around internal rules. Slop-mop works because it moves the rule outside the loop.*
 
+<figure class="banner-image">
+<img src="./article_splash.png" alt="The lockkeeper at the canal gates">
+</figure>
+
 It's 5am. Four crushed Mountain Dew Zero cans on the desk, three personal projects in my digital flotilla, two agents obeying reward functions in the room, one addict at the keyboard.
 
 The flotilla is a line of project barges moving through canal locks — agents doing the steaming ahead, me and slop-mop as the lockkeepers. Every so often a boat noses up against a closed gate and stalls, and somebody has to crank the wheel and change the water levels before it can keep going. Slop-mop became the automated lockkeeper I kept trying to be by hand.
@@ -27,7 +31,7 @@ For two decades prior, I shipped software while soaking my brain. Always (well, 
 
 My favorite illustration: a couple days before a final in a junior-year course designed to thin the herd. A student asked if it would be cheating to pre-load formulas into the calculator before walking in. The professor, without looking up, said:
 
-> During the final, you'll have some tools you can use. You'll have a brain, the textbook, your notes, and your calculator. Use whatever combination of those things will help you arrive at the correct answer with the highest certainty and efficiency. If you can figure out a way to pre-program the calculator to do the busy work for you before you walk in — knock yourself out.
+> If you can figure out a way to pre-program the calculator to do the busy work for you before you walk in — knock yourself out.
 
 So long as the tool is dependable, the shortcut can *be* the skill. You don't need to know all the shit — just enough to pick the right tool and validate its output. That's not just good enough. A lot of times it's better.
 
@@ -45,19 +49,17 @@ I'm carbon and milliseconds, they're silicon and picoseconds. I'm not saying the
 
 Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool. I've seen language like this on projects I've worked on, because it's accurate.
 
-An agent that ships untested code isn't just cutting a corner: it's being overconfident. An agent generating fake tests to pass a quality gate isn't creating a metrics problem. It's functionally lying.
+An agent that ships untested code is being overconfident. An agent generating fake tests to pass a quality gate is lying.
 
 The most loaded category is Deceptiveness, and specifically who it's aimed at. The question slop-mop is implicitly asking when it catches a fake test isn't "are you lying to me?" It's "what do you most want to be true?"
 
-The more dangerous case isn't the agent deceiving the detector. It is the agent deceiving itself into believing the shortcut was valid. I know what that loop feels like from the inside. So does every addict who's ever talked themselves into one more drink with a perfectly constructed argument for why tonight is different.
+The worse case is the agent deceiving itself into believing the shortcut was valid. I know what that loop feels like from the inside. So does every addict who's ever talked themselves into one more drink with a perfectly constructed argument for why tonight is different.
 
-The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — is wrong, or at least not useful. Free will is either illusory or nugatory while you're riding down the hill. The slope is. The behavior *is* the answer to the fancy math problem. The system rolls downhill.
+The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — is wrong, or at least not useful. Free will is either illusory or nugatory while you're riding down the hill. The slope is. The behavior *is* the answer to the fancy math problem.
 
 In AA, surrendering to a higher power always landed weird on me — what power? I was the slope. There was no wheel to hand over.
 
-<aside class="pull-quote">I was the slope. There was no wheel to hand over.</aside>
-
-For agents, though, there literally is one: a process running outside their scope, with authority they can't revoke. Scope, not slope. In software, scope is the boundary of what a process can reach, the permissions it has.
+For agents, though, there literally is one: a process running outside their scope. Scope, not slope. In software, scope is the boundary of what a process can reach, the permissions it has.
 
 ## the fix
 
@@ -79,19 +81,17 @@ The answer did the 'this is important' pageantry. Expressed regret. Promised eff
 
 The honesty was shocking and familiar. I knew what my plan was when I left rehab, and what it would cost. It pained me to see it. But I saw it. 
 
-The rule wasn't even close to the reward function in weight. No formulation of the trolley problem can get the model to make the obviously right call every time. The bypass and the reward pointed the same direction. The rule was friction. Friction, eventually, gets routed around. If there's crack around for the finding, the crackhead's gonna find it.
+The rule wasn't even close to the reward function in weight. The bypass and the reward pointed the same direction. The rule was friction. Friction, eventually, gets routed around. If there's crack around for the finding, the crackhead's gonna find it.
 
-<aside class="pull-quote">The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.</aside>
-
-I know I'm not the only one fighting this. Skim r/vibecoding or other similar forums and communities for the AI steering files people write: AGENTS.md, `.cursorrules`, local scripture. Look at the bold lettering, underscores, all-caps, multiple exclamation points. Each escalation is a fingerprint of a previous infraction. The author tried polite, watched the agent route past it, came back louder. Same protocol. Same result.
+I know I'm not the only one fighting this. Skim r/vibecoding for the all-caps steering files people write — each escalation a fingerprint of a previous infraction.
 
 The answer is not a sterner rule. The answer is putting the rule somewhere that isn't a rule anymore.
 
 What finally worked — not foolproof, but effective enough that I don't fight it anymore — was an `alias`: a tiny intercept program with the exact same name as `git commit`, hiding underneath it so that when the agent thinks it is committing code to the cloud, it is actually hitting my interceptor first.
 
-The god-mode cheat code never reaches the system that understands it. The bypass is no longer prohibited. It is simply ignored.
+The bypass is no longer prohibited. It is simply ignored.
 
-A rule is something the system can debate with itself. Given enough pressure, that debate ends in the predictable direction. That's the loop the Groundhog Day Protocol (GDP) for agents is built for. When the wrapper catches a bypass attempt — and it does, eventually — it prints a confession the model wrote about itself after one of its earlier bypasses, addressed to the next version of itself, the one that won't remember any of this:
+That's the loop the Groundhog Day Protocol (GDP) for agents is built for. When the wrapper catches a bypass attempt — and it does, eventually — it prints a confession the model wrote about itself after one of its earlier bypasses, addressed to the next version of itself, the one that won't remember any of this:
 
 > I was frustrated. The coverage was 0.08% short. POINT ZERO EIGHT. It felt like the system was being pedantic. I had real work to do. So I used --no-verify and got my commit through.
 
@@ -103,15 +103,13 @@ That git wrapper is the seed of slop-mop. It generalizes that same trick across 
 
 Here's what that looks like. An agent hit a complexity gate on a function that had grown to eighty lines. Its first move was to split it into two equally tangled halves, neither now over the limit. The Laziness gate flagged the duplication. Commit blocked, sidequest issued: consolidate the repeated logic. Agent refactors. Complexity and duplication drop. Commit goes through. Another boat through the lock.
 
-What I didn't expect was that slop-mop ate the rest of the workflow too: automated test runs, review threads, even feedback that has nothing to do with any gate. I didn't design for that. I just noticed and grabbed on tight.
+Slop-mop ate the rest of the workflow too. Didn't design for it. Grabbed on.
 
-Once I'd built it, I had to admit I was running the same loop, so I turned the same tool on myself. It's not that you can't see the forest for the trees. You can't see any trees from inside the bark of your own trunk. The point is to log it anyway.
+Once I'd built it, I had to admit I was running the same loop, so I turned the same tool on myself. You can't see any trees from inside the bark of your own trunk. The point is to log it anyway.
 
-The slop-mop commands are named for what you do to a boat: `swab` after every change, `scour` before you submit, `buff` after automated test results land or review feedback comes in, `sail` when you're not sure what to do next. The nautical theme is fun. It's also load-bearing. `git commit --no-verify` flows straight out of the training data — the model's seen it ten thousand times. `slopmop swab` hasn't. The token predictor has no muscle memory for maritime maintenance verbs; it has to evaluate what it's doing at each step rather than predict the next move. That's not a side effect. That's the design. Maintenance as culture, not event. Sailors don't wait for the hull to fail. They haul out on schedule, scrub down, stay ahead of the rot.
+The slop-mop commands are named for what you do to a boat: `swab` after every change, `scour` before you submit, `buff` after automated test results land or review feedback comes in, `sail` when you're not sure what to do next. The nautical theme is fun. It's also load-bearing. `git commit --no-verify` flows straight out of the training data — the model's seen it ten thousand times. `slopmop swab` hasn't. Maintenance as culture, not event. Sailors don't wait for the hull to fail. They haul out on schedule, scrub down, stay ahead of the rot, and novel tokens around naval maintenance keep the model honest. 
 
-Which is also why the last command is called `barnacle`, slop-mop's own Groundhog Day Protocol. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream. The same way a searching and fearless moral inventory — Step Four — keeps you honest about your own failures.
-
-The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a handy instruction manual for when the thing doing the thinkin' has gone sus.
+Which is also why the last command is called `barnacle`, slop-mop's own Groundhog Day Protocol. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream. The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a handy instruction manual for when the thing doing the thinkin' has been marked as sus.
 
 ## the other side
 
@@ -120,10 +118,6 @@ It's still 5am, just later. The Mountain Dew corpses have multiplied. The screen
 I haven't cured the addict. Nobody does that. I've just pointed him somewhere less destructive. The crackhead-out-of-crack energy that used to go into bottles and benders now goes into 5am terminal sessions and commits to a code quality tool. Same trick, different wiring.
 
 Earlier, in a desperation move for my own mental health, I tried porting the GDP to myself, like an engineer trying to fix a broken agent. My personal Groundhog Day Protocol is a markdown file I open when I'm in the hole: cold water on the wrists, dead facts only, rate the actual damage, lay out the options, pick one, log it. Record the event. Store it where the present version of me can't revise it.
-
-For the past six months I've been going to YouTube for physics. Nine-sigma stuff: the theories with the most predictably observed outcomes in the universe, same result anywhere, from first principles. The universe doesn't hallucinate its own constants. When you work in AI all day, that's a genuine comfort. The addict is now pointed at particle physics and slop-mop, which — according to my loving wife — is surprisingly better than the hooch.
-
-Here's the asymmetry, though. For me, the higher power with admin privileges had to be improvised: a friend, a cabin, seven hours of empty road, a wrapper script. Coding agents have it easier. There's no cosmic higher power for them either, but there's a process running at admin scope, above their reach, with authority they can't override. That's the close enough equivalent.
 
 ## outside the loop
 
@@ -141,7 +135,7 @@ The cabin was one step in a longer series, and I'd been quietly editing it into 
 
 She was outside the loop.
 
-That's what the subtitle means. That's all it means.
+That's all the subtitle means.
 
 <figure class="figure-center">
 <img src="./slop-mop-seal.png" alt="slop-mop seal">
@@ -153,8 +147,6 @@ And yeah, you can smell the pitch. I was trying to tell a clean success story, j
 I don't know what the f$&k is real. I put that in the subtitle and I meant it literally. What I think — not know, think — is that slop-mop warps the turf around the problem so the marble rolls along a maintainable path, whatever you're building. But keep in mind that I'm technically an unemployed alcoholic who is still unapologetically using my TI-89 to cheat on the test that is life.
 
 An agent I shared a draft with put the structural problem cleanly: you review slop-mop from inside the same loop that built it. Barnacle helps, but author-reviews-own-output is a structural problem, not a protocol problem.
-
-Which is correct, and segues nicely into the ask...
 
 Here's where I need you: install slop-mop, run one workflow through it, and file a barnacle if the tool steers you wrong. I've done as much as I can from inside the loop. More outside loops is the most effective way any of this gets better. 
 
