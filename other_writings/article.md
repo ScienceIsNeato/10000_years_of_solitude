@@ -1,4 +1,4 @@
-# Slop-Mop: Steering Addicted Agents
+# Slop-Mop: Harm Reduction for Addicted Agents
 
 ## Reward functions, addiction, and not knowing what the f$&k is real
 
