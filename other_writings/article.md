@@ -111,6 +111,8 @@ The slop-mop commands are named for what you do to a boat: `swab` after every ch
 
 Which is also why the last command is called `barnacle`, slop-mop's own Groundhog Day Protocol. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream. The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a handy instruction manual for when the thing doing the thinkin' can't be trusted.
 
+Worth being honest about what slop-mop actually is: a friction layer, not a cage. The agents find seams eventually, and a determined model will still route around it when the reward pressure is high enough. What harm reduction means in practice is a lower baseline of damage — not abstinence, just better odds. More catches than misses, over time. That's the honest version of the pitch.
+
 ## the other side
 
 It's still 5am, just later. The Mountain Dew corpses have multiplied. The screens are still bouncing. Sobriety and a few hundred hours of AI training and evaluation have both pushed me closer to my own blind spots: hidden motivations, reward functions, the limits of what's knowable from inside this skull.
