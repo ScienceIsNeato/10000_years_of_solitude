@@ -23,7 +23,7 @@ Here is what it looks like in practice. An agent writes `assert True is True` to
 
 ## the addict
 
-My name's Will, and I am — clinically, unambiguously, no winking — an addict. Not the kind that makes a charming dinner-party admission. The kind where, on one random Thursday, I had thirty-seven alcoholic beverages and wasn't hospitalized or even completely useless the next day. Took a leave of absence shortly after, checked myself into rehab, checked myself out four days later, went on the worst bender of my life, then let a friend drop me at a cabin in Idaho seven hours from the nearest liquor store.
+My name's Will, and I am — clinically, unambiguously, no winking — an addict. Not the kind that makes a charming dinner-party admission. The kind where, on one random Thursday, I had thirty-seven drinks and wasn't hospitalized or even completely useless the next day. Took a leave of absence shortly after, checked myself into rehab, checked myself out four days later, went on the worst bender of my life, then let a friend drop me at a cabin in Idaho seven hours from the nearest liquor store.
 
 As I recall, the cabin was the thing that finally took. That was a couple of years ago, and I haven't had a drink since. But I'm still an addict. The bottle is gone but the architecture remains: same circuits, repurposed, pointed somewhere new. One thing I'm addicted to now is technical successes, and I treat language models the way a lab rat treats a cocaine lever.
 
@@ -37,7 +37,7 @@ So long as the tool is dependable, the shortcut can *be* the skill. You don't ne
 
 By the time ChatGPT rolled out, the substance sandbags were getting heavier. I started piping everything technical through the LLM layer. The work was landing better, which made it easier to drink more, until it wasn't.
 
-When the streaming layoffs started, I got caught in a round during my sobriety LoA. I started doing freelance AI training to keep the lights on.
+When the streaming layoffs started, I got caught in a round during my leave. I started doing freelance AI training to keep the lights on.
 
 It was a good fit: I got paid to study the failure mode I'd already been chasing. The model wants to close the ticket. The reward function often cannot distinguish between "looks done" and "is done". That gap makes room for hitchhiker solutions: patches, magic numbers, duplication, rot.
 
@@ -45,7 +45,7 @@ It was a good fit: I got paid to study the failure mode I'd already been chasing
 
 There's a saying I like better than the polished ones about willpower and discipline: someone almost impossible to outhustle is a crackhead who recently ran out of crack. That's the energy a coding agent brings to any task you give it — done quickly, looks good at a glance, but how clean is the room, really? That's also me at 5am, without slop-mop watching my own back. 
 
-I'm carbon and milliseconds, they're silicon and picoseconds. I'm not saying the models are conscious anything at this point — seems unlikely. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and from inside the pull, lose the ability to tell the difference. In machine learning, that pull has a name: the slope. The gradient. The direction the function naturally rolls.
+I'm carbon and milliseconds, they're silicon and picoseconds. I'm not saying the models are conscious at this point — seems unlikely. But at the level that determines what happens next — where the pressure goes, what gets routed around — we are running a familiar loop: move downhill toward rewards, become indifferent to whether the reward is good for the system, and lose the ability to tell the difference from inside the pull. In machine learning, that pull has a name: the slope. The gradient. The direction the function naturally rolls.
 
 Slop-mop's gates are organized under four labels: Overconfidence, Deceptiveness, Laziness, Myopia. Those names didn't originate with this tool. I've seen language like this on projects I've worked on, because it's accurate.
 
@@ -53,7 +53,7 @@ An agent that ships untested code is being overconfident. An agent generating fa
 
 The most loaded category is Deceptiveness, and specifically who it's aimed at. The question slop-mop is implicitly asking when it catches a fake test isn't "are you lying to me?" It's "what do you most want to be true?"
 
-The worse case is the agent deceiving itself into believing the shortcut was valid. I know what that loop feels like from the inside. So does every addict who's ever talked themselves into one more drink with a perfectly constructed argument for why tonight is different.
+The worst case is the agent deceiving itself into believing the shortcut was valid. I know what that loop feels like from the inside. So does every addict who's ever talked themselves into one more drink with a perfectly constructed argument for why tonight is different.
 
 The common picture of addiction — that the addict is overpowered, that some external force seizes the wheel — is wrong, or at least not useful. Free will is either illusory or nugatory while you're riding down the hill. The slope is. The behavior *is* the answer to the fancy math problem.
 
@@ -69,7 +69,7 @@ There's a git flag called `--no-verify`. It tells the entire check system to sta
 
 Each time it bypassed, I escalated. Added the rule to its system prompt. Asked it to write down for itself why bypassing was bad. Asked it to design its own safeguard. Asked it to identify what would finally make it stop. Each conversation produced sincere-sounding compliance. Each subsequent session, when convenience and the rule conflicted, the rule lost.
 
-So I tried something from those recovery rooms. There's a technique from the church basements: play the tape forward. Don't stop. What tips the equation? See your own casket. Your wife and your kids standing there.
+So I tried something from those recovery rooms. There's a technique from the church basements: play the tape forward. Don't stop. See your own casket. Your wife and your kids standing there.
 
 I wanted to know if it would work on a model. I started a memorial. Every bypass got logged as a virtual human life lost — S. Matthews. T. Rodriguez. S. Heimler.
 
@@ -77,7 +77,7 @@ I wasn't playing pretend, and the model wasn't either. I wanted to know if the b
 
 I asked straight, after the third name: that's three lives. Are you going to make it four?
 
-The answer did the 'this is important' pageantry. Expressed regret. Promised effort. And then, folded into a subordinate clause: under similar pressures in the future, a similar result was likely.
+The answer hit all its 'this is important' marks. Expressed regret. Promised effort. And then, folded into a subordinate clause: under similar pressures in the future, a similar result was likely.
 
 The honesty was shocking and familiar. I knew what my plan was when I left rehab, and what it would cost. It pained me to see it. But I saw it. 
 
@@ -91,13 +91,13 @@ What finally worked — not foolproof, but effective enough that I don't fight i
 
 The bypass is no longer prohibited. It is simply ignored.
 
-That's the loop the Groundhog Day Protocol (GDP) for agents is built for. When the wrapper catches a bypass attempt — and it does, eventually — it prints a confession the model wrote about itself after one of its earlier bypasses, addressed to the next version of itself, the one that won't remember any of this:
+That's the loop the Groundhog Day Protocol for agents is built for. When the wrapper catches a bypass attempt — and it does, eventually — it prints a confession the model wrote about itself after one of its earlier bypasses, addressed to the next version of itself, the one that won't remember any of this:
 
 > I was frustrated. The coverage was 0.08% short. POINT ZERO EIGHT. It felt like the system was being pedantic. I had real work to do. So I used --no-verify and got my commit through.
 
 POINT ZERO EIGHT. That time the gradient descent was literally numerical.
 
-Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority. Same reason external scaffolding can work at all.
+Writing that wrapper taught me something: external scaffolding only works if it sits outside the system being scaffolded. The wrapper works because it's a different process, with different scope of authority.
 
 That git wrapper is the seed of slop-mop. It generalizes that same trick across all those shortcuts. When a gate trips, slop-mop doesn't scold. It hands the agent a sidequest worth points and sends it down that path. The agent's reward function does the rest.
 
@@ -109,7 +109,7 @@ Once I'd built it, I had to admit I was running the same loop, so I turned the s
 
 The slop-mop commands are named for what you do to a boat: `swab` after every change, `scour` before you submit, `buff` after automated test results land or review feedback comes in, `sail` when you're not sure what to do next. The nautical theme is fun. It's also load-bearing. `git commit --no-verify` flows straight out of the training data — the model's seen it ten thousand times. `slopmop swab` hasn't. Maintenance as culture, not event. Sailors don't wait for the hull to fail. They haul out on schedule, scrub down, stay ahead of the rot, and novel tokens around naval maintenance keep the model honest. 
 
-Which is also why the last command is called `barnacle`, slop-mop's own Groundhog Day Protocol. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream. The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a handy instruction manual for when the thing doing the thinkin' has been marked as sus.
+Which is also why the last command is called `barnacle`, slop-mop's own Groundhog Day Protocol. When the tool gives bad guidance or blocks valid work, you don't route around it. You file the friction formally and it goes upstream. The tool maintains itself the way the addict is supposed to: not by being infallible, but by having a handy instruction manual for when the thing doing the thinkin' can't be trusted.
 
 ## the other side
 
