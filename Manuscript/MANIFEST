@@ -1,0 +1,43 @@
+# Manuscript Chapter Ordering
+#
+# Each non-blank, non-comment line is a path relative to Manuscript/.
+# Lines starting with ## are section dividers — they produce a part/section
+# title page in the output.
+# Lines starting with # are comments and are ignored.
+#
+# Reorder lines to reorder the manuscript. Add/remove as chapters are written.
+# The export script reads this file to build the final document.
+
+## Character Chapters
+
+Thud/Thud.rtf
+Jennifer/Jennifer.rtf
+Jennifer/Jennifer - Egypt.rtf
+Caius/Jonas.rtf
+CERN/Phyiscal Limits.rtf
+
+## One-Off Stories
+
+One-Off Stories/Meredith.rtf
+One-Off Stories/Sydney.rtf
+One-Off Stories/Taneisha.rtf
+One-Off Stories/This is CNN.rtf
+One-Off Stories/Unnamed (Baby).rtf
+
+## Interstitials
+
+Interstitials/On Memory.rtf
+
+## Wiki Articles
+
+Interstitials/Wiki/The Lo-Fi Simulation Theory.md
+Interstitials/Wiki/The RNG Degradation.md
+Interstitials/Wiki/The Boards.md
+Interstitials/Wiki/Caius Middleton.md
+Interstitials/Wiki/WTFreality.md
+Interstitials/Wiki/Selected Loop Records.md
+Interstitials/Wiki/Sleep.md
+Interstitials/Wiki/Air Travel in the Loop.md
+Interstitials/Wiki/Pets in the Loop.md
+Interstitials/Wiki/Neuroscience in the Loop.md
+Interstitials/Wiki/Crime and Justice in the Loop.md
