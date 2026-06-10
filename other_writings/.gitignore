@@ -1,0 +1,5 @@
+# Generated export artifacts — rebuild from article.md, don't commit
+*.pdf
+*.html
+*.rtf
+.DS_Store
