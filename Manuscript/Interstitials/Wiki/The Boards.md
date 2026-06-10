@@ -7,7 +7,7 @@ era: "6"
 
 # The Boards
 
-**The Boards** is the colloquial name for the daily-reconstructed internet commons — the forums, threads, and prediction markets rebuilt from human memory each iteration, anchored at the center by the rebuilt Wikipedia. The term predates the loop: "boards" was already informal shorthand for internet forums and wikis. In the loop it became a proper noun, and usage has narrowed around the commons' flagship institution: in the broad sense, the boards are everything that gets retyped each morning; in the sense that has won, "check the boards" means check the wiki. This article covers the wiki — rebuilt each iteration by a global volunteer workforce that inherited the project's infrastructure, its mission, and, eventually, its passwords.
+**The Boards** is the colloquial name for the internet commons rebuilt from human memory each iteration — the forums and threads (Reddit chief among them, and the loop's primary working repository) and the rebuilt Wikipedia that serves as their curated reference layer. The term predates the loop: "boards" was already informal shorthand for internet forums and wikis. In the loop it became a proper noun covering both: the forums are where the day's knowledge is traded; the wiki is where it is kept. "Check the boards" can mean either — context decides. This article covers the wiki — rebuilt each iteration by a global volunteer workforce that inherited the project's infrastructure, its mission, and, eventually, its passwords.
 
 ## History
 
@@ -31,43 +31,43 @@ By Year 50, the major administrative accounts were effectively public goods. The
 
 ### Institutionalization (Year ~50–500)
 
-The identification of eidetics transformed Wikipedia from a daily salvage operation into something approaching its pre-loop ambition. An eidetic scribe can log in at first light, open an article, and type the entire thing from memory — every sentence, every citation, every footnote — with zero degradation. Where ordinary editors introduced drift (misremembered figures, paraphrased sentences, dropped nuances), eidetic scribes provided fidelity.
+The identification of eidetics transformed Wikipedia from an iteration-by-iteration salvage operation into something approaching its pre-loop ambition. An eidetic scribe can log in at first light, open an article, and type the entire thing from memory — every sentence, every citation, every footnote — with zero degradation. Where ordinary editors introduced drift (misremembered figures, paraphrased sentences, dropped nuances), eidetic scribes provided fidelity.
 
-Ownership was established by competence, not credential. If you could rebuild an article faster and more accurately than anyone else, it was yours. The formal Wikipedia policies — WP:OWN, which explicitly discouraged article ownership — had no enforcement mechanism in the loop and were quietly abandoned in practice while being maintained in spirit. Nobody "owned" an article. But everyone knew who would write it first each morning, and everyone knew not to get in their way.
+Ownership was established by competence, not credential. If you could rebuild an article faster and more accurately than anyone else, it was yours. The formal Wikipedia policies — WP:OWN, which explicitly discouraged article ownership — had no enforcement mechanism in the loop and were quietly abandoned in practice while being maintained in spirit. Nobody "owned" an article. But everyone knew who would write it first at first light, and everyone knew not to get in their way.
 
-The article count stabilized. At its pre-loop peak, the English Wikipedia had approximately 3.8 million articles. The loop version maintains roughly 40,000 in active daily reconstruction — about one percent. These are the articles someone cares enough to rebuild. The other 3.76 million exist in eidetic memory but are not routinely reconstructed unless specifically requested. The boards are a curated subset of human knowledge, not a comprehensive one. What survives is what someone chooses to carry.
+The article count stabilized. At its pre-loop peak, the English Wikipedia had approximately 3.8 million articles. The loop version maintains roughly 40,000 in active reconstruction each iteration — about one percent. These are the articles someone cares enough to rebuild. The other 3.76 million exist in eidetic memory but are not routinely reconstructed unless specifically requested. The boards are a curated subset of human knowledge, not a comprehensive one. What survives is what someone chooses to carry.
 
 ### Co-option and Return (Recurring)
 
 The boards have been co-opted at least four times at scale and countless times at the level of individual articles.
 
-The pattern is consistent. A faction — political, ideological, religious, or simply petty — recognizes that whoever types first controls the narrative. They organize. They wake early. They log in with shared admin credentials and lock articles before the regular scribes arrive. For a period — days, weeks, sometimes years — the co-opted articles reflect the faction's agenda. The "neutral point of view" policy, Wikipedia's founding editorial principle, becomes a weapon: the co-opting faction claims neutrality while the displaced scribes are cast as the partisans.
+The pattern is consistent. A faction — political, ideological, religious, or simply petty — recognizes that whoever types first controls the narrative. They organize. They drill their checkpoint-to-terminal time down to minutes. They log in with shared admin credentials and lock articles before the regular scribes arrive. For a period — days, weeks, sometimes years — the co-opted articles reflect the faction's agenda. The "neutral point of view" policy, Wikipedia's founding editorial principle, becomes a weapon: the co-opting faction claims neutrality while the displaced scribes are cast as the partisans.
 
-The pattern resolves the same way each time: the community outlasts the faction. The faction's members lose interest, or lose coordination, or simply cannot sustain the effort of waking up early enough, every single iteration, to beat the scribes who have been doing this for centuries. The co-option collapses. The articles revert to their prior state, reconstructed from eidetic memory. The experience leaves scars — heightened vigilance, new trust protocols, occasionally a permanent schism in the editorial community — but the boards survive.
+The pattern resolves the same way each time: the community outlasts the faction. The faction's members lose interest, or lose coordination, or simply cannot sustain the effort of racing from checkpoint to terminal fast enough, every single iteration, to beat the scribes who have been doing this for centuries. The co-option collapses. The articles revert to their prior state, reconstructed from eidetic memory. The experience leaves scars — heightened vigilance, new trust protocols, occasionally a permanent schism in the editorial community — but the boards survive.
 
-The longest-running co-option lasted approximately 200 years and involved a systematic rewriting of historical and scientific articles to align with a particular philosophical movement. Its collapse, when it came, took less than a week. The scribes who had maintained the "real" versions in memory the entire time simply waited for the co-opting editors to falter, then rebuilt everything in a single morning coordination effort spanning six timezones.[^2]
+The longest-running co-option lasted approximately 200 years and involved a systematic rewriting of historical and scientific articles to align with a particular philosophical movement. Its collapse, when it came, took less than a week. The scribes who had maintained the "real" versions in memory the entire time simply waited for the co-opting editors to falter, then rebuilt everything in a single first-light coordination effort spanning six regions.[^2]
 
-## Daily Lifecycle
+## The Lifecycle of an Iteration
 
-The cycle of a typical iteration:
+There is no shared clock in the loop — no midnight, no scheduled reset. What there is instead is the checkpoint, the arbitrary instant of October 23, 2011 that every iteration restores, and the quasi-daily rhythm that follows from human biology: nearly every agent's loop opens at the checkpoint and closes sixteen to twenty hours later, when sleep pressure wins. The boards' lifecycle is anchored to that rhythm. Times below are measured from the checkpoint moment (C+0).
 
-| UTC Time | Activity |
+| Checkpoint Offset | Activity |
 |---|---|
-| 00:00–00:30 | Reset. Servers operational. All content reverts to October 23, 2011. Early scribes in the Pacific log in. |
-| 00:30–02:00 | **First light.** Eidetic scribes in East Asia and Oceania begin reconstruction. Core articles go live. Admin accounts are claimed for the day. |
-| 02:00–06:00 | **The relay.** As timezones move west, regional scribes pick up where Oceanic scribes hand off. European-language editions go live. The skeleton of the daily encyclopedia is in place. |
-| 06:00–10:00 | **Full coverage.** Americas come online. By mid-morning UTC, the boards are functionally complete — not identical to the previous iteration, but close enough that a returning reader would find everything where they expected it. |
-| 10:00–20:00 | **Live day.** Normal editorial activity. New articles written, debates conducted, research shared. This is the productive period — all the reconstruction was front-loaded. |
-| 20:00–23:59 | **Twilight.** Activity winds down. Some editors commit important new content to memory. Others keep editing. The Florida Squirrel takes out East Coast connectivity for 20 minutes around 22:30 UTC.[^3] |
-| 00:00 | Reset. |
+| C+0:00 | The checkpoint. Physics restored to October 23, 2011. All content reverts. Agents conscious at the checkpoint moment resume instantly, mid-gesture; the rest of humanity — everyone whose checkpoint body was asleep — comes online over the following hours as those bodies wake. |
+| C+0:00–0:30 | **First light.** The fastest scribes — those whose checkpoints place them awake, rested, and near a terminal — log in and claim the day's admin accounts. Core articles begin going up. |
+| C+0:30–4:00 | **The relay.** Reconstruction spreads as the checkpoint sleepers wake, region by region, and regional scribes pick up where the first shift hands off. The skeleton of the encyclopedia is in place. |
+| C+4:00–8:00 | **Full coverage.** The last of the checkpoint sleepers are awake. The boards are functionally complete — not identical to the previous iteration, but close enough that a returning reader would find everything where they expected it. |
+| C+8:00–16:00 | **Live day.** Normal editorial activity. New articles written, debates conducted, research shared. This is the productive period — all the reconstruction was front-loaded. The Florida Squirrel takes out southeastern US connectivity for 20 minutes around C+13.[^3] |
+| C+16:00–20:00 | **Twilight.** Loops begin to close. Sleep pressure wins, the population thins, and editors commit the day's new content to memory before their spans end. |
+| C+20:00 and beyond | **The long hours.** Only wakefulness specialists, glass-seekers, and the unlucky remain conscious. The boards stand fully built and nearly unread, until the iteration ends — whenever and however that happens. No one has ever observed it. You are always on the wrong side of a reset. |
 
 ## Infrastructure
 
 ### The Florida Squirrel
 
-A squirrel in Gainesville, Florida strikes a specific transformer at approximately the same point each iteration, causing a regional internet outage lasting 15–25 minutes. The outage occurs between 22:15 and 22:45 UTC and affects connectivity across the southeastern United States. The squirrel's behavior is deterministic — driven by the physics engine's initial conditions — and is immune to human intervention. The transformer has been reinforced, replaced, squirrel-proofed, and surrounded by every conceivable deterrent across thousands of iterations. The squirrel persists.
+A squirrel in Gainesville, Florida strikes a specific transformer at approximately the same point each iteration, causing a regional internet outage lasting 15–25 minutes. The outage occurs roughly thirteen hours after checkpoint and affects connectivity across the southeastern United States. The squirrel's behavior is deterministic — driven by the physics engine's initial conditions — and is immune to human intervention. The transformer has been reinforced, replaced, squirrel-proofed, and surrounded by every conceivable deterrent across thousands of iterations. The squirrel persists.
 
-The outage is annoying but not catastrophic. It has become a cultural institution — a daily reminder that the physics engine does not care about your editorial deadline. Several traditions have developed around it, including the "Squirrel Minute" (a moment of silence when connectivity drops) and a reconstructed article titled "The Florida Squirrel" that is, by total research-hours expended, possibly the most thoroughly investigated rodent in human history.[^4]
+The outage is annoying but not catastrophic. It has become a cultural institution — an every-iteration reminder that the physics engine does not care about your editorial deadline. Several traditions have developed around it, including the "Squirrel Minute" (a moment of silence when connectivity drops) and a reconstructed article titled "The Florida Squirrel" that is, by total research-hours expended, possibly the most thoroughly investigated rodent in human history.[^4]
 
 ### Content Drift
 
@@ -79,9 +79,9 @@ Individuals or factions sometimes reconstruct articles with deliberate distortio
 
 ## Cultural Significance
 
-The boards are the closest thing to institutional memory the loop possesses. Physical libraries reset. Hard drives erase. But Wikipedia, rebuilt each morning by human hands from human memory, constitutes a living repository of accumulated knowledge — flawed, contested, politically charged, and utterly irreplaceable.
+The boards are the closest thing to institutional memory the loop possesses. Physical libraries reset. Hard drives erase. But Wikipedia, rebuilt each iteration by human hands from human memory, constitutes a living repository of accumulated knowledge — flawed, contested, politically charged, and utterly irreplaceable.
 
-Jimmy Wales and the Wikimedia Foundation built a platform for organizing the world's knowledge through volunteer effort. They could not have imagined the context in which that mission would find its fullest expression: a world where knowledge cannot be stored, only carried, and where the act of reconstruction is itself the preservation. The foundation's servers still bear their original branding. The five pillars are still printed on the main page each morning, typed from memory by whoever gets there first. The policies have all been violated. The mission endures.
+Jimmy Wales and the Wikimedia Foundation built a platform for organizing the world's knowledge through volunteer effort. They could not have imagined the context in which that mission would find its fullest expression: a world where knowledge cannot be stored, only carried, and where the act of reconstruction is itself the preservation. The foundation's servers still bear their original branding. The five pillars are still printed on the main page each iteration, typed from memory by whoever gets there first. The policies have all been violated. The mission endures.
 
 There is a philosophical argument, advanced by certain editorial theorists, that the boards are the truest expression of human civilization: knowledge that exists only because people choose to carry it and rebuild it each day. A library is a container. The boards are an *act*.
 

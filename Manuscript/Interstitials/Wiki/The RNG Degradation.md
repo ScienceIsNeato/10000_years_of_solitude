@@ -13,7 +13,7 @@ The discovery established three things that the Lo-Fi Simulation Theory (see: [[
 
 1. Quantum randomness is not a feature of the physics engine. It is the output of a random number generator — an algorithm.
 2. That algorithm is losing entropy. The RNG's output is degrading, becoming more deterministic over spacetime distance from a fixed point.
-3. The fixed point is the reset: October 23, 2011, 00:00:00 UTC, at the spatial coordinates of Earth at that moment.
+3. The fixed point is the checkpoint: October 23, 2011, at the checkpoint moment — an arbitrary instant of UTC time, famously not a round number — at the spatial coordinates of Earth at that moment.
 
 ## The Leipzig Moment
 
@@ -40,7 +40,7 @@ The counterintuitive result: the astronaut and the long-distance driver hit the 
 
 These figures represent the point at which the degradation becomes measurable with standard instruments. Subtle statistical anomalies begin well before the observable threshold.
 
-Notably, normal daily life across the 24-hour loop never approaches the threshold. The loop resets at midnight UTC, and even the most widely-traveled agent covers negligible spacetime distance in a single iteration. The degradation is only encountered by agents who deliberately stay awake through multiple iterations (refusing to sleep through the checkpoint) or who sustain high-speed travel across many sequential loops.
+Notably, an ordinary loop never approaches the threshold. A typical agent's span of consciousness ends within twenty hours of checkpoint, and even the most widely-traveled agent covers negligible spacetime distance in that window. The degradation is encountered only by agents who sustain wakefulness far beyond the ordinary span — and sooner by those who cover distance while doing it.
 
 ## Phenomenology
 
@@ -84,7 +84,7 @@ As spacetime distance from the checkpoint increases, the degradation intensifies
 The article, as of this writing, can describe the degradation with precision. It cannot explain it. The open questions include:
 
 - **Why is the entropy declining?** The RNG should be drawing from a functionally infinite source. What is depleting it?
-- **Why is the fixed point the reset?** The degradation radiates outward from October 23, 00:00:00 UTC as if the reset *is* the entropy source. This would mean the reset is not merely a temporal bookmark but an active computational event — something that *generates* the entropy the physics engine consumes.
+- **Why is the fixed point the checkpoint?** The degradation radiates outward from the checkpoint moment as if the checkpoint *is* the entropy source. This would mean the checkpoint is not merely a temporal bookmark but an active computational event — something that *generates* the entropy the physics engine consumes.
 - **Is the degradation cumulative across iterations?** Measurements suggest it resets each loop along with everything else physical. But if it resets, why does the RNG output differ on the same worldline across different iterations? (This question is unresolved and forms the basis of several active research programs.)
 - **Can the degradation be reversed, halted, or exploited?** This is Project Dandelion's founding question. See: [[Project Dandelion]].
 
@@ -105,6 +105,6 @@ The Theory provided the vocabulary. The Degradation gave it something to say.[^2
 
 ## Notes
 
-[^1]: The original Leipzig Conference data has been reconstructed from memory daily for over nine millennia. Each reconstruction introduces minor variations. The core dataset is considered reliable. The error bars are considered unreliable. There is an ongoing editorial dispute about whether to cite the original figures or the averaged reconstructions. This footnote is the compromise.
+[^1]: The original Leipzig Conference data has been reconstructed from memory every iteration for over nine millennia. Each reconstruction introduces minor variations. The core dataset is considered reliable. The error bars are considered unreliable. There is an ongoing editorial dispute about whether to cite the original figures or the averaged reconstructions. This footnote is the compromise.
 
 [^2]: This sentence has been attributed to at least fourteen different speakers at the Leipzig Conference. The current attribution is "unknown." Previous attributions have all been retracted after the claimed speaker was identified as having died before the conference, been asleep at the time, or been a known fabrication inserted by a vandal. The editorial board has stopped trying to source it.

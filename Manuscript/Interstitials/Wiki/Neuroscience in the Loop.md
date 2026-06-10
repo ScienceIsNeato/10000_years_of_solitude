@@ -7,11 +7,11 @@ era: "6"
 
 # Neuroscience in the Loop
 
-**Neuroscience** underwent a transformation in the loop era unmatched by any other scientific discipline. The combination of zero lasting physical consequences, a population willing to undergo invasive procedures, and the daily reset of all bodily harm created conditions for experimental rigor that pre-loop medical ethics would never have permitted. Within 500 years, the loop's neuroscientists had mapped the human brain at a resolution that pre-loop science had estimated would take centuries of incremental progress. Within 1,000 years, they had run into the wall.
+**Neuroscience** underwent a transformation in the loop era unmatched by any other scientific discipline. The combination of zero lasting physical consequences, a population willing to undergo invasive procedures, and the reset of all bodily harm at checkpoint created conditions for experimental rigor that pre-loop medical ethics would never have permitted. Within 500 years, the loop's neuroscientists had mapped the human brain at a resolution that pre-loop science had estimated would take centuries of incremental progress. Within 1,000 years, they had run into the wall.
 
 ## The Golden Age (Years ~50–800)
 
-The acceleration began modestly. In the early decades, neuroscience in the loop looked like neuroscience outside it — fMRI studies, EEG recordings, behavioral experiments, theoretical modeling. The difference was speed. A study that would take three years to design, fund, receive ethics approval, recruit subjects, run, and publish could now be run in a single loop. No funding. No ethics board. No recruitment — subjects volunteered freely, knowing their skulls would be intact tomorrow.
+The acceleration began modestly. In the early decades, neuroscience in the loop looked like neuroscience outside it — fMRI studies, EEG recordings, behavioral experiments, theoretical modeling. The difference was speed. A study that would take three years to design, fund, receive ethics approval, recruit subjects, run, and publish could now be run in a single loop. No funding. No ethics board. No recruitment — subjects volunteered freely, knowing their skulls would be intact at checkpoint.
 
 By Year 100, voluntary exploratory open-brain surgery had become routine. Subjects — fully conscious, with exposed cortex — performed cognitive tasks while researchers observed neural activity directly. Pre-loop neurosurgeons had performed awake craniotomies for clinical necessity. Loop neurosurgeons performed them for curiosity. The body of data accumulated across iterations by eidetic observers constitutes the most detailed atlas of living human neural architecture ever constructed.
 

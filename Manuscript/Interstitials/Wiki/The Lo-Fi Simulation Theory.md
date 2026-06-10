@@ -104,6 +104,6 @@ The Caius-Patel dialogues (c. Year 350) are often cited as a formative moment, t
 
 ## Notes
 
-[^1]: The analogy to video game level-of-detail systems has been drawn so frequently in the article's history that it was formally excised by editorial consensus in Era 4, reinstated in Era 5 after new editors arrived, excised again, and reinstated again. It is currently present. Check back tomorrow.
+[^1]: The analogy to video game level-of-detail systems has been drawn so frequently in the article's history that it was formally excised by editorial consensus in Era 4, reinstated in Era 5 after new editors arrived, excised again, and reinstated again. It is currently present. Check back next iteration.
 
 [^2]: The Criticisms section has been the subject of a continuous editorial dispute since approximately Year 300. One faction considers it essential to the article's neutrality. Another considers its presence a concession to bad-faith denialism. This footnote has itself been deleted and restored fourteen times that the current maintainers are aware of.

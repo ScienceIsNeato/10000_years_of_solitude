@@ -23,15 +23,15 @@ The concept of **loop range** — the maximum distance an agent can travel withi
 
 A typical commercial flight covers 800–1,200 km per hour. An agent who can maintain consciousness for 20 hours has a theoretical loop range of approximately 16,000–24,000 km from their checkpoint — enough to reach nearly any point on Earth. In practice, the range is shorter: boarding takes time, connections require layovers, and wakefulness degrades in the pressurized cabin environment.
 
-The practical consequence: single-hop transcontinental and transoceanic flights are routine. Multi-day itineraries belong to a different discipline entirely — sustained-wakefulness travel, the province of geodesic specialists who chain flights across sequential iterations (see: [[Selected Loop Records]], §Geodesic Loop Range). For everyone else, the day's range is the range. No casual traveler flies from New York to Sydney with connections in Los Angeles and Tokyo and a twelve-hour layover — the layover alone doesn't reset you, but if you doze off in the terminal, you're back at checkpoint.
+The practical consequence: single-hop transcontinental and transoceanic flights are routine within the shared hours of the loop. Beyond them lies a different discipline entirely — sustained-wakefulness travel, the province of geodesic specialists (see: [[Selected Loop Records]], §Geodesic Loop Range). For everyone else, the day's range is the range. No casual traveler flies from New York to Sydney with connections in Los Angeles and Tokyo and a twelve-hour layover — the layover doesn't end your loop, but if you doze off in the terminal, you're back at checkpoint.
 
-For the specialists, the reset transition is the route designer's hardest constraint. At 00:00:00 UTC the aircraft reverts to its checkpoint state and position; its conscious passengers do not revert with it. The early geodesic pioneers established this at a cost that the record ledger declines to itemize, and the lesson has been the first rule of multi-iteration route design ever since: *be on the ground at midnight.*
+For the specialists, the constraint is not fuel, and it is not paperwork. It is that aviation is a collaborative act, and the collaborators keep leaving. Commercial aviation exists only while pilots, controllers, and fuel crews remain conscious — roughly the first twenty hours after checkpoint, before sleep pressure closes the world's loops one by one. A specialist who flies past that window flies into a planet that is going to sleep beneath her: towers unmanned, gates unstaffed, runways lit by whatever automation was running on October 23, 2011. Every kilometer past the first day is purchased with self-service fuel stops, confederates who agreed at checkpoint to stay awake at a distant airfield, or aircraft flown solo into the quiet. The deep-range records are not feats of aviation. They are feats of staying conscious in an emptying world.
 
 Red-eye flights — a term that has aged poorly — are avoided by all but the most disciplined travelers. The combination of pressurized air, white noise, dim lighting, and physical inactivity makes aircraft cabins among the most dangerous environments for involuntary consciousness loss outside of medical facilities.
 
 ## Airports and Border Control
 
-International borders are a legal fiction that the loop has made into a daily performance.
+International borders are a legal fiction that the loop has made into a performance, renewed each iteration.
 
 Passports reset to their checkpoint state. Visas reset. Entry stamps reset. The physical infrastructure of border control — the booths, the scanners, the stanchions — is all in place each iteration, staffed by customs agents whose checkpoint job description includes checking documents. In the early iterations, these agents continued performing their jobs by reflex. By Year 50, the performance had become voluntary — a culture of bureaucratic theater maintained by people who found it either comforting or amusing.
 
@@ -43,11 +43,11 @@ The current state of border control varies by region:
 
 ## The Death of Cargo
 
-International shipping, in the pre-loop sense, has ceased. No cargo shipment survives the reset. A container loaded in Shanghai today does not exist tomorrow. The global supply chain — the movement of physical goods across oceans over days and weeks — is extinct.
+International shipping, in the pre-loop sense, has ceased. No cargo shipment survives the reset. A container loaded in Shanghai is back in Shanghai at the next checkpoint. The global supply chain — the movement of physical goods across oceans over days and weeks — is extinct.
 
 The consequences are profound and largely invisible, because they manifested in the first loop and have been the baseline ever since. Every region operates with whatever physical resources existed at the checkpoint moment. Raw materials in transit on October 23, 2011 are perpetually in transit. Factory output resets to whatever was on the line. The global economy, to the extent one exists, is local.
 
-Aviation cargo survives within loop range — same-day delivery across continents is possible if the cargo and the courier can make the trip before either loses consciousness. A small but dedicated profession of **loop couriers** maintains high-priority supply chains for items that matter: biological samples for research, physical components for equipment that must be assembled fresh each iteration, and the occasional personal item of such sentimental value that someone is willing to fly it across an ocean every day forever.
+Aviation cargo survives within loop range — same-loop delivery across continents is possible if the courier can make the trip before their consciousness lapses. A small but dedicated profession of **loop couriers** maintains high-priority supply chains for items that matter: biological samples for research, physical components for equipment that must be assembled fresh each iteration, and the occasional personal item of such sentimental value that someone is willing to fly it across an ocean every iteration, forever.
 
 ## See Also
 

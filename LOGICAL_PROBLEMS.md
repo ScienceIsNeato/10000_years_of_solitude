@@ -78,10 +78,19 @@
 **Status**: ⚠️ AWARE
 **Problem**: Ideas.rtf uses "Gaius Middleton." Manuscripts use "Caius." Need to pick one and make consistent.
 
-### 13. Awake Agents at the Midnight Reset (Transit Mechanics)
+### 13. Multi-Agent Synchronization and the Rollback Moment
 **Status**: ❓ OPEN — needs author confirmation
-**Problem**: What exactly happens to a conscious agent who is inside a moving vehicle at 00:00:00 UTC? Canon strongly implies awake agents persist in place while the physical world resets around them (Jeff drives for weeks; geodesic travelers chain flights across iterations; spacetime-distance accrual requires positions to persist). But the boundary case is undefined: an awake passenger aloft when the aircraft reverts to its checkpoint position, an astronaut inside the ISS when it snaps back to its checkpoint orbit.
-**Provisional canon** (written into the Air Travel wiki article, easily revised): the vehicle reverts; its conscious occupants do not revert with it — hence the geodesic specialists' first rule, "be on the ground at midnight." The ISS/orbital-crew case from THE_BIBLE.md Era 5 remains unexplained under this rule and needs a decision.
+**Problem**: THE_BIBLE.md §3 makes the reset per-agent (loss of consciousness = your return to checkpoint), with individual loop durations and an arbitrary, non-midnight checkpoint time. It does not specify when the shared physics engine rolls back, given that agents lose consciousness at different times (Jennifer at hour 16, Jeff at week 3, a glass-seeker at month 2 — all sharing one world).
+**Working model adopted in the wiki articles** (derivable from the bible, but confirm): the physics run continues as long as any agent remains conscious; agents whose loops close experience a jump cut and re-enter at the next checkpoint, all together; the rollback itself is unobservable in principle, because anyone in a position to observe it hasn't rolled back yet. Consequences embraced by the articles: society shares only the first ~16–20 hours after checkpoint (the "shared hours"); long-wakers inhabit a progressively depopulated world (this is now the stated constraint on geodesic travel — the world's aviation falls asleep, replacing the old "be on the ground at midnight" rule, which was an artifact of the stale midnight model); iteration length is technically variable and set by the most stubborn consciousness.
+**Note**: This supersedes the previous #13 ("midnight transit mechanics"), which was framed against the stale synchronized-midnight model and is void under THE_BIBLE.md §3.
+
+### 13a. Stale Resolution in Problem #1
+**Status**: ⚠️ AWARE — documentation bug in this file
+**Problem**: Problem #1 above records "✅ RESOLVED: All agents reset simultaneously at 00:00:00 UTC" and cites THE_BIBLE.md §3 — but current THE_BIBLE.md §3 says the checkpoint is "an arbitrary UTC time (not midnight, not a round number)" and that resets are triggered per-agent by consciousness loss. The #1 resolution predates the bible's dual-engine revision and needs rewriting once #13 is decided. (What #1 gets right and should keep: all agents *re-enter* at the same checkpoint moment; what varies is local time.)
+
+### 15. The Checkpoint Sleepers
+**Status**: ❓ OPEN — provisional canon written into the Sleep wiki article
+**Problem**: The checkpoint moment fell during local night for a large fraction of humanity, so billions of checkpoint bodies are asleep at C+0. THE_BIBLE.md does not say how their loops begin. Working model in the Sleep article: their consciousness resumes when the checkpoint body wakes naturally (or is woken); they never experience the checkpoint moment itself. THE_WIKI.md's "sleep window" note suggests this was the intent — confirm.
 
 ### 14. Era 5 Dates vs. Jeff/Jonas Registry Dates
 **Status**: ⚠️ AWARE
@@ -90,13 +99,14 @@
 ## RESOLUTION PRIORITIES
 
 1. ~~CRITICAL: Memory/brain reset paradox~~ → ✅ Dual-engine architecture
-2. ~~HIGH: Start time synchronization~~ → ✅ Simultaneous UTC reset
+2. ~~HIGH: Start time synchronization~~ → ⚠️ Resolution stale, contradicts current THE_BIBLE.md §3 (see 13a)
 3. ~~HIGH: Variable initial conditions~~ → ✅ Deterministic + agent perturbation
 4. ~~MEDIUM: Scientific framework~~ → ✅ RNG + dual-engine
 5. **MEDIUM**: Timeline consistency (Caius gap, global vs personal counts) → ⚠️ Phase 3
 6. **MEDIUM**: Caius capability constraints → ⚠️ Phase 3
 7. **LOW**: BBC/CNN scene alignment → ⚠️ Phase 3
 8. **LOW**: October 24th anomaly, name spelling → ⚠️ Phase 3
-9. **MEDIUM**: Midnight transit mechanics (13) — wiki article carries provisional canon pending author decision
+9. **HIGH**: Multi-agent synchronization / rollback moment (13) — wiki articles carry a working model pending author confirmation; also fixes stale #1 (13a)
 10. **MEDIUM**: Era 5 dates vs. Jeff/Jonas registry (14) → fold into Phase 3 timeline pass
+11. **MEDIUM**: Checkpoint sleepers (15) — Sleep article carries provisional canon
 

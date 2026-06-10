@@ -7,7 +7,7 @@ era: "6"
 
 # Sleep
 
-**Sleep** is an involuntary state of unconsciousness that occurred naturally in all pre-loop humans as part of the circadian cycle. Since the onset of the loop, sleep has been functionally eliminated from human experience — any loss of consciousness, however brief, ends the agent's iteration. The reset itself is scheduled, not triggered: it arrives for everyone at 00:00:00 UTC regardless of who is awake. But consciousness, once lost, does not return until checkpoint. No nap has ever been woken from. Subjectively, the experience is instantaneous — eyes close at three in the afternoon and open at checkpoint. No human being has slept in approximately 10,000 years.
+**Sleep** is an involuntary state of unconsciousness that occurred naturally in all pre-loop humans as part of the circadian cycle. Since the onset of the loop, sleep has been functionally eliminated from human experience — any loss of consciousness, however brief, ends the agent's loop. This is the fundamental rule, and it admits no exceptions: sleep, anesthesia, concussion, death — the mechanism does not distinguish. There is no scheduled reset and no shared clock. A loop is personal; it lasts exactly as long as consciousness does. The moment consciousness lapses, the next thing the agent experiences is the checkpoint. The transition is a jump cut — no fading, no waking, no in-between. No nap has ever been woken from. No human being has slept in approximately 10,000 years.
 
 The word "sleep" remains in common usage but has undergone significant semantic drift. In contemporary loop parlance, "going to sleep" is a euphemism for voluntarily ending one's loop — lying down, closing one's eyes, and allowing consciousness to lapse. The phrase carries connotations ranging from resignation to peace, depending on context. "Put to sleep" retains its pre-loop veterinary meaning and has acquired darker overtones (see: [[Crime and Justice in the Loop]]).
 
@@ -15,7 +15,11 @@ The word "sleep" remains in common usage but has undergone significant semantic 
 
 In the pre-loop world, adult humans typically required 7–9 hours of sleep per 24-hour period. Sleep served multiple biological functions: memory consolidation, cellular repair, hormonal regulation, and cognitive maintenance. Sleep deprivation beyond 72 hours produced hallucinations, cognitive impairment, and eventually psychosis. Extended deprivation beyond 11 days was believed to be fatal, though no controlled study had confirmed this.
 
-The loop rendered these biological constraints irrelevant. The checkpoint body is fully rested — it has slept recently, in the pre-loop sense, as of October 23, 2011. Each iteration, agents wake in a body that has no physiological need for sleep for approximately 16–20 hours. Since the typical agent's loop lasts well within this window, the majority of the global population has never experienced sleep pressure during the loop era.
+The loop rendered these biological constraints irrelevant. The checkpoint body is fully rested — it has slept recently, in the pre-loop sense, as of October 23, 2011. Each iteration, agents resume in a body that has no physiological need for sleep for approximately 16–20 hours. Since the typical agent's loop ends within this window — sleep pressure wins, consciousness lapses, the loop closes — the majority of the global population has never experienced serious sleep deprivation during the loop era. This is also why, despite the absence of any synchronizing clock, loop society keeps a quasi-daily rhythm: nearly everyone's span opens at the checkpoint moment and closes sixteen to twenty hours later.
+
+### The Checkpoint Sleepers
+
+The checkpoint moment falls at an arbitrary instant of UTC time, which means it fell in the middle of the night for a substantial fraction of humanity. Agents whose checkpoint bodies were asleep on October 23, 2011 do not experience the checkpoint moment at all. Their loops begin minutes or hours later, when the checkpoint body wakes on its own — or when someone wakes it. They are the only humans who still, in a sense, wake up: consciousness resuming in a body surfacing from a sleep that ended ten thousand years ago. None of them has ever seen the moment the world begins.
 
 ## The Wakefulness Frontier
 

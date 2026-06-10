@@ -1,5 +1,13 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Manuscript Task: Wiki Articles Aligned to Bible Reset Model (2026-06-10)
+
+- Discovered the wiki articles (plus THE_WIKI.md and LOGICAL_PROBLEMS #1) were written against a stale loop model: a global synchronized reset at midnight UTC on a fixed 24-hour cycle. THE_BIBLE.md §3 (ground truth) says the opposite: the checkpoint is an arbitrary, non-midnight UTC instant; the reset is per-agent, triggered by loss of consciousness; loop duration is personal with no shared clock.
+- Rewrote all 11 articles to the bible's model: the RNG article's fixed point is now the checkpoint moment (not 00:00 UTC); The Boards' lifecycle table is re-anchored to checkpoint offsets (C+0 through "the long hours") with the staggered wake of checkpoint sleepers; WTFreality's 24-slot UTC market became a checkpoint-offset market; Air Travel's geodesic constraint changed from a midnight rule to the real one (aviation stops when the world's pilots fall asleep); Sleep restored to the consciousness-loss rule with a new Checkpoint Sleepers section; Records got relay-witness verification and Model-A geodesic notes; Caius, Crime, Neuroscience, Pets, and Lo-Fi lost their midnight/daily/tomorrow phrasing.
+- Reverted two of my own earlier fixes that had been written to the stale model (Air Travel's "be on the ground at midnight," Sleep's "scheduled at 00:00:00 UTC").
+- LOGICAL_PROBLEMS.md updated: #13 replaced with the real open question (multi-agent synchronization / when the shared physics rolls back, with the working model the articles now assume); #13a flags the stale resolution in #1; #15 added for checkpoint-sleeper mechanics. All three need author confirmation.
+- THE_WIKI.md still describes the stale midnight model in its mechanism section and needs its own alignment pass.
+
 ## Ad-hoc Manuscript Task: Wiki Article Continuity Pass (2026-06-10)
 
 - Fixed continuity errors across the 11 wiki articles found in a critique pass: Leipzig Conference re-dated to canon (~Year 500, was 4,200), Jonas Incident unhooked from the Interregnum section, Caius's Dandelion pivot timeline aligned with Era 6, the WTFreality post-timequake paragraph replaced with a pre-test Oracle market (it broke in-universe existence and spoiled the ending), Air Travel reconciled with multi-day geodesic travel, animal reproduction corrected (nothing conceived in the loop has ever been born), Sleep's reset phrasing fixed (scheduled, not triggered), The Boards' definition reconciled with THE_WIKI.md's boards/wiki distinction, the two-Jeffs collision resolved, unhedged edit-count footnotes hedged as memory-carried, and assorted typo/date fixes.

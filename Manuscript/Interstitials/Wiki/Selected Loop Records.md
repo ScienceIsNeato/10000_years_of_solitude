@@ -7,7 +7,7 @@ era: "6"
 
 # Selected Loop Records
 
-**Selected Loop Records** is a community-maintained list of verified record-holding performances in categories unique to the loop. The list is maintained by the Records Verification Collective, a volunteer board committee of eidetics who witness, verify, and carry the ledger across iterations. Verification requires a minimum of three independent eidetic witnesses with no shared organizational affiliation.
+**Selected Loop Records** is a community-maintained list of verified record-holding performances in categories unique to the loop. The list is maintained by the Records Verification Collective, a volunteer board committee of eidetics who witness, verify, and carry the ledger across iterations. Verification requires a minimum of three independent eidetic witnesses with no shared organizational affiliation. Because a record attempt frequently outlasts any single witness's own span of consciousness, witnesses attend in overlapping relays — each covering a stretch of the attempt before their own loop closes — and their accounts are assembled and cross-checked after all parties have returned to checkpoint.
 
 The records below reflect the current iteration consensus. Historical records and disputed entries are noted where applicable.
 
@@ -39,12 +39,12 @@ Measures the average duration of a single loop across a minimum sample of 1,000 
 
 ## Geodesic Loop Range
 
-The greatest verified distance from an agent's checkpoint location reached within a single span of continuous consciousness. A function of checkpoint proximity to transportation infrastructure, wakefulness endurance, and route optimization across the midnight transitions (see: [[Air Travel in the Loop]], §Loop Range). The record has been dominated by agents whose checkpoints are located at or near major international airports.
+The greatest verified distance from an agent's checkpoint location reached within a single span of continuous consciousness. A function of checkpoint proximity to transportation infrastructure, wakefulness endurance, and route design through a world whose loops close around the traveler (see: [[Air Travel in the Loop]], §Loop Range). The first twenty hours are flown; everything after is improvised through a planet that has gone to sleep. The record has been dominated by agents whose checkpoints are located at or near major international airports.
 
 | Rank | Holder | Distance | Duration | Notes |
 |---|---|---|---|---|
-| 1 | Farah al-Rashidi | 18,440 km | 19 days | Checkpoint: Dubai International Airport. Al-Rashidi's route — optimized across approximately 4,000 iterations — chains commercial flights departing within minutes of checkpoint, exploiting the deterministic early-loop physics to guarantee seat availability and departure timing. The route is classified, as publishing it would introduce agent perturbations that invalidate its reliability.[^3] |
-| 2 | Carlos Mejía-Strand | 17,200 km | 16 days | Checkpoint: São Paulo–Guarulhos. Military aviation access (negotiated fresh each iteration through a contact chain maintained by eidetics). |
+| 1 | Farah al-Rashidi | 18,440 km | 19 days | Checkpoint: Dubai International Airport. Al-Rashidi's route — refined across approximately 4,000 attempts — opens with a chain of commercial flights beginning minutes after checkpoint, exploiting deterministic early-loop physics to guarantee seats and departure timing, and covers most of its distance before the world's aviation loses consciousness. The remaining thousands of kilometers are crossed overland through the long hours. The route is classified, as publishing it would introduce agent perturbations that invalidate its reliability.[^3] |
+| 2 | Carlos Mejía-Strand | 17,200 km | 16 days | Checkpoint: São Paulo–Guarulhos. Military aviation access, negotiated fresh in the first hours of each attempt through a contact chain maintained by eidetics — including pilots who agree, attempt after attempt, to stay awake past their own ordinary spans. |
 | 3 | Natsuki Abe | 16,800 km | 21 days | Checkpoint: Tokyo-Narita. The longest-duration geodesic record, compensating for a slightly less optimal route with superior wakefulness endurance. |
 | 4 | Daniel Reeves | 14,100 km | 8 days | The only record Reeves holds in two categories simultaneously. His Year-23 wakefulness record was set during this journey. |
 | 5 | Aisha Osman | 12,600 km | 11 days | Checkpoint: Cairo. Notable for being the highest-ranked record achieved entirely via ground and sea transportation. No flights. |

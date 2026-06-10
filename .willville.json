@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "Continuity-fix pass over the wiki articles — dates, contradictions, spoiler leak — plus wiring them into the build filters, all on PR #2",
-    "direction": "Get PR #2 merge-ready; voice differentiation across articles is the next conversation",
-    "last_update": "2026-06-10T06:31:38Z"
+    "status": "Rewrote the wiki articles onto the bible's actual reset rules — turns out they were all built on an outdated model of how the loop works",
+    "direction": "Three loop-mechanics questions queued for Will to confirm, then PR #2 should be merge-ready",
+    "last_update": "2026-06-10T07:27:45Z"
   }
 }

@@ -13,7 +13,7 @@ Founded in approximately Year 80 as an informal board thread titled "wanna bet?"
 
 ## How It Works
 
-WTFreality maintains a set of standing markets, each structured as a question with a range of possible outcomes. Any agent can take a position. Positions are tracked by the WTFreality scribes, who memorize the current state each iteration and reconstruct it on the boards each morning.
+WTFreality maintains a set of standing markets, each structured as a question with a range of possible outcomes. Any agent can take a position. Positions are tracked by the WTFreality scribes, who memorize the current state each iteration and reconstruct it on the boards at first light.
 
 **There is no money.** The loop resets all physical currency, and no one has successfully created a persistent currency accepted widely enough to matter. WTFreality runs on reputation credit — a ledger of correct and incorrect calls maintained by the scribe collective. An agent's WTF Score (formally: Predictive Track Record, informally: "luck") is the ratio of correct calls to total positions, weighted by confidence level and adjusted for the base probability of the outcome.[^1]
 
@@ -27,7 +27,7 @@ The canonical standing markets, as of the current iterative consensus:
 
 The oldest market. Binary outcome: yes or no. Opened on Day 1 of WTFreality's existence. The "no" position has paid out on every single iteration for approximately 10,000 years. The "yes" position has never paid out.
 
-Despite this, the "yes" position never drops to zero. A small but consistent population of agents bets "yes" every iteration — some out of genuine conviction, some as a daily ritual, some because the expected-value calculation on a world-ending event is philosophically incoherent and they prefer to have been right if it happens.
+Despite this, the "yes" position never drops to zero. A small but consistent population of agents bets "yes" every iteration — some out of genuine conviction, some as a ritual kept across millennia, some because the expected-value calculation on a world-ending event is philosophically incoherent and they prefer to have been right if it happens.
 
 **Current odds:** 500,000:1 against ("yes" pays 500,000 reputation credits per 1 wagered). These odds have been stable for approximately 3,000 years.
 
@@ -68,7 +68,7 @@ The "depends" position was added in approximately Year 1,200 after a philosophic
 
 WTFreality also hosts rotating side markets on more specific questions. These change frequently and include:
 
-- **Which hour (UTC) will the loop break?** A 24-slot market. The midnight slot trades at extreme odds because if the loop breaks at midnight, nobody would know — it would look identical to a normal reset.
+- **How far after checkpoint will the loop break?** A market with one slot per hour of checkpoint offset. The early slots — a break inside the shared hours, witnessed by nearly everyone — trade close to the consensus odds. The deep slots trade strangely: a break in the long hours would be witnessed by almost no one, and a break that consisted of simply *failing to return anyone to checkpoint* might never be registered at all. No one has ever observed a reset; a missing one is, by construction, the last thing anyone would notice.
 - **Will the next major discovery come from physics, biology, or philosophy?** Physics has dominated since Leipzig.
 - **Is the wiki article about WTFreality more or less accurate than WTFreality itself?** A meta-market that trades on the accuracy of this document. Currently at 1:1. Nobody is confident in either direction.
 

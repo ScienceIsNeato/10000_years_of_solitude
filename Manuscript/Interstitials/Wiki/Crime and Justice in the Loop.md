@@ -7,11 +7,11 @@ era: "6"
 
 # Crime and Justice in the Loop
 
-**Crime and justice in the loop** refers to the legal, social, and extralegal systems that have evolved to address wrongdoing in a world where no physical evidence persists, no prison survives the reset, and every perpetrator wakes free each iteration regardless of what they did the day before. The loop has not eliminated crime. It has eliminated consequences — or rather, it has forced human civilization to invent new ones.
+**Crime and justice in the loop** refers to the legal, social, and extralegal systems that have evolved to address wrongdoing in a world where no physical evidence persists, no prison survives the reset, and every perpetrator wakes free at checkpoint regardless of what they did in the previous iteration. The loop has not eliminated crime. It has eliminated consequences — or rather, it has forced human civilization to invent new ones.
 
 ## The Fundamental Problem
 
-Pre-loop justice systems rested on physical infrastructure: courts, prisons, police stations, evidence lockers, written law. All of these reset. A murderer convicted and sentenced at 3 PM is free at checkpoint. A thief caught on camera has no camera footage tomorrow. A contract signed, notarized, and filed ceases to exist.
+Pre-loop justice systems rested on physical infrastructure: courts, prisons, police stations, evidence lockers, written law. All of these reset. A murderer convicted and sentenced is free at checkpoint. A thief caught on camera faces no footage — the recording does not survive the reset. A contract signed, notarized, and filed ceases to exist.
 
 In the first years, this produced chaos. Some agents — recognizing the absence of physical consequences — engaged in behavior they would never have considered pre-loop. Others continued behaving lawfully out of habit, conscience, or the reasonable expectation that other people's memories constituted a form of accountability.
 
@@ -39,7 +39,7 @@ The most prosecuted category. An agent who commits the same harmful act across h
 
 ### Reset Exploitation
 
-Using knowledge carried across iterations to take advantage of agents in their checkpoint state — before they've had time to reconstruct their social context. A checkpoint-state person doesn't know which agents are dangerous, which deals are fraudulent, or which areas are controlled by bad actors until their post-reset network catches up. The window between checkpoint and full social reconstruction is a vulnerability, and a class of predatory agents has learned to exploit it.
+Using knowledge of the checkpoint's deterministic opening to take advantage of others. Every agent remembers everything they personally know — but warnings gathered by *others* in previous iterations recirculate only as fast as the boards are rebuilt. An agent who learned yesterday, in the last hours of their loop, that a particular face means danger may carry the lesson; the thousands who never heard it wake unwarned. The window between checkpoint and the full reconstruction of the information commons is a vulnerability, and a class of predatory agents has learned to live inside it — exploiting, with rehearsed precision, the same first hours every iteration.
 
 ### Information Crimes
 
@@ -53,7 +53,7 @@ Some categories of pre-loop crime have become effectively meaningless:
 - **Financial crime.** Money resets. Fraud requires a persistent financial system, and none exists.
 - **Drug offenses.** All substances reset. Addiction cannot develop physiologically (the body resets clean). The concept of controlled substances has no enforcement mechanism.
 
-These categories have not been "legalized" — they are simply *irrelevant*. Nobody prosecutes car theft because the car will be back tomorrow. The social energy goes elsewhere.
+These categories have not been "legalized" — they are simply *irrelevant*. Nobody prosecutes car theft because the car will be back at checkpoint. The social energy goes elsewhere.
 
 ## Shadow Justice: The Master of Records
 
@@ -69,7 +69,7 @@ Justice in the loop exposes a fault line in moral philosophy that pre-loop socie
 
 Pre-loop systems punished acts. A crime was committed, evidence was gathered, a sentence was imposed. The system was transactional — you did X, you receive Y consequence.
 
-The loop makes this framework incoherent. The act resets. The body that committed it resets. The only thing that persists is the agent's memory of having done it and the community's memory of having witnessed it. Punishing the act is impossible. All that can be punished is the *agent* — the continuous consciousness that chose to act and will choose again tomorrow.
+The loop makes this framework incoherent. The act resets. The body that committed it resets. The only thing that persists is the agent's memory of having done it and the community's memory of having witnessed it. Punishing the act is impossible. All that can be punished is the *agent* — the continuous consciousness that chose to act and will wake at checkpoint free to choose again.
 
 This has produced two schools of thought:
 

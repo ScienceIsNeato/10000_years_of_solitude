@@ -47,7 +47,7 @@ What is documented:
 
 ## Master of Records
 
-The Master of Records system, designed and operated by Middleton, is a shadow judiciary for crimes that the formal justice system cannot address. In a world that resets daily, conventional punishment is meaningless — no prison survives the night, no sentence carries past midnight. The Master of Records tracks individuals whose behavior constitutes a persistent threat across iterations: serial predators, saboteurs, and agents whose actions, while consequence-free in any single loop, constitute patterns of harm that only persistent memory can detect.
+The Master of Records system, designed and operated by Middleton, is a shadow judiciary for crimes that the formal justice system cannot address. In a world that resets, conventional punishment is meaningless — no prison outlasts its prisoner's consciousness, and no sentence survives the return to checkpoint. The Master of Records tracks individuals whose behavior constitutes a persistent threat across iterations: serial predators, saboteurs, and agents whose actions, while consequence-free in any single loop, constitute patterns of harm that only persistent memory can detect.
 
 The system operates through a network of eidetics who maintain dossiers across resets and coordinate interventions. The nature of these interventions is not published and is euphemistically described as "corrective engagement."
 
@@ -75,7 +75,7 @@ Whether this represents growth or opportunism is, again, a matter of editorial p
 
 The most frequently cited controversy in Middleton's biography involves an individual identified only as "Jonas," a persistent offender under the Master of Records system. Details are sourced primarily from Jonas's own account (first person, undated, multiply reconstructed from eidetic testimony) and from Middleton's oblique references in subsequent public statements.
 
-According to Jonas's account, Middleton subjected him to a 40-day forced-wakefulness protocol — keeping Jonas awake and under physical restraint across multiple iterations, deliberately pushing him toward the spacetime distance boundary and, potentially, into the dilation zone. The stated purpose was corrective: a demonstration of consequences in a world that otherwise erases them.
+According to Jonas's account, Middleton subjected him to a 40-day forced-wakefulness protocol — holding him conscious and under physical restraint through a single unbroken forty-day span, deliberately pushing him toward the spacetime distance boundary and, potentially, into the dilation zone. The stated purpose was corrective: a demonstration of consequences in a world that otherwise erases them.
 
 The incident predates the scientific understanding of the degradation zones. If Jonas's account is accurate, Middleton was deliberately pushing a human being into the dilation zone before anyone understood what happened there.
 
@@ -97,7 +97,7 @@ Middleton's legacy is, as of this writing, unresolved — both because the man i
 
 What is not disputed: Middleton is one of the most consequential individuals in post-loop history. He built the political infrastructure that enabled the only scientific project with a plausible chance of addressing the loop. He also spent three centuries pursuing a dead end, operated a shadow justice system of debatable legitimacy, and has demonstrated a consistent willingness to treat other human beings as instruments of larger goals.
 
-The article's talk page — rebuilt each morning along with the article, and re-accumulating the same dispute by midday — contains approximately 14,000 words of active argument about whether the preceding sentence should end with a period or with "— a quality that loop society cannot afford to lose."
+The article's talk page — rebuilt at first light along with the article, and re-accumulating the same dispute within hours — contains approximately 14,000 words of active argument about whether the preceding sentence should end with a period or with "— a quality that loop society cannot afford to lose."
 
 ## See Also
 
