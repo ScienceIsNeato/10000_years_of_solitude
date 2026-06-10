@@ -1,5 +1,13 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Manuscript Task: Furukawa Chapter First Draft (2026-06-10)
+
+- Wrote "Sixteen Sunrises" (Manuscript/Furukawa/Furukawa.md, ~2,400 words, status: draft) — Satoshi's POV chapter at Day 2,191 (Era 1, year six): his eighth extended-wakefulness run, the crew's quiet domesticity, listening to humanity go to sleep from orbit over the ham bands, the dosimeter rhythm, and the first stretched sunrise — the earliest human contact with the dilation zone, by millennia. Ends with the run closed, the data memorized, and the Soyuz choice seeded.
+- Matched the Thud chapter's conventions: header block (date/location, global day count, name), close third person, ~2,400 words. Notably the Thud chapter already implies the per-agent model (Jeff is asleep at the wheel at checkpoint — a checkpoint sleeper), so the chapter's mechanics sit on existing precedent.
+- Added the chapter to the MANIFEST (Character Chapters), updated the bible registry row, and logged the abandoned-bodies/checkpoint-sleepers asymmetry the chapter dramatizes as a corollary under LOGICAL_PROBLEMS #13 (unwakeable mid-loop sleepers vs wakeable checkpoint sleepers) for author confirmation.
+- Soft-pins flagged for review: Satoshi as a checkpoint sleeper waking ~11 minutes after C+0, Sergey nine minutes earlier; easy to flip if the checkpoint time gets pinned differently.
+- Verified end to end: frontmatter parses, MANIFEST resolves 23 files, 44 tests pass, full HTML build succeeds with the chapter in place.
+
 ## Ad-hoc Manuscript Task: THE_WIKI.md Alignment + Furukawa Added as Primary Character (2026-06-10)
 
 - Aligned THE_WIKI.md with THE_BIBLE.md's reset model everywhere: the mechanism section now states the no-shared-clock/per-agent rules explicitly, The Reset article description covers the consciousness-loss trigger and checkpoint sleepers, WTFreality's side market is checkpoint-offset based, The Boards description gets Reddit primacy per bible §6, and the remaining morning/daily/UTC phrasing was converted. The WTFreality post-timequake irony is now explicitly flagged as author-level only (the standing article must predate the timequake to exist).
