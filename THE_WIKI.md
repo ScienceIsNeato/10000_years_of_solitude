@@ -113,11 +113,11 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 #### 3. The Boundary / Vitrification (Going to Glass)
 
-**Coverage:** The spacetime boundary where physics degrades and eventually stops. The ~29-day threshold for stationary observers. The velocity-dependence (ISS astronauts hit it faster). The phenomenology of vitrification — the dilation, the dissolution, the conviction. Colloquially known as "going to glass" for millennia before the scientific term catches on.
+**Coverage:** The spacetime boundary where physics degrades and eventually stops. The formal term: **negative entropy dilation** — time and matter dilation, but mirrored: relativistic dilation arrives as you approach the speed of light; this arrives as you approach the other end of the time loop (THE_BIBLE.md §4; author note — invented physics, book-only). The three roads: duration (~29 days stationary), velocity (ISS astronauts hit it in ~4 days), and improbability — the brush. Extreme low-probability events (winning a lottery) give a fleeting local taste; most agents have brushed it at least once across their repeats. The phenomenology of full vitrification — the dilation, the dissolution, the conviction. Colloquially known as "going to glass" for millennia before the scientific terms catch on.
 
 **When it appears:** Era 5 onward. Before Era 5, the boundary is rumor and myth. The article codifies it.
 
-**What it gets right:** The observational phenomenology is accurate. The spacetime-distance dependence is correctly identified once the data comes in.
+**What it gets right:** The observational phenomenology is accurate. The spacetime-distance dependence is correctly identified once the data comes in. The improbability brushes are documented late — for centuries they hide in plain sight as "lottery shock" and "near-death stillness" anecdotes.
 
 **What it gets wrong:** Early versions frame it as "reaching the edge of the simulation" — a wall you hit. The RNG degradation model (it's not an edge, it's a gradient of entropy exhaustion) comes later and is hard to accept because the "wall" metaphor is more intuitive.
 
@@ -125,7 +125,10 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 **Editorial drama:**
 - Glass-seekers keep adding spiritual/mystical language. The scientific scribes keep removing it. The article oscillates between "physics phenomenon" and "transcendent experience" depending on who got to the terminal first.
-- A running argument about whether "going to glass" or "vitrification" or "reaching the boundary" is the correct neutral terminology. "Going to glass" wins by cultural momentum, not editorial consensus.
+- A running argument about whether "going to glass" or "vitrification" or "negative entropy dilation" or "reaching the boundary" is the correct neutral terminology. "Going to glass" wins by cultural momentum, not editorial consensus.
+- A quiet, never-resolved fight over whether the article should carry a harm-reduction section for recreational tasters (the drug framing) or whether acknowledging the practice encourages it. Both versions exist in different scribes' memories; which one is live depends on the iteration.
+
+**Story-thread note (author-level):** This article underwrites the Spectrum of Glass thread (THE_BIBLE.md §5) — brushes, tastes, habit, terror — that the novel must revisit from multiple POVs before Era 7, so the reader walks into the finale knowing exactly what a universal, permanent dose means for every kind of person at once.
 
 ---
 

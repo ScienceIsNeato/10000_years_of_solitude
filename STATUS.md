@@ -1,5 +1,11 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Manuscript Task: Negative Entropy Dilation + the Spectrum of Glass (2026-06-10)
+
+- Canonized "negative entropy dilation" as the formal name for going to glass (THE_BIBLE.md §4): invented, book-only physics, the mirror image of relativistic dilation — it arrives as you approach the other end of the time loop rather than the speed of light. Three compounding roads: duration (~29 days stationary), velocity (the astronaut's ~4 days), and the new one — improbability. Extreme low-probability events (winning a lottery) give a fleeting local brush; across thousands of repeats, most people have brushed it at least once. It terrifies most; others treat it like a drug.
+- Added "The Spectrum of Glass" story thread to §5: brush → taste → habit → terror → the bolus ("if going to glass is a drug, the timequake is the bolus you never come back from"). Craft instruction recorded: revisit flavours of glass from multiple POVs throughout the book — the brushes double as pressure valves and as the reader's tolerance-building — so the final sequences land with full appreciation of what a universal permanent dose means for every kind of person at once.
+- THE_WIKI.md's Boundary/Going to Glass article entry updated with the formal term, the three roads, the late-documented brushes, the harm-reduction editorial fight, and the story-thread note; the in-universe RNG Degradation article gained the formal name in its Dilation Zone entry plus a new "Brushes" section (the lottery stillness hiding for centuries inside "the shock of the win").
+
 ## Ad-hoc Manuscript Task: Ending Mechanics Canonized — The Entropic Black Hole (2026-06-10)
 
 - Canonized the author's clarified ending mechanics in THE_BIBLE.md. Era 6: Project Dandelion keeps its name and is now explicitly the novel's grand red herring — grounded in true observation, doomed because it chases Bug 2 while Bug 1 is the loop; in the end a prolonged brute-force supercomputer assault on the PRNG behind quantum field fluctuation, proving superdeterminism and opening no door.

@@ -157,6 +157,20 @@ As spacetime distance from the checkpoint increases:
 3. **Dilation zone:** Physics running measurably slower relative to consciousness. The agent's thoughts outpace the world. Movement becomes sluggish, then glacial.
 4. **Vitrification:** The world has effectively stopped. The agent's consciousness continues at normal speed inside a frozen universe. The RNG output has fully exhausted its structure and collapsed to deterministic repetition. The probability space has coalesced and crystallized in spacetime — no remaining entropy to resolve, no remaining outcomes to compute. Physics is a lattice. Consciousness moves through it like light through glass.
 
+### Negative Entropy Dilation (the formal name for the effect)
+
+**Author note: this is invented physics. Negative entropy dilation is a new effect that exists only in the book — it is not present or claimed in our reality.** It is the loop's mirror image of relativistic dilation: in real physics, time and matter dilate as you approach the speed of light. In the loop, they dilate as you approach *the other end of the time loop* — the entropy floor, the place where the day runs out of randomness. Same family of effect; opposite road in.
+
+There are three roads, and they compound:
+
+1. **Duration.** The simplest way there is to just stay up — weeks of continuous wakefulness for a stationary agent (~29 days).
+2. **Velocity.** Speed multiplies spacetime distance. This is what lets the astronaut get there in days instead of weeks (~4 days at orbital velocity).
+3. **Improbability.** The new lever, and the intimate one: extreme low-probability events brush you against the effect, briefly, locally, wherever you are. Winning a lottery gives you an ever-so-brief taste of it — a flicker of the world going still as the degraded RNG strains to resolve an outcome that spends, in one instant, more improbability than a normal day contains. It passes in a breath. You tell yourself it was the shock of the win.
+
+The third road means **most people have brushed against negative entropy dilation at least once** across their thousands of repeats — a freak coincidence, an absurd run of cards, the one-in-a-billion moment that every life eventually contains when it repeats long enough. A heartbeat of stillness. A taste of glass.
+
+It terrifies most of them. Others treat it like a drug.
+
 ---
 
 ## 5. VITRIFICATION (GOING TO GLASS)
@@ -188,6 +202,18 @@ The experience ends when the loop resets. The agent wakes in their checkpoint bo
 - **The terrified:** Dissolution of free will, certainty of predestination, selfhood as a ripple in someone else's computation. For these people, going to glass is an existential wound that never heals.
 - **The radiant:** Total surrender, seeing the substrate laid bare, being woven into something vast and coherent. For these people, going to glass is enlightenment.
 - **The seekers:** A subculture of voluntary glass-seekers emerges. They stay awake as long as possible, pushing deeper into the dilation zone, accumulating thousands of subjective years in the frozen world. Some become the oldest consciousnesses in the simulation by orders of magnitude. Invaluable to Project Dandelion for thinking time. Profoundly changed. Not quite human anymore. Not quite anything else.
+
+### The Spectrum of Glass (story thread — build this across the whole book)
+
+Going to glass is not one experience; it is a dose-response curve, and the novel must walk the reader up it deliberately, from multiple perspectives, so that by the final sequences they have a full-body appreciation of what is happening to everyone:
+
+- **The brush.** The lottery winner's two-second flicker (see §4, Negative Entropy Dilation — the improbability road). Most agents have had one. A heartbeat where the world goes still and something enormous seems to lean in. Nearly everyone files it under shock, coincidence, "a moment." Nearly everyone is wrong.
+- **The taste.** Those who liked it. Card players who chase improbable runs on purpose. People who stay up thirty, forty hours for the early shimmer the way pre-loop people chased altitude or opiates. Recreational, deniable, growing.
+- **The habit.** The glass-seekers proper — weeks awake, deep dilation, subjective years banked in the stillness. The ones who come back changed and go again anyway.
+- **The terror.** The other half of the spectrum, and the half the finale needs most. Meredith brushes it and recoils — for the woman who wants out of existence, the stillness is existence *concentrated*. Furukawa meets it clinically at day four and is more frightened by his own wanting than by the physics. The terrified are not wrong about glass. Neither are the seekers. That's the point.
+- **The bolus.** The finale, in the drug's own vocabulary: **if going to glass is a drug, the timequake is the bolus you never come back from.** Every agent in the universe — the curious, the addicted, the terrified, the ones who never even noticed their one brush — gets the full dose at once, forever. The reader who has walked the whole spectrum understands exactly what is being done to every kind of person at once. That comprehension is the horror.
+
+The craft instruction: return to flavours of glass again and again, in small ways, in different POVs, long before Era 7. The brushes and tastes are pressure valves (§10) doing double duty — they are also the reader's tolerance-building, so the final dose lands with full knowledge of what it is.
 
 ---
 

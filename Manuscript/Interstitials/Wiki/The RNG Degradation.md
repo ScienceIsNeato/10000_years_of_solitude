@@ -75,9 +75,17 @@ As spacetime distance from the checkpoint increases, the degradation intensifies
 
 2. **The Uncanny Zone.** Macro-scale pattern formation. Clock drift across independent timepieces. Sounds dropping in pitch (audio waveforms losing frequency variance). Sunsets lasting too long (atmospheric scattering calculations converging). Trees standing unnaturally still (air currents losing turbulent variation). The world looks right. The world feels wrong. The uncanny zone is where most glass-seekers turn back.
 
-3. **The Dilation Zone.** Physics begins running measurably slower relative to consciousness. The agent's thoughts outpace the world. Movement becomes sluggish, then glacial. This is not time dilation in the relativistic sense — the physics engine is running normally on its own clock. It is the *agent engine* that remains at full speed while the physics engine, starved of entropy, slows its resolution of probabilistic outcomes. The agent experiences this as the world thickening, hardening, slowing to a crawl.
+3. **The Dilation Zone.** Formally: **negative entropy dilation**. Physics begins running measurably slower relative to consciousness. The agent's thoughts outpace the world. Movement becomes sluggish, then glacial. This is not time dilation in the relativistic sense — it is its mirror image. Relativistic dilation arrives as a body approaches the speed of light; negative entropy dilation arrives as a consciousness approaches the other end of the loop, where the day runs out of randomness. The physics engine is running normally on its own clock. It is the *agent engine* that remains at full speed while the physics engine, starved of entropy, slows its resolution of probabilistic outcomes. The agent experiences this as the world thickening, hardening, slowing to a crawl.
 
 4. **Vitrification.** The terminal state. The world has effectively stopped. The RNG output has fully exhausted its structure and collapsed to deterministic repetition. The probability space has coalesced and crystallized in spacetime — no remaining entropy to resolve, no remaining outcomes to compute. Physics becomes a lattice. Consciousness moves through it like light through glass. (See: [[The Boundary / Vitrification (Going to Glass)]] for the full phenomenological account.)
+
+## Brushes
+
+The zones describe sustained exposure along a worldline. There is a third, briefer phenomenon, documented for centuries before anyone connected it to the degradation: **the brush**.
+
+Extreme low-probability events appear to produce a momentary, local taste of the dilation. The canonical example is winning a lottery: in the instant the outcome resolves, witnesses consistently report a heartbeat of impossible stillness — the world pausing, leaning in — before ordinary time resumes. The favored explanation is that the degraded RNG, forced to resolve an outcome that spends more improbability in one moment than an ordinary day contains, briefly exhausts the local entropy budget. The effect passes in a breath, and for centuries it hid in plain sight inside accounts of "the shock of the win."
+
+Across thousands of repeats, nearly every agent eventually collides with some one-in-a-billion moment. The practical consequence: **most people alive have brushed negative entropy dilation at least once.** Reactions divide the population cleanly. Most find the stillness viscerally terrifying and never speak of it. A persistent minority finds it intoxicating — and some of them start chasing it (see: [[The Boundary / Vitrification (Going to Glass)]], §Seekers; the boards host a permanently disputed harm-reduction thread on the practice).
 
 ## The Key Question
 
