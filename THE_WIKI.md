@@ -12,7 +12,7 @@
 
 ### The Mechanism
 
-The wiki is the loop's version of Wikipedia — a collaboratively written, encyclopedic knowledge base. The catch: it exists on the internet, which resets every iteration. There is no midnight and no shared clock (THE_BIBLE.md §3: the checkpoint is an arbitrary UTC instant; resets are per-agent, on loss of consciousness) — but human biology gives the loop a quasi-daily rhythm: nearly everyone's span opens at checkpoint and closes 16–20 hours later. The scribes — eidetics and fast typists working in relay teams — start rebuilding at first light (C+0, the moment the checkpoint restores) and race the waking of the checkpoint sleepers. Within a few hours of checkpoint, the core articles are live.
+The wiki is the loop's version of Wikipedia — a collaboratively written, encyclopedic knowledge base. The catch: it exists on the internet, which resets every iteration. There is no midnight and no shared clock (THE_BIBLE.md §3: the checkpoint is an arbitrary UTC instant; resets are per-agent, on loss of consciousness) — but human biology gives the loop a quasi-daily rhythm: nearly everyone's span opens at checkpoint and closes 16–20 hours later. The scribes — eidetics and fast typists working in relay teams — start rebuilding at first light (+0:00, the moment the checkpoint restores) and race the waking of the checkpoint sleepers. Within a few hours of checkpoint, the core articles are live.
 
 This means:
 

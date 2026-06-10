@@ -1,5 +1,19 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Manuscript Task: Twelve Author Rulings Propagated (2026-06-10)
+
+- The final choice canonized (Era 7): anyone conscious when the wave arrives gets glass; anyone whose consciousness has lapsed is frozen "off" — oblivion. For ~48 hours every human holds an informed-but-uncertain, inherently religious choice between the nothing and the everything; humanity flees the repellent wavefront "to get just a little more time before they get more than they wanted"; and the cruelest position — wanting sleep, unable from fear, taken mid-vigil — is canonized and mapped onto Meredith's ending (she wanted oblivion specifically; eternity in the glass was never what she signed up for).
+- Pre-loop canon bent: the entropy feed was never true randomness — another generator one level up; Santa was never real; the final irony is now literal (the entropic black hole was always latent in this universe's physics).
+- Discovery chronology cleaned: Furukawa Year ~6 → Leipzig ~500 → boundary codified 400–1200 → Jeff at ~2,590 reframed as the loop's Rip Van Winkle making an independent rediscovery that becomes the folklore. LOGICAL_PROBLEMS #14 resolved.
+- Eidetic buzz mechanism replaced per ruling: certainty collapses the randomness around them — every eidetic is a walking homeopathic dose of the Fermilab experiment.
+- Brushes refined: luck has a carnal signature (the growl in the lungs, the vibrating goo, the trick-shot feeling) and habituates fast — almost nothing by the fifth repeat — which is what makes it addictive and answers the determinism question (the brush economy runs on perturbation-born novelty).
+- Time convention adopted everywhere: "+X hours from loop start"; calendar dates past Oct 23 deprecated ("the empty planet full of sleeping bodies they'd inhabit"). Boards lifecycle table and THE_WIKI converted. October 24th anomaly (#11) resolved as a feature, not an error.
+- Frozen-world equation canonized: no entropy, no time in the physics engine; regular time in agent engines — something over nothing equals everything. Sleepers' fate (off/oblivion) split out in Era 8.
+- Caius rebuilt: pre-loop a quant at a government-affiliated hedge fund outside DC (the quant background is the thematic key — cracking the universe's PRNG is the ultimate quant trade); met Meredith through her government-adjacent work; knew Dr. Knowles from undergrad. Structural rule recorded: Caius is the reader surrogate — other characters feed him pieces, he assembles the cosmology on the page asking the reader's questions, never lectured at. In-universe he hides the quant past ("no occupation of note").
+- Registry: Meredith's Day 1 declaration corrected to match Meredith.rtf (10:02 am, Roanoke, at Caius's bequest); Dr. Ally Knowles added; Jeff reframed.
+- Preface contract restated per ruling: the reader won't understand it — just some weird shit; it lands at the end.
+- LOGICAL_PROBLEMS: #1 re-resolved, #11 resolved, #13 confirmed in substance, #13a closed, #14 resolved; #15 (checkpoint sleepers / ISS crew) remains the only deliberately open mechanics item.
+
 ## Ad-hoc Manuscript Task: The Eidetic Buzz (2026-06-10)
 
 - Canonized the eidetics' permanent low-level negative entropy dilation — "the buzz" — in THE_BIBLE.md §6: their loaded agent engines lean harder on the physics engine's entropy budget, so they live a half-beat ahead of real time, always. At trace dose it's a performance enhancer (reaction-time edge; the polymath-polyglots carry the heaviest buzz, which quietly helps explain Caius's impossible coordination, LOGICAL_PROBLEMS #5), it spawned the loop's signature sport (bullet-train eidetic jiu-jitsu — John Woo choreography in the flesh), and it isolates them from people living in real time, making them a visible caste of superhumans — the payoff for the power they already hold in the novel.

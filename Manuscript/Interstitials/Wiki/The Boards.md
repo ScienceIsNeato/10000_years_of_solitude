@@ -49,17 +49,17 @@ The longest-running co-option lasted approximately 200 years and involved a syst
 
 ## The Lifecycle of an Iteration
 
-There is no shared clock in the loop — no midnight, no scheduled reset. What there is instead is the checkpoint, the arbitrary instant of October 23, 2011 that every iteration restores, and the quasi-daily rhythm that follows from human biology: nearly every agent's loop opens at the checkpoint and closes sixteen to twenty hours later, when sleep pressure wins. The boards' lifecycle is anchored to that rhythm. Times below are measured from the checkpoint moment (C+0).
+There is no shared clock in the loop — no midnight, no scheduled reset. What there is instead is the checkpoint, the arbitrary instant of October 23, 2011 that every iteration restores, and the quasi-daily rhythm that follows from human biology: nearly every agent's loop opens at the checkpoint and closes sixteen to twenty hours later, when sleep pressure wins. The boards' lifecycle is anchored to that rhythm. Times below follow the universal convention: +X hours from loop start.
 
-| Checkpoint Offset | Activity |
+| Loop Time | Activity |
 |---|---|
-| C+0:00 | The checkpoint. Physics restored to October 23, 2011. All content reverts. Agents conscious at the checkpoint moment resume instantly, mid-gesture; the rest of humanity — everyone whose checkpoint body was asleep — comes online over the following hours as those bodies wake. |
-| C+0:00–0:30 | **First light.** The fastest scribes — those whose checkpoints place them awake, rested, and near a terminal — log in and claim the day's admin accounts. Core articles begin going up. |
-| C+0:30–4:00 | **The relay.** Reconstruction spreads as the checkpoint sleepers wake, region by region, and regional scribes pick up where the first shift hands off. The skeleton of the encyclopedia is in place. |
-| C+4:00–8:00 | **Full coverage.** The last of the checkpoint sleepers are awake. The boards are functionally complete — not identical to the previous iteration, but close enough that a returning reader would find everything where they expected it. |
-| C+8:00–16:00 | **Live day.** Normal editorial activity. New articles written, debates conducted, research shared. This is the productive period — all the reconstruction was front-loaded. The Florida Squirrel takes out southeastern US connectivity for 20 minutes around C+13.[^3] |
-| C+16:00–20:00 | **Twilight.** Loops begin to close. Sleep pressure wins, the population thins, and editors commit the day's new content to memory before their spans end. |
-| C+20:00 and beyond | **The long hours.** Only wakefulness specialists, glass-seekers, and the unlucky remain conscious. The boards stand fully built and nearly unread, until the iteration ends — whenever and however that happens. No one has ever observed it. You are always on the wrong side of a reset. |
+| +0:00 | The checkpoint. Physics restored to October 23, 2011. All content reverts. Agents conscious at the checkpoint moment resume instantly, mid-gesture; the rest of humanity — everyone whose checkpoint body was asleep — comes online over the following hours as those bodies wake. |
+| +0:00–0:30 | **First light.** The fastest scribes — those whose checkpoints place them awake, rested, and near a terminal — log in and claim the day's admin accounts. Core articles begin going up. |
+| +0:30–4:00 | **The relay.** Reconstruction spreads as the checkpoint sleepers wake, region by region, and regional scribes pick up where the first shift hands off. The skeleton of the encyclopedia is in place. |
+| +4:00–8:00 | **Full coverage.** The last of the checkpoint sleepers are awake. The boards are functionally complete — not identical to the previous iteration, but close enough that a returning reader would find everything where they expected it. |
+| +8:00–16:00 | **Live day.** Normal editorial activity. New articles written, debates conducted, research shared. This is the productive period — all the reconstruction was front-loaded. The Florida Squirrel takes out southeastern US connectivity for 20 minutes around +13:00.[^3] |
+| +16:00–20:00 | **Twilight.** Loops begin to close. Sleep pressure wins, the population thins, and editors commit the day's new content to memory before their spans end. |
+| +20:00 and beyond | **The long hours.** Only wakefulness specialists, glass-seekers, and the unlucky remain conscious. The boards stand fully built and nearly unread, until the iteration ends — whenever and however that happens. No one has ever observed it. You are always on the wrong side of a reset. |
 
 ## Infrastructure
 
