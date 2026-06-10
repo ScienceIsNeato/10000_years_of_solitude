@@ -1,5 +1,13 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Manuscript Task: Ending Mechanics Canonized — The Entropic Black Hole (2026-06-10)
+
+- Canonized the author's clarified ending mechanics in THE_BIBLE.md. Era 6: Project Dandelion keeps its name and is now explicitly the novel's grand red herring — grounded in true observation, doomed because it chases Bug 2 while Bug 1 is the loop; in the end a prolonged brute-force supercomputer assault on the PRNG behind quantum field fluctuation, proving superdeterminism and opening no door.
+- Era 7 rewritten: the live test is pre-guessing a double-slit pattern at Fermilab (moved from CERN — CERN stays the haunted house of Caius's failed energy-spike era). At the confluence of the perfect prediction and its observation, a micro-entropic black hole forms: randomness exposed → second law ruptures → heat flows backward → forward/backward time-pulls reach equilibrium → local physics freezes asymptotically toward zero entropy. Propagation: r-cubed volumetric growth, spinning down every vibrating string like a plague; North America day one, about a day more to cross the rest of the planet; the 48-hour Australian anchor beat preserved. Furukawa is the last character caught in the amber — altitude buys hours, and he watches Earth freeze beneath the station.
+- Era 8: mechanism layered (physical layer + engine layer), plus the final irony — run the same experiment before the loop and the same thing happens; it was never escape, it was the accidental creation of their own prison; the loop just supplied the ten thousand years needed to build it.
+- §10 gained "The Parting Shot": the reader's one insulation — in our reality a frozen brain ends experience... right? — left deliberately hanging.
+- Furukawa's §6 subsection and registry row gained his ending; THE_WIKI.md's Dandelion article entry gained the author-level red-herring note (the article's accuracy is part of the trap).
+
 ## Ad-hoc Manuscript Task: New Working Title + Meredith Preface (2026-06-10)
 
 - Adopted the new working title, "Curiosity Killed the Cat (While Turning It Immortal)" — Schrödinger's-cat nod plus a literal description of going to glass forever. Applied to the build tooling title page (build.py, export.sh), pyproject/CLI descriptions, THE_BIBLE.md header and §10 title note, PROJECT_OVERVIEW.md, and this file's header. The repo keeps its old name.

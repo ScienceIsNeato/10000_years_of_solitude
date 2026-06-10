@@ -159,6 +159,8 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 **What it gets wrong:** Nothing factual — but the article's *framing* evolves. Early versions are triumphalist ("humanity's greatest collective achievement"). Late versions, post-timequake, don't exist — there's nobody left to write them.
 
+**Author-level note (never in the article):** Dandelion is the novel's grand red herring (THE_BIBLE.md §7, Era 6). The article's accuracy is part of the trap — everything it reports is true, and none of it is the thing that matters. The wiki, like the reader, believes this is the way out.
+
 **Editorial drama:**
 - The most politically contentious article in the wiki. Dandelion required a global vote and centuries of cooperation. The article is a proxy war for people who supported vs. opposed the project.
 - Caius's role is either heroic or dictatorial depending on who's writing.

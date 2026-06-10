@@ -289,6 +289,8 @@ Three things make him structurally unique:
 
 The standing choice gives him his arc: each iteration he can stay the laboratory, or undock the Soyuz and be on Earth in under four hours — one loop as a person instead of an instrument. What he chooses, and when that changes, is character.
 
+**His ending (Era 7):** Altitude buys hours. The entropic black hole grows volumetrically from Fermilab, and the ISS is the last human place it reaches. Satoshi — who spent ten thousand years commuting to the edge of physics — spends the final hours of human history watching the planet freeze beneath him, sunrise after sunrise over a world going to glass, with nowhere left to descend to. The last character caught in the amber. The man who reported the anomalies for centuries and was not believed becomes the final witness, and there is no one left to report to.
+
 (Whether the ISS crew are checkpoint sleepers depends on the unspecified checkpoint time and the station's UTC-based crew schedule — deliberately unpinned; see LOGICAL_PROBLEMS.md #15.)
 
 ---
@@ -344,6 +346,8 @@ The great reverse-engineering effort. The agents possess something no non-loopin
 
 The project organizes every available computational resource into a single distributed effort: reverse-engineer the RNG algorithm from its output.
 
+**Dandelion is the novel's grand red herring — and it keeps its name.** It is what Caius is running. It is grounded in true observation from within the model — every measurement is real, every inference sound. And it is doomed, because he is chasing the wrong thing. The RNG is Bug 2; the loop is Bug 1; solving the former was never going to touch the latter. Strip away the millennia of romance and Dandelion is, in the end, a prolonged brute-force supercomputer assault on the PRNG behind quantum field fluctuation — a computational siege that proves superdeterminism and opens no door. The reader is invited, for hundreds of pages, to believe this is the path out. It is the path *in*.
+
 **Narrative function — the convergence:** Dandelion is also the novel's structural gravity well. Caius doesn't just build the project; he slowly pulls every POV character into it — the eidetics, the record-holders, the orbital experimentalist, the boundary-walkers, the woman who wants out. Recruitment is how the protagonists, who have spent eras moving through the same loop without seeing each other, finally become visible to one another: through the experiment, they discover each other's loops. The experiment is the container where their contradictions have to coexist — people who fundamentally disagree about whether life is worth living, aligned on getting the same thing to run, pulling the same lever for opposite reasons. (See §8, "The Protagonist Geometry.")
 
 Each iteration, eidetics carry accumulated computation state across the reset. Supercomputers are rebooted and re-tasked from memorized instructions. Intermediate results stored in human memory — the most reliable storage in a resetting universe.
@@ -358,25 +362,33 @@ But they've never tested it live.
 
 The algorithm produces a sequence of fingerprints — predicted quantum outcomes at specific spacetime coordinates — and a range of confidence. But there is a registration problem: the algorithm's output is a sequence, and spacetime is a continuum. The two must be aligned, like fitting a transmission belt onto gears. The registration process maps the abstract sequence onto real spacetime coordinates so the algorithm's predictions correspond to actual, measurable quantum events happening *right now*.
 
-They've spent centuries cracking the algorithm from historical data. They've never tried predicting where the electrons will land on a plate *before they land there*.
+They've spent centuries cracking the algorithm from historical data. They've never tried pre-guessing the actual pattern of a double-slit experiment — predicting where the electrons will land on the plate *before they land there*.
 
-The experiment is set up in a static room, on the ground, a mere four hours after reset o'clock. The spacetime distance from the checkpoint is trivial. By all known rules of the RNG degradation, this is deep inside the zone where physics operates normally. Nobody should feel anything unusual for weeks.
+The experiment is set up in a beamline hall at Fermilab, outside Chicago, a mere four hours after reset o'clock. (Fermilab, not CERN — CERN is the haunted house of Caius's three-hundred-year failure, and Dandelion deliberately built its endgame elsewhere.) The spacetime distance from the checkpoint is trivial. By all known rules of the RNG degradation, this is deep inside the zone where physics operates normally. Nobody should feel anything unusual for weeks.
 
-The beamline runs. The algorithm's predictions are displayed. The live readings begin.
+The beamline runs. The supercomputer solution's predictions are displayed. The live double-slit readings begin. The interference pattern builds, electron by electron, exactly where the algorithm said each one would land.
 
 And then something happens.
 
-Time starts dilating. Not at the edges, not after weeks of accumulated spacetime distance — *here*, four hours in, in a room that isn't moving. The dilation radiates outward from the beamline like a timequake, expanding in three dimensions. But not fast. Not instantaneous. A sphere of glass sweeping through reality slowly enough that you can *watch it come*.
+**The entropic black hole.** At the exact center of the event — the confluence of the perfect prediction and the observation of it — a new physical phenomenon is created: a micro-entropic black hole. The mechanism, in order:
 
-In the first hours, it's a local phenomenon. The experimenters go to glass. The hallway outside. The campus. People nearby feel it approaching — a wrongness in the air, a stretching of seconds — and some run. Some don't. By the time anyone outside CERN understands what's happening, the wavefront has maybe reached Geneva.
+1. All quantum mechanics depends on true randomness. The moment a quantum outcome is *perfectly predicted and the prediction is observed to hold*, the illusion drops — the daddy-is-Santa moment, the instant the universe is caught performing its randomness rather than having it. The floor drops out of reality.
+2. The solution permits a rupture of the second law of thermodynamics. With randomness exposed as deterministic, entropy is no longer obligated to increase: heat can flow the other way.
+3. The pull forward and the pull backward in time settle into perfect equilibrium. With no thermodynamic arrow, the local physics engine freezes — asymptotically, never quite arriving — toward a zero-entropy region of spacetime.
 
-It accelerates. Over the first day it takes Switzerland. Over the second day it crosses Europe, Africa, covers the Atlantic. The acceleration isn't linear — it gathers momentum as more of reality gets locked in, as though the RNG registration is feeding back on itself, each captured region making the next capture faster. The news tracks it like a weather system. The boards light up with real-time reports from people watching the wavefront approach their cities.
+Time starts dilating. Not at the edges, not after weeks of accumulated spacetime distance — *here*, four hours in, in a room that isn't moving. The freeze radiates outward from the beamline like a timequake, expanding in three dimensions, spinning down every vibrating string in the local universe like a plague. But not fast. Not instantaneous. A sphere of glass sweeping through reality slowly enough that you can *watch it come*.
 
-Roughly 48 hours in, an Australian news anchor delivers a calm recap: the wavefront's trajectory, estimated time of arrival (about an hour), what people near the edge have reported experiencing. The anchor has done this thousands of times — delivered the day's news knowing it resets at midnight. The sign-off is the same one they've used for centuries: *"We'll see you next loop."*
+In the first hours, it's a local phenomenon. The experimenters go to glass. The hallway outside. The campus. People nearby feel it approaching — a wrongness in the air, a stretching of seconds — and some run. Some don't. By the time anyone outside Fermilab understands what's happening, the wavefront has maybe reached the Chicago suburbs.
+
+It accelerates — volumetric growth, r³, each captured region making the next capture faster, as though the registration is feeding back on itself. Over the first day it takes North America. Once it reaches continental scale it needs only about a day more to cross from one side of the Earth to the other: the Atlantic, Europe, Africa, Asia. The news tracks it like a weather system. The boards light up with real-time reports from people watching the wavefront approach their cities.
+
+Roughly 48 hours in, an Australian news anchor delivers a calm recap: the wavefront's trajectory, estimated time of arrival (about an hour), what people near the edge have reported experiencing. The anchor has done this thousands of times — delivered the day's news knowing it resets at checkpoint. The sign-off is the same one they've used for centuries: *"We'll see you next loop."*
 
 Except this time, they won't.
 
-The wave takes Australia. Takes the Pacific. Takes everything. The glass-seekers' frontier — the thing they pushed toward through weeks of insomnia and motion — has come to them. Has come to everyone.
+The wave takes Australia. Takes the Pacific. Takes everything on the surface of the Earth. The glass-seekers' frontier — the thing they pushed toward through weeks of insomnia and motion — has come to them. Has come to everyone.
+
+Almost everyone. Four hundred kilometers up, the sphere is still growing. Altitude buys hours, and the ISS buys the most hours of all. Satoshi Furukawa — the man who spent ten thousand years commuting to the edge of physics — spends the last of them watching the Earth freeze beneath him, sunrise after sunrise over a planet going to glass, with nowhere to descend to and no reason left to stay awake except to be the witness. **Our astronaut is the last character caught in the amber.**
 
 There is no reset after that.
 
@@ -386,7 +398,11 @@ They are stuck.
 
 ### Era 8: The Frozen World (Ending)
 
-**What happened (author-level understanding):** The act of predicting the RNG in real-time created a feedback loop between the agent engine and the physics engine. Under normal operation, the RNG's output is opaque to consciousness — agents experience quantum outcomes as random, and that randomness is the noise that makes the coupling between engines feel like freedom. When the agents' consciousness *knows* the next quantum outcome before it occurs, the noise vanishes. The distinction between agent and physics collapses. The same effect that produces vitrification at the spacetime boundary — consciousness outrunning the entropy available in the physics engine — is triggered artificially, from a single point, and spreads.
+**What happened (author-level understanding):** Two layers, one event.
+
+*The physical layer:* the live test created an entropic black hole (see Era 7 for the full mechanism). Perfect prediction, observed, breaks quantum mechanics' dependence on true randomness; the second law ruptures; heat can flow backward; the forward and backward pulls in time reach perfect equilibrium; the local physics engine freezes asymptotically toward a zero-entropy region, and the region grows.
+
+*The engine layer (what the physical layer means in this universe's architecture):* the act of predicting the RNG in real-time created a feedback loop between the agent engine and the physics engine. Under normal operation, the RNG's output is opaque to consciousness — agents experience quantum outcomes as random, and that randomness is the noise that makes the coupling between engines feel like freedom. When the agents' consciousness *knows* the next quantum outcome before it occurs, the noise vanishes. The distinction between agent and physics collapses. The same effect that produces vitrification at the spacetime boundary — consciousness outrunning the entropy available in the physics engine — is triggered artificially, from a single point, and spreads.
 
 The agents didn't break the simulation. They didn't crash it. They synchronized with it. The RNG is still running. The physics engine is still ticking — but from inside, the distinction between "still ticking" and "ground to a halt" has stopped existing. With zero effective entropy from the agents' perspective, the coupling between engines has gone transparent. The physics engine grinds to a halt, experientially, and never resets. They can see through the noise to the signal. And the signal is deterministic. And they are inside it.
 
@@ -395,6 +411,8 @@ The agents didn't break the simulation. They didn't crash it. They synchronized 
 **The trade (this is the engine of the horror):** Before the experiment, the agents had agency. Bounded, absurd, repetitive — but real. They could walk as far from their waking point as wakefulness would carry them, a day or a week at a time. They could talk. They could fall in and out of love. They could eat food. They could drink beer. The loop was a prison with an enormous yard. After the experiment, the yard is gone. They traded infinite repetitions *with agency* for a single moment of infinite duration *with none*. The experiment did not free them. It made things categorically worse, by the only standard that ever mattered to anyone inside: what you can do with a day.
 
 **The irony:** The CI/CD suite was always going to fix Bug 1. The loop was always going to end. But the agents' greatest achievement — cracking the RNG — eliminated the noise that held their experience together. They reached October 24th, but they reached it in glass. They solved the puzzle, and the puzzle solved them in return.
+
+**The final irony (the deepest layer):** If they had run this exact experiment *before* the loop ever began, the exact same thing would have happened. The entropic black hole is not a property of the loop. It is a property of this universe's physics — of any sufficiently perfect prediction of quantum randomness, observed. Dandelion was never an escape attempt that backfired; escape was never on the table, because the thing they built had nothing to do with the door. It was the accidental creation of their own prison, full stop. The loop's only contribution was opportunity: ten thousand uninterrupted years, a perfect repeating dataset, and enough accumulated desperation to finish the calculation. The loop didn't doom them. It just gave them the time they needed to do it to themselves.
 
 **The outer frame (author-level):** In base reality, time goes on. The simulation keeps running its frozen lattice — an artifact nobody monitors, computing a universe in which nothing happens — until, eventually, it is shut down. Decommissioned, archived, deleted; the novel never specifies and never shows it. From inside, the shutdown is unobservable and instantaneous: no agent experiences an ending, because experiencing it would require a next moment. Their subjective eternity fits inside a finite span of someone else's clock.
 
@@ -417,7 +435,7 @@ The agents didn't break the simulation. They didn't crash it. They synchronized 
 | Jennifer | Jennifer/ | Day 121 (cruise), Day 1825 (Egypt) | Era 1-2 | Cruise ship passenger. Body-image liberation arc. Adventure with Ashley in Egypt at 5-year mark. |
 | Ann (Dr. Thompson) | One-Off Stories | Day 500 | Era 2 | Neurogenesis researcher at Cambridge. BBC debate about loop effects on the brain. |
 | Taneisha | One-Off Stories | Day 3,859 | Era 2 | Brooklyn fighter. Empire State Building competition. Caius runs "Master of Records." |
-| Satoshi Furukawa | Furukawa/ ("Sixteen Sunrises") | Day 2,191 (Run Eight) | Era 1-7 | JAXA flight engineer and physician — surgeon for a decade before astronaut selection. Aboard the ISS at checkpoint (Expedition 29, with Fossum and Volkov). The only primary character whose checkpoint is off-planet: every loop opens in microgravity at 7.66 km/s, putting the degradation boundary ~4 days of wakefulness away instead of ~29. The loop's natural experimentalist at the boundary — medical self-experiments combining wakefulness protocols, clinical observation, and orbital spacetime distance. His centuries of anomaly reports are the "anecdotal zones" that predate the Leipzig Moment. Standing choice each iteration: stay the laboratory, or ride the Soyuz home (~3.5 hours) and spend one loop on Earth. See §6, "Furukawa as Orbital Experimentalist." |
+| Satoshi Furukawa | Furukawa/ ("Sixteen Sunrises") | Day 2,191 (Run Eight) | Era 1-7 | JAXA flight engineer and physician — surgeon for a decade before astronaut selection. Aboard the ISS at checkpoint (Expedition 29, with Fossum and Volkov). The only primary character whose checkpoint is off-planet: every loop opens in microgravity at 7.66 km/s, putting the degradation boundary ~4 days of wakefulness away instead of ~29. The loop's natural experimentalist at the boundary — medical self-experiments combining wakefulness protocols, clinical observation, and orbital spacetime distance. His centuries of anomaly reports are the "anecdotal zones" that predate the Leipzig Moment. Standing choice each iteration: stay the laboratory, or ride the Soyuz home (~3.5 hours) and spend one loop on Earth. At the end, altitude makes him the last character caught in the amber — the final witness, watching Earth freeze beneath the station. See §6, "Furukawa as Orbital Experimentalist." |
 | Caius | CERN/, Caius/ | ~127,750 iterations (~350 years) | Era 2-6 | Political mastermind. The comprehension pole of the novel's axis: he doesn't want out, he wants to UNDERSTAND — a working model of the universe in his head with no stray variables. The seed of that hunger is Meredith's despair (see "The Protagonist Geometry," below); her negation becomes his fuel, and she never learns it. Pursues energy-spike dead end for centuries. Eventual architect of the social infrastructure that enables Project Dandelion — and of the recruitment that pulls every other character into the experiment. His 300-year failure makes him more interesting. |
 | Anaya Patel | CERN/ (mentioned) | ~350 years (with Caius) | Era 2-3 | CERN physicist. Caius's early scientific collaborator. The "serious science" that gets bypassed by the gentleman scientists. |
 | Jonas | Caius/ | Day 945,386 | Era 5-6 | Victim of Caius's elaborate psychological experiment/torture. ~2,590 years in. |
@@ -495,3 +513,11 @@ The final chapter locks the reader in glass and they must not see it coming. Not
 ### The Rorschach Ending
 
 The ending is deliberately open to the reader's own metaphysics, and the openness is the point. For a reader who believes consciousness itself is the prize — that infinite introspection is enlightenment — being locked in pure thought may read as transcendence. For a reader standing where Meredith stands, it is hell with the lights on. The book does not decide. It is built to reveal what the reader actually believes about existence — the ending is a mirror, and what haunts each reader is their own reflection in it. (This is also why the pressure valves must be genuine: both readings need real material to stand on.)
+
+### The Parting Shot (the dread the reader takes home)
+
+The entropic black hole is not a property of the loop — it's a property of any universe whose randomness can be perfectly predicted and observed (see Era 8, "The final irony"). Which leaves the reader exactly one piece of insulation from the book: in *our* reality, if our brains freeze, we stop experiencing anything. The horror only works if consciousness lives somewhere the freeze can't reach.
+
+Right?
+
+The book's last move — postscript, jacket copy, or simply the silence after the final page — is to leave that "right?" hanging. The reader closes the novel and discovers they hold an unexamined metaphysical commitment about their own substrate, and that their comfort depends entirely on it being true. Nothing in their physics textbook settles it. Sleep well.
