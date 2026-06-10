@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "Rewrote the wiki articles onto the bible's actual reset rules — turns out they were all built on an outdated model of how the loop works",
-    "direction": "Three loop-mechanics questions queued for Will to confirm, then PR #2 should be merge-ready",
-    "last_update": "2026-06-10T07:27:45Z"
+    "status": "Brought the wiki planning doc in line with the bible's loop rules, and wrote Furukawa in as the new astronaut character — a doctor running experiments from orbit",
+    "direction": "His chapters and wiki article are next once Will confirms the open loop-mechanics questions",
+    "last_update": "2026-06-10T07:46:05Z"
   }
 }

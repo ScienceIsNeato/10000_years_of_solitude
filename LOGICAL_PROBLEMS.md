@@ -91,6 +91,7 @@
 ### 15. The Checkpoint Sleepers
 **Status**: ❓ OPEN — provisional canon written into the Sleep wiki article
 **Problem**: The checkpoint moment fell during local night for a large fraction of humanity, so billions of checkpoint bodies are asleep at C+0. THE_BIBLE.md does not say how their loops begin. Working model in the Sleep article: their consciousness resumes when the checkpoint body wakes naturally (or is woken); they never experience the checkpoint moment itself. THE_WIKI.md's "sleep window" note suggests this was the intent — confirm.
+**Furukawa corollary**: whether the ISS crew (Fossum, Volkov, Furukawa) are checkpoint sleepers depends on the unspecified checkpoint time against the station's UTC-based crew schedule. Deliberately unpinned in THE_BIBLE.md §6 — decide when the checkpoint time is pinned, or keep it ambiguous on purpose.
 
 ### 14. Era 5 Dates vs. Jeff/Jonas Registry Dates
 **Status**: ⚠️ AWARE

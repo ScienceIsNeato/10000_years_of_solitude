@@ -273,6 +273,20 @@ The irony: the character who begins the novel in the most physically confined lo
 
 Jeff is not a philosopher. He's not a scientist. He's a guy who found out that if you drive long enough, the universe stops, and stopping universes don't drop trees on you.
 
+### Furukawa as Orbital Experimentalist (The Physician in the Sky)
+
+Satoshi Furukawa — JAXA flight engineer, surgeon at the University of Tokyo for a decade before astronaut selection — is aboard the ISS at the checkpoint moment, with Mike Fossum and Sergey Volkov (Expedition 29, the station's real crew on October 23, 2011). Every loop opens the same way: microgravity, the same panel readouts, a sunrise every 92 minutes, the planet turning underneath.
+
+Three things make him structurally unique:
+
+- **Proximity to the boundary.** His checkpoint velocity is 7.66 km/s. The degradation threshold that costs a stationary agent ~29 days of wakefulness and Jeff ~15–20 sits roughly four days away. He is the only primary character who can commute to the edge of physics and return for the next checkpoint.
+- **The training.** A physician with surgical discipline running n=1 experiments on the only body in his reach that resets clean every iteration, in the only laboratory that moves at orbital speed. Wakefulness protocols, clinical self-observation, instrument logs memorized for radio relay to ground eidetics. The interface experiments (see Neuroscience, above) acquire an orbital branch because of him — and his medical training means the orbital branch has *clinical* rigor the ground experiments initially lack: he can run his own bloodwork, chart his own neurology, and narrate his own dilation onset with diagnostic precision.
+- **The reports.** His anomaly logs circulate on the boards for centuries as "anomalous zone" anecdotes before the Leipzig Moment provides a framework. Like the gentleman scientists, he is dismissed by the serious institutions for most of an era. Unlike them, he cannot attend the conferences.
+
+The standing choice gives him his arc: each iteration he can stay the laboratory, or undock the Soyuz and be on Earth in under four hours — one loop as a person instead of an instrument. What he chooses, and when that changes, is character.
+
+(Whether the ISS crew are checkpoint sleepers depends on the unspecified checkpoint time and the station's UTC-based crew schedule — deliberately unpinned; see LOGICAL_PROBLEMS.md #15.)
+
 ---
 
 ## 7. THE DISCOVERY ARC
@@ -314,7 +328,7 @@ The spacetime boundary where physics grinds to a halt is discovered independentl
 
 1. **Jeff (the searcher):** Driven by terror of the death loop, stays awake and drives for weeks. Discovers dilation and going to glass by accident, at ground-vehicle speeds. Approximate threshold: day 15-20.
 
-2. **Orbital crews:** After centuries of developing the social infrastructure to launch and maintain orbital missions (retraining crews each iteration, eidetics carrying procedures), astronauts notice effects at day 4. Experiments repeat. Clocks drift. Stars freeze. By day 7, conscious minds in barely-moving bodies.
+2. **The orbital crew:** Mike Fossum, Sergey Volkov, and Satoshi Furukawa — the three humans aboard the ISS at the checkpoint moment, the station's real crew on October 23, 2011 — are the only agents whose checkpoint is off-planet, moving at 7.66 km/s. For them the boundary sits roughly four days of wakefulness away instead of a month. Furukawa, a surgeon-researcher (see §6 and §8), documents the effects in systematic self-experiments: clocks drift, stars freeze, by day 7 a conscious mind in a barely-moving body. His reports circulate on the boards for centuries as "anomalous zone" anecdotes — dismissed, like the gentleman scientists' data, by the serious institutions, until the Leipzig framework makes them legible as the earliest systematic measurements of the degradation. Later eras add launched crews (retrained each iteration, eidetics carrying procedures) to replicate and extend the orbital data.
 
 3. **Organized research teams:** Once the discrepancy between Jeff's timeline (~day 18) and the astronauts' (~day 4) is recognized, someone does the math. It's not days awake — it's spacetime distance. The astronaut at 7.66 km/s and the driver at 100 km/h hit the same boundary, measured along different worldlines.
 
@@ -389,6 +403,7 @@ The agents didn't break the simulation. They didn't crash it. They synchronized 
 | Jennifer | Jennifer/ | Day 121 (cruise), Day 1825 (Egypt) | Era 1-2 | Cruise ship passenger. Body-image liberation arc. Adventure with Ashley in Egypt at 5-year mark. |
 | Ann (Dr. Thompson) | One-Off Stories | Day 500 | Era 2 | Neurogenesis researcher at Cambridge. BBC debate about loop effects on the brain. |
 | Taneisha | One-Off Stories | Day 3,859 | Era 2 | Brooklyn fighter. Empire State Building competition. Caius runs "Master of Records." |
+| Satoshi Furukawa | (not yet written) | Era 1 onward | Era 1-7 | JAXA flight engineer and physician — surgeon for a decade before astronaut selection. Aboard the ISS at checkpoint (Expedition 29, with Fossum and Volkov). The only primary character whose checkpoint is off-planet: every loop opens in microgravity at 7.66 km/s, putting the degradation boundary ~4 days of wakefulness away instead of ~29. The loop's natural experimentalist at the boundary — medical self-experiments combining wakefulness protocols, clinical observation, and orbital spacetime distance. His centuries of anomaly reports are the "anecdotal zones" that predate the Leipzig Moment. Standing choice each iteration: stay the laboratory, or ride the Soyuz home (~3.5 hours) and spend one loop on Earth. See §6, "Furukawa as Orbital Experimentalist." |
 | Caius | CERN/, Caius/ | ~127,750 iterations (~350 years) | Era 2-6 | Political mastermind. Pursues energy-spike dead end for centuries. Eventual architect of the social infrastructure that enables Project Dandelion. His 300-year failure makes him more interesting. |
 | Anaya Patel | CERN/ (mentioned) | ~350 years (with Caius) | Era 2-3 | CERN physicist. Caius's early scientific collaborator. The "serious science" that gets bypassed by the gentleman scientists. |
 | Jonas | Caius/ | Day 945,386 | Era 5-6 | Victim of Caius's elaborate psychological experiment/torture. ~2,590 years in. |

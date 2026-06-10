@@ -1,5 +1,11 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Manuscript Task: THE_WIKI.md Alignment + Furukawa Added as Primary Character (2026-06-10)
+
+- Aligned THE_WIKI.md with THE_BIBLE.md's reset model everywhere: the mechanism section now states the no-shared-clock/per-agent rules explicitly, The Reset article description covers the consciousness-loss trigger and checkpoint sleepers, WTFreality's side market is checkpoint-offset based, The Boards description gets Reddit primacy per bible §6, and the remaining morning/daily/UTC phrasing was converted. The WTFreality post-timequake irony is now explicitly flagged as author-level only (the standing article must predate the timequake to exist).
+- Added Satoshi Furukawa (real JAXA astronaut/surgeon, verified aboard the ISS on October 23, 2011 with Fossum and Volkov, Expedition 29) as a primary character: bible §8 registry row, a dedicated §6 subsection ("Furukawa as Orbital Experimentalist") parallel to Jeff's, Era 5's orbital-discovery item rewritten around the checkpoint crew, and a planned wiki article entry (#18) in THE_WIKI.md. His checkpoint is off-planet at 7.66 km/s — the degradation boundary sits ~4 days of wakefulness away — and his medical training makes him the clinical experimentalist of the boundary; his centuries of dismissed anomaly reports are the pre-Leipzig "anecdotal zones."
+- LOGICAL_PROBLEMS #15 gained the Furukawa corollary: whether the ISS crew are checkpoint sleepers depends on the unpinned checkpoint time.
+
 ## Ad-hoc Manuscript Task: Wiki Articles Aligned to Bible Reset Model (2026-06-10)
 
 - Discovered the wiki articles (plus THE_WIKI.md and LOGICAL_PROBLEMS #1) were written against a stale loop model: a global synchronized reset at midnight UTC on a fixed 24-hour cycle. THE_BIBLE.md §3 (ground truth) says the opposite: the checkpoint is an arbitrary, non-midnight UTC instant; the reset is per-agent, triggered by loss of consciousness; loop duration is personal with no shared clock.
