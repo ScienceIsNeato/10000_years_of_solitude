@@ -177,6 +177,8 @@ When an agent reaches the glass threshold — where the physics engine is runnin
 
 **What matters is not the imagery but the conviction.** Every agent who goes to glass comes back knowing the same thing: the noise was all that made them feel free, and the noise is not real.
 
+**The physical truth under the imagery:** the stasis is total. The body is a physics-engine object and the physics has stopped — the agent cannot speak, cannot move, cannot interact with reality, cannot so much as shift their gaze. Whatever they were looking at when the glass took them is what they are looking at. All the gliding, swimming, flying — the otter, the bird, the light — happens in a mind locked behind unmoving eyes. The freedom of going to glass is entirely interior. All they can do is think about whatever they are staring at, for what feels like eternity. This matters most at the ending (see Era 8): the timequake doesn't carry anyone anywhere. It pins them.
+
 ### Reactions
 
 The experience ends when the loop resets. The agent wakes in their checkpoint body. The otter recedes. The noise returns.
@@ -340,6 +342,8 @@ The great reverse-engineering effort. The agents possess something no non-loopin
 
 The project organizes every available computational resource into a single distributed effort: reverse-engineer the RNG algorithm from its output.
 
+**Narrative function — the convergence:** Dandelion is also the novel's structural gravity well. Caius doesn't just build the project; he slowly pulls every POV character into it — the eidetics, the record-holders, the orbital experimentalist, the boundary-walkers, the woman who wants out. Recruitment is how the protagonists, who have spent eras moving through the same loop without seeing each other, finally become visible to one another: through the experiment, they discover each other's loops. The experiment is the container where their contradictions have to coexist — people who fundamentally disagree about whether life is worth living, aligned on getting the same thing to run, pulling the same lever for opposite reasons. (See §8, "The Protagonist Geometry.")
+
 Each iteration, eidetics carry accumulated computation state across the reset. Supercomputers are rebooted and re-tasked from memorized instructions. Intermediate results stored in human memory — the most reliable storage in a resetting universe.
 
 The search is organized around candidate RNG families: linear congruential generators, Mersenne Twisters, xorshift variants, and structures the agents invent specifically for this purpose.
@@ -380,15 +384,21 @@ They are stuck.
 
 **What happened (author-level understanding):** The act of predicting the RNG in real-time created a feedback loop between the agent engine and the physics engine. Under normal operation, the RNG's output is opaque to consciousness — agents experience quantum outcomes as random, and that randomness is the noise that makes the coupling between engines feel like freedom. When the agents' consciousness *knows* the next quantum outcome before it occurs, the noise vanishes. The distinction between agent and physics collapses. The same effect that produces vitrification at the spacetime boundary — consciousness outrunning the entropy available in the physics engine — is triggered artificially, from a single point, and spreads.
 
-The agents didn't break the simulation. They didn't crash it. They synchronized with it. The RNG is still running. The physics engine is still ticking. But with zero effective entropy from the agents' perspective, the coupling between engines has gone transparent. They can see through the noise to the signal. And the signal is deterministic. And they are inside it.
+The agents didn't break the simulation. They didn't crash it. They synchronized with it. The RNG is still running. The physics engine is still ticking — but from inside, the distinction between "still ticking" and "ground to a halt" has stopped existing. With zero effective entropy from the agents' perspective, the coupling between engines has gone transparent. The physics engine grinds to a halt, experientially, and never resets. They can see through the noise to the signal. And the signal is deterministic. And they are inside it.
 
-**The irony:** The CI/CD suite was always going to fix Bug 1. The loop was always going to end. But the agents' greatest achievement — cracking the RNG — eliminated the noise that held their experience together. They reached October 24th, but they reached it in glass.
+**What the agents experience:** Total stasis (see §5, "The physical truth under the imagery"). Every agent in the universe is locked at whatever exact moment the wavefront caught them — mid-gesture, mid-sentence, mid-glance. They cannot talk. They cannot interact with reality. They cannot even shift their gaze. All they can do is think about whatever they are staring at, for what feels like eternity. Permanent dissolution. The conviction without end. Whether this is transcendence or annihilation depends on who you ask, and there's nobody left to ask who isn't in it.
 
-**What the agents experience:** Permanent dissolution. The conviction without end. Whether this is transcendence or annihilation depends on who you ask, and there's nobody left to ask who isn't in it.
+**The trade (this is the engine of the horror):** Before the experiment, the agents had agency. Bounded, absurd, repetitive — but real. They could walk as far from their waking point as wakefulness would carry them, a day or a week at a time. They could talk. They could fall in and out of love. They could eat food. They could drink beer. The loop was a prison with an enormous yard. After the experiment, the yard is gone. They traded infinite repetitions *with agency* for a single moment of infinite duration *with none*. The experiment did not free them. It made things categorically worse, by the only standard that ever mattered to anyone inside: what you can do with a day.
 
-**Open questions (deliberately unresolved):**
-- Does the CI/CD fix for Bug 1 *also* restore the RNG's entropy source? If so, the glass eventually thaws. October 24th arrives for real, and the agents come back carrying the memory of total transparency. What do they do with that?
-- Or does the entropy source remain disrupted, and the glass is permanent? In which case the agents have achieved the ultimate going-to-glass: an eternity of subjective experience in a frozen universe, fully aware of the substrate, fully unable to act on it.
+**The irony:** The CI/CD suite was always going to fix Bug 1. The loop was always going to end. But the agents' greatest achievement — cracking the RNG — eliminated the noise that held their experience together. They reached October 24th, but they reached it in glass. They solved the puzzle, and the puzzle solved them in return.
+
+**The outer frame (author-level):** In base reality, time goes on. The simulation keeps running its frozen lattice — an artifact nobody monitors, computing a universe in which nothing happens — until, eventually, it is shut down. Decommissioned, archived, deleted; the novel never specifies and never shows it. From inside, the shutdown is unobservable and instantaneous: no agent experiences an ending, because experiencing it would require a next moment. Their subjective eternity fits inside a finite span of someone else's clock.
+
+**Did the experiment work? (deliberately unresolved — the reader's question, not the novel's):** If they had never run the live test, the same outer ending was coming anyway — the fix, the shutdown, the lights going out on schedule. They just would have had more time as agents inside the world: more loops, more walks, more beer, more love. By that accounting the experiment was a catastrophe. But it is also the only thing they ever did that *touched the substrate* — the only act in ten thousand years that mattered at the level where the universe actually runs. Technically, the experiment was an accomplishment. The reader has to decide what the word "work" means, and the book will not help them.
+
+**Sub-questions the novel leaves open:**
+- Does the CI/CD fix for Bug 1 *also* restore the RNG's entropy source? If so, the glass might eventually thaw — October 24th arriving for real, the agents returning with the memory of total transparency. The shutdown frame bounds even this: a thaw is only possible if the shutdown doesn't come first, and nobody inside can ever know which is true.
+- Or does the entropy source remain disrupted, and the glass is permanent — the ultimate going-to-glass, an eternity of subjective experience in a frozen universe, fully aware of the substrate, fully unable to act on it.
 - The novel does not need to resolve this. Both endings are true depending on which question you think the book is asking.
 
 ---
@@ -397,20 +407,33 @@ The agents didn't break the simulation. They didn't crash it. They synchronized 
 
 | Character | First Appears | Iteration Count | Era | Role |
 |---|---|---|---|---|
-| Meredith | One-Off Stories | Day 1 | Era 1 | Therapist's patient. Suicidal. Connected to Caius. Later: half of the Roanoke thematic anchor scene with Syrah. |
+| Meredith | One-Off Stories | Day 1 | Era 1 | Therapist's patient. On October 22nd — the day before the last day — she told her therapist she would kill herself that night unless she could be talked out of it. The loop catches her the next morning: she is trapped, forever, in the day after the night she meant to die. The protagonist who wants OUT — the escape pole of the novel's axis (see "The Protagonist Geometry," below). Her nihilism is, unknown to her, the seed of Caius's entire quest. She never finds out. Later: half of the Roanoke thematic anchor scene with Syrah. |
 | Sydney | One-Off Stories | Day 5 | Era 1 | Airline passenger. Very new. Resolves to learn to fly the plane. |
 | Bura Samay (The Baby) | One-Off Stories | Day 93 | Era 1 | Newborn in Mumbai. Agent engine develops; body stays infant forever. An ultra-Helen Keller situation: consciousness growing in a body with severely limited sensory input (blurred vision, fragmented sound, no mobility, no language capacity) plus an additional underdeveloped internal sense. The mind that emerges from 93+ iterations of newborn-grade sensory data may not resemble adult human consciousness at all — it may be something genuinely alien, building cognitive structures from a sensory vocabulary no other human shares. The moment of self-naming is real, but the journey there should be *strange*, not just "baby eventually thinks like an adult." |
 | Jennifer | Jennifer/ | Day 121 (cruise), Day 1825 (Egypt) | Era 1-2 | Cruise ship passenger. Body-image liberation arc. Adventure with Ashley in Egypt at 5-year mark. |
 | Ann (Dr. Thompson) | One-Off Stories | Day 500 | Era 2 | Neurogenesis researcher at Cambridge. BBC debate about loop effects on the brain. |
 | Taneisha | One-Off Stories | Day 3,859 | Era 2 | Brooklyn fighter. Empire State Building competition. Caius runs "Master of Records." |
 | Satoshi Furukawa | Furukawa/ ("Sixteen Sunrises") | Day 2,191 (Run Eight) | Era 1-7 | JAXA flight engineer and physician — surgeon for a decade before astronaut selection. Aboard the ISS at checkpoint (Expedition 29, with Fossum and Volkov). The only primary character whose checkpoint is off-planet: every loop opens in microgravity at 7.66 km/s, putting the degradation boundary ~4 days of wakefulness away instead of ~29. The loop's natural experimentalist at the boundary — medical self-experiments combining wakefulness protocols, clinical observation, and orbital spacetime distance. His centuries of anomaly reports are the "anecdotal zones" that predate the Leipzig Moment. Standing choice each iteration: stay the laboratory, or ride the Soyuz home (~3.5 hours) and spend one loop on Earth. See §6, "Furukawa as Orbital Experimentalist." |
-| Caius | CERN/, Caius/ | ~127,750 iterations (~350 years) | Era 2-6 | Political mastermind. Pursues energy-spike dead end for centuries. Eventual architect of the social infrastructure that enables Project Dandelion. His 300-year failure makes him more interesting. |
+| Caius | CERN/, Caius/ | ~127,750 iterations (~350 years) | Era 2-6 | Political mastermind. The comprehension pole of the novel's axis: he doesn't want out, he wants to UNDERSTAND — a working model of the universe in his head with no stray variables. The seed of that hunger is Meredith's despair (see "The Protagonist Geometry," below); her negation becomes his fuel, and she never learns it. Pursues energy-spike dead end for centuries. Eventual architect of the social infrastructure that enables Project Dandelion — and of the recruitment that pulls every other character into the experiment. His 300-year failure makes him more interesting. |
 | Anaya Patel | CERN/ (mentioned) | ~350 years (with Caius) | Era 2-3 | CERN physicist. Caius's early scientific collaborator. The "serious science" that gets bypassed by the gentleman scientists. |
 | Jonas | Caius/ | Day 945,386 | Era 5-6 | Victim of Caius's elaborate psychological experiment/torture. ~2,590 years in. |
 | Jeff/Thud | Thud/ | Day 945,366 | Era 5-6 | Infinite death loop. Tree through skull every iteration. Motivation: never sleep again. Becomes the searcher who discovers going to glass by accident. |
 | Elke | (not yet written) | ~Year 400+ | Era 4 | Retired chemistry teacher, Leipzig. 146,000 beam splitter measurements. Catalyst of the Leipzig moment. |
 | Syrah | (mentioned in refactor) | Era 7 | Era 7 | Technician/builder. Proposed the leading theory for Bug 1 (Voyager/region-boundary sync error — plausible, never confirmed). Partner to Meredith in the Roanoke star scene. Wants to push further. |
 | Meredith (late) | (mentioned in refactor) | Day 3,650,753 | Era 7 | Same Meredith from Day 1 story, now thousands of years later. Knows everything. Doesn't care — not because she doesn't understand, but because understanding doesn't change the experience. |
+
+### The Protagonist Geometry (Escape vs. Comprehension)
+
+The novel has multiple protagonists going at the loop from fundamentally different directions, and the two poles of the axis are Meredith and Caius:
+
+- **Meredith is running toward the exit.** She wanted out before the loop existed — she announced her suicide to her therapist the night before the checkpoint — and the loop's first cruelty is that it traps her in the morning after. She is the human who is stuck and wants OUT.
+- **Caius is running toward comprehension.** He wants a working model of the universe in his head with no stray variables. That's it. Not escape — understanding. Escape and comprehension are fundamentally different stories, and the novel runs both through the same loop, pulling in opposite directions.
+
+**The hidden catalyst (load-bearing, never stated on the page):** Meredith's nihilism is the thing that plants the seed in Caius's mind. Her "none of this matters, let me out" is what makes him ask "but what *is* this — what would it take to account for every variable?" Her negation becomes his fuel. On the page, the reader just sees two people moving through the loop with different energies; only by the end should they be able to reconstruct that her darkness literally created his drive to comprehend. **Meredith never finds out.** Not at the Roanoke scene, not ever. Her suicidality kicked off the entire metaphysical chain that ends in the timequake, and she dies — freezes — never knowing she was the first domino.
+
+**The convergence:** Caius's experiment is the container where the contradictions coexist. Through his slow recruitment of every character into Dandelion (see §7, Era 6), the protagonists discover each other's loops. Meredith — fundamentally anti-existence — ends up working shoulder-to-shoulder with the man building a model of why existence is accountable. They never agree on the why. They pull the same lever.
+
+**The payoffs (Era 8):** Meredith gets exactly what she wanted — escape — in the worst form the universe has on offer: locked in whatever her last thought was, forever. Caius gets his answer about the universe and is trapped staring at it, unable to move, unable to iterate, unable to ever learn anything again. Both of them were right about what they wanted. Pursuing it together is what produced the outcome neither could survive wanting.
 
 ---
 
@@ -427,7 +450,7 @@ The novel is NOT obligated to reveal the full truth. The reader pieces it togeth
 - Tier 3: Mostly right (Syrah's WoW theory for Bug 1, plausible but unconfirmed; gentleman-scientist RNG discovery for Bug 2)
 - Tier 4: The full synthesis — never assembled by any single character, and complicated by the fact that the live test's consequences were not predicted by any theory
 
-The reader who is paying attention can assemble most of Tier 4 before the postscript. But the timequake — the live test triggering permanent vitrification — adds a wrinkle nobody anticipated. Understanding the RNG didn't just fail to free them. It ended the world as they knew it. The reader has to sit with that.
+The reader who is paying attention can assemble most of Tier 4 before the postscript. But the timequake — the live test triggering permanent vitrification — adds a wrinkle nobody anticipated. Understanding the RNG didn't just fail to free them. It ended the world as they knew it. The reader has to sit with that — and with the accounting that follows: the outer ending was coming regardless; all the experiment changed was how many days of agency they got first. Whether that means the experiment worked is the reader's problem (see Era 8, "Did the experiment work?").
 
 ---
 
@@ -444,3 +467,27 @@ The agents succeed at understanding. They succeed at connecting. And then unders
 **From the inside, it was everything.**
 
 **That's the book.**
+
+**Epigraph / alternate-title candidate:** *Curiosity killed the cat — or kept it alive forever.*
+
+### Tone and Genre: A Horror Novel That Doesn't Read Like One
+
+This is a horror novel — King-grade, shudder-through-the-bones horror — but the horror is structural, not decorative. No monsters, no gore, no jump scares. The dread comes from the inside out: the characters understand what is happening to them, and understanding doesn't help. It makes it worse. That is the Kingian move — the slow realization that you'd already lost before you knew you were playing.
+
+But the book must not *read* as horror for most of its length. It reads like life. The register to aim for is not relentless bleakness — it's the texture of real catastrophe arriving the way real catastrophe actually arrives: like discovering you have a desperate heroin habit, like discovering you are desperately in love with a married person. The slow, crushing vise that you have no idea is turning and cranking on you until it's too late and there is no escape. The reader should enjoy this book — genuinely, unguardedly — right up until the last chapter.
+
+**Touchstone:** *A Short Stay in Hell* (Steven L. Peck) for the no-exit, logic-you-can't-escape energy — a book that is aggressive toward its reader and doesn't let them off the hook. But this novel is NOT Peck's relentless suffocation; it withholds the suffocation until the end. Closer to: life, then the reveal that life was the horror all along.
+
+### The Pressure Valves (and What They're Really For)
+
+Moments of hope, connection, love, breakthrough, dark humor — laced throughout the book as breadcrumbs, exactly the way you get them in real life. These must be GENUINE. Real tenderness, real victories, real beauty — not foreshadowed fakes, not ironic setups. The reader gets to feel what it's like to hope.
+
+Then the ending locks every one of them in glass anyway, and the moments retroactively become prisons — each remembered kindness now something someone is staring at forever. The trick is not that the book lies to the reader. It's that life does. There is no magic; the reprieve may simply never come. The reader lives through false salvation so that they understand, in their body, what it feels like when the door shuts.
+
+### The Last Chapter (Design Contract)
+
+The final chapter locks the reader in glass and they must not see it coming. Not a twist — a reckoning. By the time it arrives, the reader has been lulled into rooting for these people like it might actually work out; they have forgotten they are in a loop, the way the characters sometimes do. The last chapter takes the book's whole accumulated warmth and pins it, mid-gesture, forever. They solved the puzzle and the puzzle solved them in return.
+
+### The Rorschach Ending
+
+The ending is deliberately open to the reader's own metaphysics, and the openness is the point. For a reader who believes consciousness itself is the prize — that infinite introspection is enlightenment — being locked in pure thought may read as transcendence. For a reader standing where Meredith stands, it is hell with the lights on. The book does not decide. It is built to reveal what the reader actually believes about existence — the ending is a mirror, and what haunts each reader is their own reflection in it. (This is also why the pressure valves must be genuine: both readings need real material to stand on.)

@@ -1,5 +1,13 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Manuscript Task: Canonized the Story Conversation (2026-06-10)
+
+- Incorporated the author's voice-conversation about protagonists, the ending, and tone into the canon docs.
+- THE_BIBLE.md: new §8 subsection "The Protagonist Geometry" (Meredith = escape, Caius = comprehension; her nihilism secretly seeds his quest and she never finds out; the experiment as the container where their contradictions coexist; the payoffs — she gets escape in the worst form, he gets his answer and can't iterate). Era 6 gained the convergence note (Dandelion recruitment is how the POV characters discover each other's loops). Era 8 substantially expanded: total stasis phenomenology (locked mid-gaze, thinking about whatever they're staring at forever), "the trade" (infinite loops with agency exchanged for one frozen moment without it — the experiment made things categorically worse), the outer frame (base-reality time continues; the simulation is eventually shut down, unobservably from inside), and the "did the experiment work?" reader question. §5 gained the physical-stasis clarification (the otter/gliding is interior-only; even gaze is locked). §10 gained the tone contract: a horror novel that reads like life until the last chapter, genuine pressure valves that the ending retroactively converts to prisons, the A Short Stay in Hell touchstone, the last-chapter design contract, the Rorschach ending, and the epigraph candidate ("Curiosity killed the cat — or kept it alive forever").
+- Registry rows updated for Meredith (the October 22nd therapist declaration; trapped in the day after the night she meant to die) and Caius (comprehension pole; the Meredith seed).
+- PROJECT_OVERVIEW.md: narrative structure, key characters, and themes updated to match.
+- LOGICAL_PROBLEMS #13: logged author evidence from the conversation supporting individual wakefulness-bounded loop durations ("however long they could stay awake").
+
 ## Ad-hoc Manuscript Task: Furukawa Chapter First Draft (2026-06-10)
 
 - Wrote "Sixteen Sunrises" (Manuscript/Furukawa/Furukawa.md, ~2,400 words, status: draft) — Satoshi's POV chapter at Day 2,191 (Era 1, year six): his eighth extended-wakefulness run, the crew's quiet domesticity, listening to humanity go to sleep from orbit over the ham bands, the dosimeter rhythm, and the first stretched sunrise — the earliest human contact with the dilation zone, by millennia. Ends with the run closed, the data memorized, and the Soyuz choice seeded.
