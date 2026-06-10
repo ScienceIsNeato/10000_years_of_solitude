@@ -1,6 +1,13 @@
+---
+title: Sleep
+type: wiki
+status: draft
+era: "6"
+---
+
 # Sleep
 
-**Sleep** is an involuntary state of unconsciousness that occurred naturally in all pre-loop humans as part of the circadian cycle. Since the onset of the loop, sleep has been functionally eliminated from human experience — any loss of consciousness, however brief, triggers an immediate reset to the checkpoint state. No human being has slept in approximately 10,000 years.
+**Sleep** is an involuntary state of unconsciousness that occurred naturally in all pre-loop humans as part of the circadian cycle. Since the onset of the loop, sleep has been functionally eliminated from human experience — any loss of consciousness, however brief, ends the agent's iteration. The reset itself is scheduled, not triggered: it arrives for everyone at 00:00:00 UTC regardless of who is awake. But consciousness, once lost, does not return until checkpoint. No nap has ever been woken from. Subjectively, the experience is instantaneous — eyes close at three in the afternoon and open at checkpoint. No human being has slept in approximately 10,000 years.
 
 The word "sleep" remains in common usage but has undergone significant semantic drift. In contemporary loop parlance, "going to sleep" is a euphemism for voluntarily ending one's loop — lying down, closing one's eyes, and allowing consciousness to lapse. The phrase carries connotations ranging from resignation to peace, depending on context. "Put to sleep" retains its pre-loop veterinary meaning and has acquired darker overtones (see: [[Crime and Justice in the Loop]]).
 

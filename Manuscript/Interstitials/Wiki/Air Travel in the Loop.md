@@ -1,3 +1,10 @@
+---
+title: Air Travel in the Loop
+type: wiki
+status: draft
+era: "6"
+---
+
 # Air Travel in the Loop
 
 **Air travel** remains the primary means of long-distance transportation in the loop, though its function, culture, and operational logistics have changed fundamentally from pre-loop aviation. The global fleet resets to its October 23, 2011 state each iteration — fueled, maintained, and positioned exactly as it was at the checkpoint moment. Airports reset. Runways reset. Air traffic control systems reset. The planes are always ready. The question is whether anyone can fly them.
@@ -16,7 +23,9 @@ The concept of **loop range** — the maximum distance an agent can travel withi
 
 A typical commercial flight covers 800–1,200 km per hour. An agent who can maintain consciousness for 20 hours has a theoretical loop range of approximately 16,000–24,000 km from their checkpoint — enough to reach nearly any point on Earth. In practice, the range is shorter: boarding takes time, connections require layovers, and wakefulness degrades in the pressurized cabin environment.
 
-The practical consequence: single-hop transcontinental and transoceanic flights are routine. Multi-day itineraries are impossible. No agent can fly from New York to Sydney with a connection in Los Angeles, Tokyo, and a twelve-hour layover — the twelve-hour layover alone doesn't reset you, but if you doze off in the terminal, you're back at checkpoint.
+The practical consequence: single-hop transcontinental and transoceanic flights are routine. Multi-day itineraries belong to a different discipline entirely — sustained-wakefulness travel, the province of geodesic specialists who chain flights across sequential iterations (see: [[Selected Loop Records]], §Geodesic Loop Range). For everyone else, the day's range is the range. No casual traveler flies from New York to Sydney with connections in Los Angeles and Tokyo and a twelve-hour layover — the layover alone doesn't reset you, but if you doze off in the terminal, you're back at checkpoint.
+
+For the specialists, the reset transition is the route designer's hardest constraint. At 00:00:00 UTC the aircraft reverts to its checkpoint state and position; its conscious passengers do not revert with it. The early geodesic pioneers established this at a cost that the record ledger declines to itemize, and the lesson has been the first rule of multi-iteration route design ever since: *be on the ground at midnight.*
 
 Red-eye flights — a term that has aged poorly — are avoided by all but the most disciplined travelers. The combination of pressurized air, white noise, dim lighting, and physical inactivity makes aircraft cabins among the most dangerous environments for involuntary consciousness loss outside of medical facilities.
 

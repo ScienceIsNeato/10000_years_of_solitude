@@ -1,3 +1,10 @@
+---
+title: Neuroscience in the Loop
+type: wiki
+status: draft
+era: "6"
+---
+
 # Neuroscience in the Loop
 
 **Neuroscience** underwent a transformation in the loop era unmatched by any other scientific discipline. The combination of zero lasting physical consequences, a population willing to undergo invasive procedures, and the daily reset of all bodily harm created conditions for experimental rigor that pre-loop medical ethics would never have permitted. Within 500 years, the loop's neuroscientists had mapped the human brain at a resolution that pre-loop science had estimated would take centuries of incremental progress. Within 1,000 years, they had run into the wall.
@@ -29,7 +36,7 @@ This is the wall. Neuroscience can map everything the brain does. It cannot find
 
 Unable to locate cross-iteration memories in the physical brain, researchers turned to studying the *interface* — the boundary where agent-engine memory meets physics-engine neural architecture. The question shifted from "where are the memories?" to "how does the brain handle information it didn't encode?"
 
-**The novel-pattern protocol** (first run approximately Year 400, refined continuously since):
+**The novel-pattern protocol** (first run approximately Year 850, refined continuously since):
 
 1. Show a subject a visual pattern never before seen by any human — generated algorithmically, unique to this iteration.
 2. Allow the subject to study the pattern for a fixed period.

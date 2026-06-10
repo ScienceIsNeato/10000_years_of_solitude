@@ -1,3 +1,10 @@
+---
+title: Selected Loop Records
+type: wiki
+status: draft
+era: "6"
+---
+
 # Selected Loop Records
 
 **Selected Loop Records** is a community-maintained list of verified record-holding performances in categories unique to the loop. The list is maintained by the Records Verification Collective, a volunteer board committee of eidetics who witness, verify, and carry the ledger across iterations. Verification requires a minimum of three independent eidetic witnesses with no shared organizational affiliation.
@@ -12,7 +19,7 @@ Early iterations saw records that would be considered modest by later standards.
 
 | Rank | Holder | Duration | Iteration | Notes |
 |---|---|---|---|---|
-| 1 | Dakarai Osei | 23 days, 4 hours | Iter. ~2,891,000 | First verified entry into the uncanny zone by non-glass-seeker protocol. Reported mild clock drift and pattern repetition in ambient sound during final 8 hours. Retired from competitive wakefulness afterward. |
+| 1 | Dakarai Osei | 23 days, 4 hours | Iter. ~2,891,000 | Closest verified approach to the uncanny zone under non-glass-seeker protocol. Reported mild clock drift and pattern repetition in ambient sound during final 8 hours — early-onset phenomena attributed to movement accumulated over the attempt. Retired from competitive wakefulness afterward. |
 | 2 | Lin Xiuying | 22 days, 19 hours | Iter. ~3,102,000 | Pharmacologically assisted (protocol undisclosed, disputed). Three witnesses confirm continuous consciousness; two additional witnesses contest an 11-minute window during hour 487. Record stands pending review. |
 | 3 | Tomas Lindqvist | 21 days, 6 hours | Iter. ~1,460,000 | Held the record for approximately 1,200 years. First holder to use structured rotation between high-stimulus and meditative states. |
 | 4 | Margaret Okafor-Baines | 19 days, 2 hours | Iter. ~620,000 | Pre-pharmacological era. Widely considered the most impressive raw-endurance record in the ledger. No chemical assistance confirmed by witnesses. |
@@ -32,7 +39,7 @@ Measures the average duration of a single loop across a minimum sample of 1,000 
 
 ## Geodesic Loop Range
 
-The greatest verified distance from an agent's checkpoint location reached within a single continuous loop. A function of checkpoint proximity to transportation infrastructure, wakefulness endurance, and route optimization. The record has been dominated by agents whose checkpoints are located at or near major international airports.
+The greatest verified distance from an agent's checkpoint location reached within a single span of continuous consciousness. A function of checkpoint proximity to transportation infrastructure, wakefulness endurance, and route optimization across the midnight transitions (see: [[Air Travel in the Loop]], §Loop Range). The record has been dominated by agents whose checkpoints are located at or near major international airports.
 
 | Rank | Holder | Distance | Duration | Notes |
 |---|---|---|---|---|

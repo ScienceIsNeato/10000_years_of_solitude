@@ -1,3 +1,10 @@
+---
+title: The Lo-Fi Simulation Theory
+type: wiki
+status: draft
+era: "6"
+---
+
 # The Lo-Fi Simulation Theory
 
 **The Lo-Fi Simulation Theory** (also: the Lo-Fi Hypothesis, the Computational Reality Framework, "the Theory") is the prevailing scientific and philosophical model for the nature of post-loop reality. It posits that the physical universe is a computational process — a simulation — and that the fundamental constants of physics are not discovered properties of nature but engineered constraints of the system running it.

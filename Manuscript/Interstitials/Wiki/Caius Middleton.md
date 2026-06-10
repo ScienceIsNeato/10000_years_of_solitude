@@ -1,3 +1,10 @@
+---
+title: Caius Middleton
+type: wiki
+status: draft
+era: "6"
+---
+
 # Caius Middleton
 
 **Caius Middleton** (b. October 23, 1980, pre-loop designation: British citizen, Oxford-educated, no occupation of note[^1]) is a political figure, eidetic polymath polyglot, and the most polarizing individual in post-loop human history. Depending on the source, he is the architect of humanity's greatest scientific achievement, a political manipulator of extraordinary patience, or both of these things simultaneously without contradiction.
@@ -36,14 +43,13 @@ What is documented:
 
 - Middleton withdrew from public scientific activity.
 - He maintained and expanded his information networks, shifting their function from scientific coordination to political organization.
-- He began the system he would later formalize as "Master of Records" — a parallel judicial and enforcement infrastructure that tracked persistent offenders across iterations and administered consequences outside the formal justice system.
-- The Jonas Incident (Year ~2,590) dates to this period. (See: §Controversies.)
+- He began the system he would later formalize as "Master of Records" — a parallel judicial and enforcement infrastructure that tracked persistent offenders across iterations and administered consequences outside the formal justice system. The system's defining controversy, the Jonas Incident (Year ~2,590), came nearly two millennia later. (See: §Controversies.)
 
 ## Master of Records
 
 The Master of Records system, designed and operated by Middleton, is a shadow judiciary for crimes that the formal justice system cannot address. In a world that resets daily, conventional punishment is meaningless — no prison survives the night, no sentence carries past midnight. The Master of Records tracks individuals whose behavior constitutes a persistent threat across iterations: serial predators, saboteurs, and agents whose actions, while consequence-free in any single loop, constitute patterns of harm that only persistent memory can detect.
 
-The system operates through a network of eidetics who maintain dossiers across resets and coordinate interventions. The nature of these interventions is not published and is euphamistically described as "corrective engagement."
+The system operates through a network of eidetics who maintain dossiers across resets and coordinate interventions. The nature of these interventions is not published and is euphemistically described as "corrective engagement."
 
 The system is controversial. Supporters argue it is the only mechanism capable of addressing the fundamental problem of justice in a resetting world — that without persistent consequences, certain individuals will cause harm indefinitely, protected by the reset. Critics argue that a shadow judiciary operated by a single individual with no external oversight is, by definition, an authoritarian institution, regardless of its stated purpose.
 
@@ -51,7 +57,7 @@ Middleton has not publicly addressed the specific methods employed. When asked, 
 
 ## The Pivot to Dandelion (Years ~800-1000)
 
-When the Leipzig Moment confirmed that quantum outcomes were deterministic and produced by a degrading RNG (see: [[The RNG Degradation]]), Middleton pivoted with a speed that surprised even his allies. Within decades of the Leipzig Conference, he had repurposed his political infrastructure — the same networks that had coordinated the CERN program and the Master of Records — into the organizational backbone of what would become Project Dandelion.
+When the Leipzig Moment confirmed that quantum outcomes were deterministic and produced by a degrading RNG (see: [[The RNG Degradation]]), Middleton pivoted with a completeness that surprised even his allies. In the two centuries between the Leipzig Conference and Dandelion's formal organization (~Year 800), he repurposed his political infrastructure — the same networks that had coordinated the CERN program and the Master of Records — into the organizational backbone of what would become Project Dandelion.
 
 The pivot required something Middleton had never previously demonstrated: deference. The science was not his. The gentleman-scientists who had produced the Leipzig Moment had done so without his help and, in many cases, despite his dismissal of their methods. Middleton's contribution to Dandelion was not intellectual but logistical — he built the political coalition that made a civilization-scale computational project possible.
 
@@ -75,7 +81,7 @@ The incident predates the scientific understanding of the degradation zones. If 
 
 Middleton has never confirmed the specific details. His only public statement on the matter: "I told him I'd never done it before. That part was true. I told him we'd have to learn together. That part was also true."
 
-The editorial board notes that this section has been deleted 47 times and restored 48 times. The current version is the 48th.
+The editorial board notes that this section has been deleted 47 times and restored 48 times — by the count the scribes carry, there being no other kind. The current version is the 48th.
 
 ### Self-Editing
 
@@ -91,7 +97,7 @@ Middleton's legacy is, as of this writing, unresolved — both because the man i
 
 What is not disputed: Middleton is one of the most consequential individuals in post-loop history. He built the political infrastructure that enabled the only scientific project with a plausible chance of addressing the loop. He also spent three centuries pursuing a dead end, operated a shadow justice system of debatable legitimacy, and has demonstrated a consistent willingness to treat other human beings as instruments of larger goals.
 
-The article's talk page contains approximately 14,000 words of active dispute about whether the preceding sentence should end with a period or with "— a quality that loop society cannot afford to lose."
+The article's talk page — rebuilt each morning along with the article, and re-accumulating the same dispute by midday — contains approximately 14,000 words of active argument about whether the preceding sentence should end with a period or with "— a quality that loop society cannot afford to lose."
 
 ## See Also
 

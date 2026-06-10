@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "Splitting the big mixed PR in two — this branch is the build tooling, wiki articles, and story docs",
-    "direction": "Land the manuscript pipeline and wiki on main, with the article moving to its own PR",
-    "last_update": "2026-06-10T05:58:18Z"
+    "status": "Continuity-fix pass over the wiki articles — dates, contradictions, spoiler leak — plus wiring them into the build filters, all on PR #2",
+    "direction": "Get PR #2 merge-ready; voice differentiation across articles is the next conversation",
+    "last_update": "2026-06-10T06:31:38Z"
   }
 }

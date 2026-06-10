@@ -1,6 +1,13 @@
+---
+title: The Boards
+type: wiki
+status: draft
+era: "6"
+---
+
 # The Boards
 
-**The Boards** is the colloquial name for Wikipedia as it exists in the loop — rebuilt from human memory each iteration by a global volunteer workforce that inherited the project's infrastructure, its mission, and, eventually, its passwords. The term predates the loop: "boards" was already informal shorthand for internet forums and wikis. In the loop, it became a proper noun. When someone says "check the boards," they mean Wikipedia.
+**The Boards** is the colloquial name for the daily-reconstructed internet commons — the forums, threads, and prediction markets rebuilt from human memory each iteration, anchored at the center by the rebuilt Wikipedia. The term predates the loop: "boards" was already informal shorthand for internet forums and wikis. In the loop it became a proper noun, and usage has narrowed around the commons' flagship institution: in the broad sense, the boards are everything that gets retyped each morning; in the sense that has won, "check the boards" means check the wiki. This article covers the wiki — rebuilt each iteration by a global volunteer workforce that inherited the project's infrastructure, its mission, and, eventually, its passwords.
 
 ## History
 

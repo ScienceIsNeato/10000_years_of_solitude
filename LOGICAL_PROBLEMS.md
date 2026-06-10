@@ -78,6 +78,15 @@
 **Status**: ⚠️ AWARE
 **Problem**: Ideas.rtf uses "Gaius Middleton." Manuscripts use "Caius." Need to pick one and make consistent.
 
+### 13. Awake Agents at the Midnight Reset (Transit Mechanics)
+**Status**: ❓ OPEN — needs author confirmation
+**Problem**: What exactly happens to a conscious agent who is inside a moving vehicle at 00:00:00 UTC? Canon strongly implies awake agents persist in place while the physical world resets around them (Jeff drives for weeks; geodesic travelers chain flights across iterations; spacetime-distance accrual requires positions to persist). But the boundary case is undefined: an awake passenger aloft when the aircraft reverts to its checkpoint position, an astronaut inside the ISS when it snaps back to its checkpoint orbit.
+**Provisional canon** (written into the Air Travel wiki article, easily revised): the vehicle reverts; its conscious occupants do not revert with it — hence the geodesic specialists' first rule, "be on the ground at midnight." The ISS/orbital-crew case from THE_BIBLE.md Era 5 remains unexplained under this rule and needs a decision.
+
+### 14. Era 5 Dates vs. Jeff/Jonas Registry Dates
+**Status**: ⚠️ AWARE
+**Problem**: THE_BIBLE.md dates Era 5 (Boundary Discovery) to "Years 400–1200," but its central discovery story — Jeff's drive — is registry-dated Day 945,366 (~Year 2,590), as is the Jonas Incident (Day 945,386, 20 days later). Either Era 5's year range or the character registry dates need to move. Related to problem 3 (timeline count inconsistencies).
+
 ## RESOLUTION PRIORITIES
 
 1. ~~CRITICAL: Memory/brain reset paradox~~ → ✅ Dual-engine architecture
@@ -88,4 +97,6 @@
 6. **MEDIUM**: Caius capability constraints → ⚠️ Phase 3
 7. **LOW**: BBC/CNN scene alignment → ⚠️ Phase 3
 8. **LOW**: October 24th anomaly, name spelling → ⚠️ Phase 3
+9. **MEDIUM**: Midnight transit mechanics (13) — wiki article carries provisional canon pending author decision
+10. **MEDIUM**: Era 5 dates vs. Jeff/Jonas registry (14) → fold into Phase 3 timeline pass
 

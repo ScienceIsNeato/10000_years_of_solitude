@@ -1,3 +1,10 @@
+---
+title: Pets in the Loop
+type: wiki
+status: draft
+era: "6"
+---
+
 # Pets in the Loop
 
 **Pets** — domesticated animals kept for companionship — occupy a unique and emotionally fraught position in loop society. Animals are governed entirely by the physics engine. They have no agent-engine component. They do not retain memories across iterations. Every loop, every pet in the world wakes up in its checkpoint state with no knowledge of any previous iteration, including the thousands of iterations in which its owner loved it.
@@ -24,7 +31,7 @@ The experimental evidence is inconclusive. The ethical implications of designing
 
 - **Veterinary care.** All animal injuries and illnesses reset. A pet diagnosed with cancer in one iteration is healthy in the next. Veterinary medicine, as a field concerned with long-term animal health, has largely been repurposed toward behavioral science and the agent-engine question. Emergency veterinary care still exists for within-loop injuries.
 - **Training.** No training persists across iterations. A dog trained over months to sit, stay, and roll over knows none of these things the next loop. Owners who wish their pets to perform trained behaviors must retrain each iteration. The speed of retraining has been studied extensively — a dog that "learned" to sit on Day 1 of its first iteration learns no faster on Day 1 of its ten-thousandth iteration. This is considered strong evidence against an animal agent engine.
-- **Reproduction.** Animals reproduce within a single loop if the pregnancy duration fits within the mother's consciousness span. This is a non-issue for most species — a mouse can be born, grow, reproduce, and die within a single human loop. Larger animals with long gestation periods — elephants, whales — have not produced a single new offspring in 10,000 years. Every elephant alive is the same elephant, in the same body, in the same place, at the same gestational stage, as October 23, 2011.
+- **Reproduction.** Animal reproduction is frozen mid-process. No pregnancy advances past the reset — every gestation returns to its checkpoint stage at midnight. The only animals ever born in the loop are those whose births were already due on October 23, 2011: the same litters, delivered again every iteration, to mothers who have delivered them thousands of times and remember none of it. Nothing conceived inside the loop has ever been born. Every elephant alive is the same elephant, in the same body, in the same place, at the same gestational stage, as October 23, 2011. (A mayfly that emerged at checkpoint still completes its single adult day — every day, forever.)
 - **Wildlife.** Wild animals behave identically in the early hours of each iteration — same bird on same branch, same squirrel on same transformer (see: [[The Boards]], §The Florida Squirrel). Agent perturbations cause divergence as the loop progresses. By hour 6, the butterfly effect of billions of humans making different choices has propagated through ecosystems. By hour 12, wildlife behavior is essentially unpredictable. This transition — from deterministic to chaotic — mirrors the RNG degradation pattern at a macro scale and was among the earliest observational clues that something about the loop's physics was not random.[^2]
 
 ## Emotional Impact

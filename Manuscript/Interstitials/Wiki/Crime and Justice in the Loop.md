@@ -1,3 +1,10 @@
+---
+title: Crime and Justice in the Loop
+type: wiki
+status: draft
+era: "6"
+---
+
 # Crime and Justice in the Loop
 
 **Crime and justice in the loop** refers to the legal, social, and extralegal systems that have evolved to address wrongdoing in a world where no physical evidence persists, no prison survives the reset, and every perpetrator wakes free each iteration regardless of what they did the day before. The loop has not eliminated crime. It has eliminated consequences — or rather, it has forced human civilization to invent new ones.

@@ -1,5 +1,11 @@
 # STATUS — 10,000 Years of Solitude
 
+## Ad-hoc Manuscript Task: Wiki Article Continuity Pass (2026-06-10)
+
+- Fixed continuity errors across the 11 wiki articles found in a critique pass: Leipzig Conference re-dated to canon (~Year 500, was 4,200), Jonas Incident unhooked from the Interregnum section, Caius's Dandelion pivot timeline aligned with Era 6, the WTFreality post-timequake paragraph replaced with a pre-test Oracle market (it broke in-universe existence and spoiled the ending), Air Travel reconciled with multi-day geodesic travel, animal reproduction corrected (nothing conceived in the loop has ever been born), Sleep's reset phrasing fixed (scheduled, not triggered), The Boards' definition reconciled with THE_WIKI.md's boards/wiki distinction, the two-Jeffs collision resolved, unhedged edit-count footnotes hedged as memory-carried, and assorted typo/date fixes.
+- Added YAML frontmatter (title/type/status/era) to all 11 articles so the build pipeline's `--type wiki` and `--status` filters actually select them; verified all 11 resolve through the MANIFEST.
+- Logged two new open canon questions in LOGICAL_PROBLEMS.md: midnight transit mechanics for awake agents (provisional canon written into the Air Travel article, needs author confirmation) and the Era 5 date range vs. Jeff/Jonas registry dates contradiction in THE_BIBLE.md.
+
 ## Ad-hoc Writing Task: Shining-Inspired Wall Paint Instructable (2026-05-25)
 
 - Built an Instructables-style scaffold for the Shining wall-paint project, organized around exact paint specs, STL inventory, print settings, form placement, and repeat workflow.

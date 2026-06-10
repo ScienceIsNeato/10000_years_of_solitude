@@ -1,3 +1,10 @@
+---
+title: WTFreality
+type: wiki
+status: draft
+era: "6"
+---
+
 # WTFreality
 
 **WTFreality** is the world's longest-running prediction market, rebuilt from memory each iteration from a state maintained by a dedicated scribe collective (see: [[The Boards]], §Scribes). It tracks public consensus on fundamental questions about the nature of the loop through continuously-updated betting odds. WTFreality does not use money — which resets — but reputation credit, an informal social currency backed by track record.
@@ -38,7 +45,7 @@ A multi-outcome market tracking the leading causal theories. Odds shift in respo
 | Agent action — accidental (someone stumbles into it) | 30:1 | Stable |
 | Divine intervention / metaphysical cause | 45:1 | ↑ from 35:1 (slowly losing adherents) |
 | The loop is already broken and we haven't noticed | 100:1 | Novelty position, popular with contrarians |
-| Jeff's driving somehow | 200:1 | Joke position. Has occupied this slot since Year ~400. Nobody remembers who Jeff is.[^2] |
+| Jeff's driving somehow | 200:1 | Joke position. Has occupied this slot since Year ~400. No one agrees on which Jeff.[^2] |
 | Caius does something (unspecified) | 6:1 | Perpetual favorite. Moves on every Caius-related rumor. |
 | Something nobody has thought of yet | 3:1 | The only position that has shortened consistently over time |
 
@@ -77,7 +84,7 @@ WTFreality's track record on minor markets (side bets, hourly predictions, factu
 
 Its track record on the core question — will the loop break and what will cause it — is, by definition, untestable. The market has predicted "no" for 10,000 years and been correct every time. When the loop finally does break, the market will either be right (if the cause matches the leading theory) or spectacularly wrong (if it doesn't). Either way, there will be nobody to collect.
 
-The post-timequake irony, for those in a position to appreciate it: the market had "RNG-related event" at 8:1. Not bad. But nobody had "the RNG team intentionally triggers global vitrification as a live test and everything goes sideways." WTFreality was right about the category and wrong about everything else. The market's epitaph, if epitaphs were still being written, would be: *close enough to be frustrating.*
+The market's newest standing question — opened when Project Dandelion announced its registration experiment — asks whether the live test will work as designed. It is the first market in WTFreality's history in which the Oracles have declined, almost unanimously, to take a position. Asked why, the highest-ranked active Oracle said: "Because the only people qualified to price it are the people running it. And they're not betting either."
 
 ## See Also
 
@@ -89,4 +96,4 @@ The post-timequake irony, for those in a position to appreciate it: the market h
 
 [^1]: The exact formula for the WTF Score has been revised nineteen times and is maintained by a committee of three scribes who refuse to publish it, arguing that publishing the formula would allow strategic manipulation. Critics argue that not publishing the formula *already* allows strategic manipulation, just by fewer people. This dispute is ongoing.
 
-[^2]: The leading theory is that Jeff was a specific person in the first century who was known for catastrophically bad driving. The position was added as a joke, persisted because it was funny, and has outlived all memory of its origin by approximately 9,600 years. It is now cultural infrastructure. Multiple attempts to remove or replace it have failed. Jeff's driving is the loop's most durable meme.
+[^2]: The position's origin is contested. The leading theory holds that Jeff was a specific first-century driver of legendary incompetence. A rival theory identifies him with the record-holder Jeff (see: [[Selected Loop Records]], §Shortest Average Loop Span), who has repeatedly pointed out that he was parked. The position was added as a joke, persisted because it was funny, and has outlived any reliable memory of its origin by approximately 9,600 years. It is now cultural infrastructure. Multiple attempts to remove or replace it have failed. Jeff's driving is the loop's most durable meme.

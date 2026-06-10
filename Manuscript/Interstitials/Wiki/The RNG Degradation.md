@@ -1,6 +1,13 @@
+---
+title: The RNG Degradation
+type: wiki
+status: draft
+era: "6"
+---
+
 # The RNG Degradation
 
-**The RNG Degradation** (also: the Degradation, the Gradient, colloquially "going fuzzy") is the progressive breakdown of quantum randomness as a function of spacetime distance from the reset point. First documented in the Leipzig Conference (Year ~4,200), it is the most significant scientific discovery in post-loop history and the empirical foundation for Project Dandelion.
+**The RNG Degradation** (also: the Degradation, the Gradient, colloquially "going fuzzy") is the progressive breakdown of quantum randomness as a function of spacetime distance from the reset point. First documented in the Leipzig Conference (~Year 500), it is the most significant scientific discovery in post-loop history and the empirical foundation for Project Dandelion.
 
 The discovery established three things that the Lo-Fi Simulation Theory (see: [[The Lo-Fi Simulation Theory]]) had missed:
 
@@ -10,7 +17,7 @@ The discovery established three things that the Lo-Fi Simulation Theory (see: [[
 
 ## The Leipzig Moment
 
-The RNG Degradation was formally identified at the Leipzig Conference of approximately Year 4,200, though anecdotal reports of "anomalous zones" predate the conference by centuries. The breakthrough was the recognition that scattered, individually dismissable observations — coins landing in patterns, Geiger counters ticking in rhythm, shuffled decks producing identical sequences — were not isolated curiosities but expressions of a single underlying process.
+The RNG Degradation was formally identified at the Leipzig Conference of approximately Year 500, though anecdotal reports of "anomalous zones" predate the conference by centuries. The breakthrough was the recognition that scattered, individually dismissable observations — coins landing in patterns, Geiger counters ticking in rhythm, shuffled decks producing identical sequences — were not isolated curiosities but expressions of a single underlying process.
 
 The critical insight came from treating these anomalies not as violations of physics but as *measurements* of a quantity: the remaining entropy available to the quantum random number generator. When plotted against spacetime distance from the checkpoint, the anomalies fell on a curve. The curve was smooth. The curve was monotonic. The curve was the same everywhere.
 
@@ -98,6 +105,6 @@ The Theory provided the vocabulary. The Degradation gave it something to say.[^2
 
 ## Notes
 
-[^1]: The original Leipzig Conference data has been reconstructed from memory approximately 6,000 times. Each reconstruction introduces minor variations. The core dataset is considered reliable. The error bars are considered unreliable. There is an ongoing editorial dispute about whether to cite the original figures or the averaged reconstructions. This footnote is the compromise.
+[^1]: The original Leipzig Conference data has been reconstructed from memory daily for over nine millennia. Each reconstruction introduces minor variations. The core dataset is considered reliable. The error bars are considered unreliable. There is an ongoing editorial dispute about whether to cite the original figures or the averaged reconstructions. This footnote is the compromise.
 
 [^2]: This sentence has been attributed to at least fourteen different speakers at the Leipzig Conference. The current attribution is "unknown." Previous attributions have all been retracted after the claimed speaker was identified as having died before the conference, been asleep at the time, or been a known fabrication inserted by a vandal. The editorial board has stopped trying to source it.
