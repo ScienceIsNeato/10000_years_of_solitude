@@ -186,14 +186,15 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 #### 7. The Eidetic Census
 
-**Coverage:** The identification and cataloging of people with perfect cross-iteration memory. How they're found, how they're organized, what roles they play.
+**Coverage:** The identification and cataloging of people with perfect cross-iteration memory. How they're found, how they're organized, what roles they play. The buzz — the permanent trace dose of negative entropy dilation every eidetic carries (THE_BIBLE.md §6) — and its consequences: the reaction-time advantage, the sports built on it (bullet-train eidetic jiu-jitsu, full-speed matches that look like John Woo choreography in the flesh), and the isolation of not living in real time.
 
 **When it appears:** Era 1-2 onward. Referenced in `Manuscript/Interstitials/On Memory.rtf`.
 
 **Editorial drama:**
 - Privacy concerns (some eidetics don't want to be cataloged)
 - Accuracy disputes (is the census count right? who's verifying?)
-- Political implications (eidetics as a class — are they an elite? should they be?)
+- Political implications (eidetics as a class — are they an elite? should they be?) — sharpened by the buzz: they aren't just better-informed, they are measurably faster, and everyone has watched the jiu-jitsu broadcasts. The article's "are they an elite?" debate is settled in the streets ("the e-dicks") and unsettled on the talk page, forever.
+- Whether the buzz section belongs here or in the Going to Glass article. Both articles claim it. Neither yields. The section is duplicated, and the two copies have drifted.
 
 ---
 

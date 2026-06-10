@@ -1,5 +1,11 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Manuscript Task: The Eidetic Buzz (2026-06-10)
+
+- Canonized the eidetics' permanent low-level negative entropy dilation — "the buzz" — in THE_BIBLE.md §6: their loaded agent engines lean harder on the physics engine's entropy budget, so they live a half-beat ahead of real time, always. At trace dose it's a performance enhancer (reaction-time edge; the polymath-polyglots carry the heaviest buzz, which quietly helps explain Caius's impossible coordination, LOGICAL_PROBLEMS #5), it spawned the loop's signature sport (bullet-train eidetic jiu-jitsu — John Woo choreography in the flesh), and it isolates them from people living in real time, making them a visible caste of superhumans — the payoff for the power they already hold in the novel.
+- Canonized the slang ("the e-dicks") and the wiki-preference joke: Reddit is conceded to be the better tool for a resetting world, but the eidetic clique prefers the wiki — formal, curated, ownable — and the canon lives where the carriers like the furniture. Written into the bible, the Eidetic Census article plan in THE_WIKI.md, and the Boards article itself (new "Why the Wiki Won" section: "The better tool lost to the better club," with the e-dicks footnote).
+- §4 gained the fourth, congenital road to negative entropy dilation (the buzz) alongside duration, velocity, and improbability.
+
 ## Ad-hoc Manuscript Task: Negative Entropy Dilation + the Spectrum of Glass (2026-06-10)
 
 - Canonized "negative entropy dilation" as the formal name for going to glass (THE_BIBLE.md §4): invented, book-only physics, the mirror image of relativistic dilation — it arrives as you approach the other end of the time loop rather than the speed of light. Three compounding roads: duration (~29 days stationary), velocity (the astronaut's ~4 days), and the new one — improbability. Extreme low-probability events (winning a lottery) give a fleeting local brush; across thousands of repeats, most people have brushed it at least once. It terrifies most; others treat it like a drug.

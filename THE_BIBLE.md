@@ -171,6 +171,8 @@ The third road means **most people have brushed against negative entropy dilatio
 
 It terrifies most of them. Others treat it like a drug.
 
+There is also a fourth road, congenital rather than chosen: the eidetics live with a permanent trace dose — the buzz — everywhere they go (see §6, "The Buzz").
+
 ---
 
 ## 5. VITRIFICATION (GOING TO GLASS)
@@ -257,6 +259,20 @@ Eidetic memory is an agent-engine property (memory fidelity), not a physics-engi
 - 487 "polymaths" (100,000+ digits of pi memorized)
 - 14 "polyglots" (conjugate "to be" in all 6,909 living languages)
 - 4 "polymath polyglots" — Caius Middleton among the first identified
+
+### The Buzz (Eidetics and Trace Dilation)
+
+Eidetics carry a permanent, low-level dose of negative entropy dilation — **the buzz** — everywhere they go, always. The mechanism follows from the architecture: dilation is consciousness outpacing the entropy available to the physics engine, and an eidetic's agent engine, dense with perfect recall, leans harder on that budget than a baseline mind. They live a half-beat ahead of the world. Not enough to see the trees freeze. Enough to feel the world arrive slightly late, forever.
+
+**As a performance enhancer:** at trace dose, dilation is an advantage. Perception of time slows just enough that an eidetic can react faster than anyone living in real time — the glass caught before anyone saw it slip, the answer ready before the question lands, the punch that was already slipped. The four polymath-polyglots carry the heaviest buzz of all, which is part of why Caius reads as superhuman across the whole novel (and quietly helps answer LOGICAL_PROBLEMS #5 — his impossible coordination is partly that he has been playing everything at three-quarter speed for ten thousand years).
+
+**As spectacle:** the buzz produced the loop's signature sports — most famously **bullet-train eidetic jiu-jitsu**, full-speed matches between eidetics that look, to real-time spectators, like John Woo choreography happening in the flesh. Humans moving the way film only ever faked.
+
+**As isolation:** the buzz cuts the other way. Eidetics do not live in real time, and real time can feel, to them, like talking to people underwater. Combined with the burden of being the civilization's storage medium, it makes them less a profession than a caste — a clique of superhumans, visibly *other*, more separate from baseline humanity in this world than any elite in ours. This is the physical payoff of the power and importance the eidetics already carry in the novel: they are not just walking hard drives. They move differently. Everyone can see it.
+
+**The slang:** what everyone else calls the clique, with a precision of affection and resentment that varies by speaker: **the e-dicks.**
+
+**The wiki preference (and the joke under the boards):** Reddit is, objectively, the better instrument for a resetting world — conversational, thread-native, fast, the natural home of the commons (it IS the primary working repository; see below). But the eidetic clique prefers the wiki: formal, curated, *ownable* — a place where an article can be yours. And since the eidetics are the ones doing the carrying, the canon lives where the clique's taste says it lives. The loop's institutional memory runs on the worse tool because the superhumans like it better. Go figure.
 
 ### Information Persistence Infrastructure
 

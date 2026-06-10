@@ -87,6 +87,12 @@ There is a philosophical argument, advanced by certain editorial theorists, that
 
 Others find this romantic nonsense. It's a website. People type on it. The profundity is optional.
 
+### Why the Wiki Won
+
+It is widely conceded — including, privately, by most senior scribes — that Reddit is the better instrument for a resetting world: conversational, thread-native, fast, built for exactly the kind of daily collective sense-making the loop demands. It is, by raw traffic and working use, the commons' primary repository. And yet the canon — the version of record, the thing people mean when they say "it's on the boards" — lives on the wiki.
+
+The explanation is not technical. The eidetics prefer the wiki. It is formal, curated, and above all *ownable*: an article can be yours in a way a thread never can. Since the eidetics are the ones who carry civilization's memory across the reset, institutional knowledge settled where the carriers liked the furniture. The better tool lost to the better club.[^5]
+
 ## See Also
 
 - [[The Eidetic Census]]
@@ -103,3 +109,5 @@ Others find this romantic nonsense. It's a website. People type on it. The profu
 [^3]: Iterations in which the squirrel does NOT cause the outage are tracked and analyzed. As of the most recent census, thirty-seven such iterations have been identified across approximately 3.6 million total iterations. Twenty-nine correspond to iterations where human intervention altered conditions near the transformer prior to the squirrel's arrival. The remaining eight are unexplained.
 
 [^4]: A commonly circulated estimate holds that more collective research-hours have been spent on the Florida Squirrel than on any other single animal in human history. The estimate is unverifiable but widely believed. The squirrel itself, being a physics-engine entity with no agent-engine component, is unaware of its celebrity (see: [[Pets in the Loop]], §The Agent-Engine Question).
+
+[^5]: The non-eidetic editing public has a name for the clique, deployed with a ratio of affection to resentment that varies by speaker and by how recently an eidetic corrected them in public: *the e-dicks*. The eidetics' collective position is that they have never heard the term, which — given who they are — is the joke.
