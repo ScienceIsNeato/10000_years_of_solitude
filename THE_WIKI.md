@@ -12,12 +12,12 @@
 
 ### The Mechanism
 
-The wiki is the loop's version of Wikipedia — a collaboratively written, encyclopedic knowledge base. The catch: it exists on the internet, which resets every iteration. Every morning, the scribes — eidetics and fast typists working in relay teams — rebuild the entire thing from memory before most people are awake. By breakfast in any given timezone, the core articles are live.
+The wiki is the loop's version of Wikipedia — a collaboratively written, encyclopedic knowledge base. The catch: it exists on the internet, which resets every iteration. There is no midnight and no shared clock (THE_BIBLE.md §3: the checkpoint is an arbitrary UTC instant; resets are per-agent, on loss of consciousness) — but human biology gives the loop a quasi-daily rhythm: nearly everyone's span opens at checkpoint and closes 16–20 hours later. The scribes — eidetics and fast typists working in relay teams — start rebuilding at first light (C+0, the moment the checkpoint restores) and race the waking of the checkpoint sleepers. Within a few hours of checkpoint, the core articles are live.
 
 This means:
 
 - **The content drifts.** A scribe misremembers a sentence. Another scribe "corrects" it with their own misremembering. Over centuries, articles evolve not through deliberate revision but through the accumulated noise of human memory under duress.
-- **The content is contested in real-time.** Every iteration is a fresh editorial battleground. An article that was stable for a thousand iterations can get hijacked in one morning if the right (or wrong) scribe gets to a terminal first.
+- **The content is contested in real-time.** Every iteration is a fresh editorial battleground. An article that was stable for a thousand iterations can get hijacked in a single first-light window if the right (or wrong) scribe gets to a terminal first.
 - **There is no version history.** No diff. No talk page that survives the reset. Editorial disputes are carried in human memory, which means grudges are permanent but evidence is not.
 - **The articles are the closest thing to institutional memory the loop has.** The boards are chaotic. The wiki is *curated* chaos.
 
@@ -41,7 +41,7 @@ There's status in being a scribe. There's also resentment — non-eidetics somet
 
 This is where the comedy lives. The wiki is rebuilt from memory, which means:
 
-- **Operative edits.** People with agendas get up early and write their version first. By the time the "real" scribe wakes up, the article has been live for hours with subtle distortions. Correcting it looks like the edit war, not the original sabotage.
+- **Operative edits.** People with agendas drill their checkpoint-to-terminal time and write their version first. By the time the "real" scribe reaches a keyboard — slowed by a checkpoint body that wakes across town, or by being a checkpoint sleeper whose loop starts hours late — the article has been live for hours with subtle distortions. Correcting it looks like the edit war, not the original sabotage.
 - **Personal beefs.** A scribe who got publicly embarrassed changes a rival's contribution just enough to be wrong. Not enough to be obvious. The kind of petty that only immortals with perfect memory and infinite time can sustain.
 - **Philosophical schisms expressed through comma placement.** One faction insists the Lo-Fi article should say the speed of light "is" the render distance. Another insists it should say "functions as" the render distance. This distinction has consumed more human hours than Project Dandelion.
 - **Humor as weapon.** Someone adds a joke footnote. Someone else removes it. Someone else adds it back attributed to a different person. The footnote becomes more famous than the article.
@@ -95,11 +95,11 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 #### 2. The Reset **[EXCERPT]**
 
-**Coverage:** What happens at 00:00:00 UTC, what resets (everything physical), what doesn't (memory, consciousness, learned knowledge). The checkpoint. The sleep window.
+**Coverage:** What happens at the checkpoint moment (an arbitrary UTC instant — famously not a round number), what resets (everything physical), what doesn't (memory, consciousness, learned knowledge). The per-agent trigger: loss of consciousness ends your loop, whenever it comes. The jump cut. The checkpoint sleepers — the fraction of humanity whose checkpoint bodies were asleep and whose loops begin when those bodies wake. The unobservability of the rollback itself (you are always on the wrong side of a reset).
 
 **When it appears:** Era 1 onward — this is one of the first articles written. Possibly THE first.
 
-**What it gets right:** The observational facts. Reset timing. Physical state restoration. Memory persistence.
+**What it gets right:** The observational facts. The consciousness-loss trigger. Physical state restoration. Memory persistence.
 
 **What it gets wrong (early):** Early versions try to explain memory persistence through neurological mechanisms (the wiki equivalent of WORLD_RULES.md's deprecated quantum neurogenesis). These explanations are progressively abandoned as they fail to hold up, replaced by "mechanism unknown, phenomenon confirmed" language.
 
@@ -169,7 +169,7 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 #### 6. The Boards **[EXCERPT — FULL ARTICLE]**
 
-**Coverage:** The internet forum infrastructure rebuilt daily from memory. How information networks function. The scribe system. Board culture and norms.
+**Coverage:** The internet commons rebuilt from memory every iteration — the forums (Reddit chief among them, per THE_BIBLE.md §6) and the wiki as their curated reference layer. How information networks function. The scribe system. Board culture and norms.
 
 **When it appears:** Era 1 onward.
 
@@ -277,7 +277,7 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 #### 15. Pets in the Loop **[EXCERPT — FULL ARTICLE]**
 
-**Coverage:** Animals as physics-engine-only entities with no agent-engine component. The daily re-encounter, the agent-engine question for animals, practical considerations (training resets, veterinary care, the elephant problem), and the emotional weight of an asymmetric relationship across millennia.
+**Coverage:** Animals as physics-engine-only entities with no agent-engine component. The perpetual re-encounter, the agent-engine question for animals, practical considerations (training resets, veterinary care, the elephant problem), and the emotional weight of an asymmetric relationship across millennia.
 
 **When it appears:** Era 2 onward.
 
@@ -317,25 +317,45 @@ Each entry describes a wiki article that exists in-universe. Not all of these ne
 
 **Coverage:** The in-universe prediction market — the loop's version of Polymarket. A constantly-updating betting site where people wager on when and how the loop breaks. Not for money (money resets). For reputation. For being the person who called it.
 
-**Structure:** A leaderboard of the top 5 leading theories, ranked by betting odds (rebuilt daily from memorized state). Updated throughout the day as events unfold. Categories include:
+**Structure:** A leaderboard of the top 5 leading theories, ranked by betting odds (rebuilt from memorized state every iteration). Updated through the shared hours as events unfold. Categories include:
 
 - **Will the loop break today?** (Perpetual market. Has never paid out. The "no" position has a 10,000-year win streak.)
 - **If it breaks, what caused it?** (Voyager correction: 12:1. RNG exhaustion: 8:1. Divine intervention: 45:1. Jeff's driving somehow: 200:1. Caius did something: 6:1.)
-- **Which hour?** (Side markets on specific UTC hours.)
+- **How far after checkpoint?** (Side markets on checkpoint offsets — a break deep in the long hours would be witnessed by almost no one, and a missing reset is the last thing anyone would notice.)
 - **Will we remember?** (The existential market. If the loop breaks, do we keep our memories? 3:1 yes. 2:1 no. 5:1 "depends on what 'we' means.")
 
-**When it appears:** Era 2 onward. Starts as informal bets on the boards, formalizes into a daily institution.
+**When it appears:** Era 2 onward. Starts as informal bets on the boards, formalizes into a standing institution.
 
 **What makes it interesting:**
-- The odds are a real-time sentiment tracker of collective theory belief. When the Leipzig Moment hits, the "simulation-related cause" category's odds collapse overnight.
+- The odds are a real-time sentiment tracker of collective theory belief. When the Leipzig Moment hits, the "simulation-related cause" category's odds collapse within a single iteration.
 - The WTFreality leaderboard is rebuilt from memory every iteration, which means the odds themselves are subject to scribe drift. Someone who's been running WTFreality for 500 years has enormous influence over "what the market thinks."
-- Post-timequake irony: the market had the correct cause ("RNG-related event") at 8:1, which is both pretty good for a prediction market and completely useless because nobody bet on "the RNG team succeeds and it destroys everything."
+- Author-level irony (NOT in the standing article, which must predate the timequake to exist in-universe): the market has the correct cause ("RNG-related event") at 8:1 — pretty good for a prediction market, completely useless because nobody bet on "the RNG team succeeds and it destroys everything." If a final-act wiki excerpt ever exists, this is its payload. The standing article instead carries the pre-test note: the Oracles, almost unanimously, declined to price the live test.
 
 **Editorial drama:**
 - Is WTFreality a wiki article or a board feature? Both communities claim it. The wiki article *about* WTFreality is separate from WTFreality itself.
 - The odds are a political weapon. Lowering a theory's odds is a way to delegitimize it without arguing the science.
 
 **Manuscript:** `Manuscript/Interstitials/Wiki/WTFreality.md`
+
+---
+
+#### 18. Satoshi Furukawa **[EXCERPT candidate]**
+
+**Coverage:** Biography of the loop's best-known orbital agent. JAXA flight engineer and physician (surgeon for a decade before astronaut selection), aboard the ISS at checkpoint — Expedition 29, with Mike Fossum and Sergey Volkov, the station's real crew on October 23, 2011. The self-experiment program: wakefulness runs toward the day-4 boundary, clinical self-observation with diagnostic rigor, logs memorized and radioed to ground eidetics. His centuries of dismissed anomaly reports, later recognized as the earliest systematic documentation of the degradation. The Soyuz question: he can be on Earth in under four hours, and mostly, he isn't.
+
+**When it appears:** Era 2 onward as a curiosity ("the men who live in the sky"); rewritten substantially post-Leipzig, when his old logs are reread as data.
+
+**What it gets right:** The observational record — his logs are carried by ground eidetics with unusual fidelity, because radio relay forces them to be dictated in finished sentences.
+
+**What it gets wrong:** Early versions frame him as a mystic ("the man who watches the world stop"). He has requested corrections. From orbit, enforcement is difficult.
+
+**Editorial drama:**
+- The article is maintained by a scribe who has never met him and never can — the entire relationship is radio, relay, and edits. Both parties have described this as "a normal working relationship, by loop standards."
+- A recurring dispute over whether Fossum and Volkov warrant their own articles or sections within his. Current consensus: sections. The talk page calls this "the crew problem."
+
+**Cross-references:** THE_BIBLE.md §6 ("Furukawa as Orbital Experimentalist") and §7 Era 5 (the orbital crew's boundary discovery). His experiments are the orbital branch of [[Neuroscience in the Loop]]'s interface program and the empirical anchor for the velocity rows in [[The RNG Degradation]]'s threshold table.
+
+**Manuscript:** (not yet written)
 
 ---
 
@@ -401,10 +421,10 @@ A character discovers the wiki for the first time. Reads the Lo-Fi Theory articl
 Already written in `Manuscript/CERN/Physical Limits.rtf`. This is the *dialogue version* of the Lo-Fi article's content. The wiki article post-dates this conversation — Anaya's ideas become wiki canon.
 
 ### 3. An Editorial War (comedic interstitial)
-A day in the life of a scribe. Wakes up, races to a terminal, discovers someone has already rewritten their article with subtle errors. The ensuing correction spiral. Could be played for comedy with real human stakes underneath — this person's identity is "the person who maintains Article X," and someone is trying to take that from them.
+A loop in the life of a scribe. Snaps back to checkpoint, races to a terminal, discovers someone has already rewritten their article with subtle errors. The ensuing correction spiral. Could be played for comedy with real human stakes underneath — this person's identity is "the person who maintains Article X," and someone is trying to take that from them.
 
 ### 4. The Leipzig Moment Wiki Update
-The morning after the beam splitter discovery. A new scribe tries to add the results to the RNG article. The existing maintainer resists — the data contradicts the Lo-Fi Theory's treatment of quantum uncertainty as floating-point error. If outcomes are *deterministic*, not imprecise, the whole framework needs rethinking. The editorial fight mirrors the scientific one.
+The iteration after the beam splitter discovery. A new scribe tries to add the results to the RNG article. The existing maintainer resists — the data contradicts the Lo-Fi Theory's treatment of quantum uncertainty as floating-point error. If outcomes are *deterministic*, not imprecise, the whole framework needs rethinking. The editorial fight mirrors the scientific one.
 
 ### 5. Post-Timequake Silence
 The last article never gets finished. A scribe was mid-sentence when the wavefront arrived. The next iteration, there is no next iteration. The wiki dies unwritten for the first time in millennia.
