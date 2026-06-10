@@ -1,6 +1,8 @@
 # THE BIBLE
-## Ground Truth Reference — 10,000 Years of Solitude
+## Ground Truth Reference — *Curiosity Killed the Cat (While Turning It Immortal)*
 ### For author use only. Nothing in this document is shown to the reader directly.
+
+> **Working title** (adopted 2026-06-10): *Curiosity Killed the Cat (While Turning It Immortal)* — a nod to Schrödinger's cat (killed and kept alive at once) and a literal description of going to glass forever. Former working title: *10,000 Years of Solitude* (the repository keeps the old name).
 
 > Every sentence in the novel must be *consistent* with this document.
 > Not every fact in this document needs to *appear* in the novel.
@@ -380,6 +382,8 @@ There is no reset after that.
 
 They are stuck.
 
+**The onset from inside (canon — dramatized in the preface, "The Final Iteration"):** You see it before you feel it. It arrives like heat-shimmer off a desert road — something you can tell isn't quite there, without knowing which part to distrust. Then the light stops obeying: vision wraps corners, shows you the back of your own head, and compresses everything visible from every angle into a single stacked simultaneous frame as the lazy rendering collapses — with zero entropy left, there is nothing deferred, and the engine resolves *everything at once*. Then the substance: not heaviness, not viscosity — clear resin setting. Vibration leaves the atoms, will leaves the arms, the twitch leaves the eye, and the last thing to go is nothing at all, because consciousness stays. The novel opens here, from Meredith's eyes, before the reader can know what they are looking at. (See `Manuscript/Meredith/The Final Iteration.md`.)
+
 ### Era 8: The Frozen World (Ending)
 
 **What happened (author-level understanding):** The act of predicting the RNG in real-time created a feedback loop between the agent engine and the physics engine. Under normal operation, the RNG's output is opaque to consciousness — agents experience quantum outcomes as random, and that randomness is the noise that makes the coupling between engines feel like freedom. When the agents' consciousness *knows* the next quantum outcome before it occurs, the noise vanishes. The distinction between agent and physics collapses. The same effect that produces vitrification at the spacetime boundary — consciousness outrunning the entropy available in the physics engine — is triggered artificially, from a single point, and spreads.
@@ -420,7 +424,7 @@ The agents didn't break the simulation. They didn't crash it. They synchronized 
 | Jeff/Thud | Thud/ | Day 945,366 | Era 5-6 | Infinite death loop. Tree through skull every iteration. Motivation: never sleep again. Becomes the searcher who discovers going to glass by accident. |
 | Elke | (not yet written) | ~Year 400+ | Era 4 | Retired chemistry teacher, Leipzig. 146,000 beam splitter measurements. Catalyst of the Leipzig moment. |
 | Syrah | (mentioned in refactor) | Era 7 | Era 7 | Technician/builder. Proposed the leading theory for Bug 1 (Voyager/region-boundary sync error — plausible, never confirmed). Partner to Meredith in the Roanoke star scene. Wants to push further. |
-| Meredith (late) | (mentioned in refactor) | Day 3,650,753 | Era 7 | Same Meredith from Day 1 story, now thousands of years later. Knows everything. Doesn't care — not because she doesn't understand, but because understanding doesn't change the experience. |
+| Meredith (late) | Meredith/ ("The Final Iteration" — preface) | Day 3,650,753 | Era 7 | Same Meredith from Day 1 story, now thousands of years later. Knows everything. Doesn't care — not because she doesn't understand, but because understanding doesn't change the experience. The novel's preface is her final moments: the timequake wavefront taking her at Roanoke, the ending teased on page one and not understood until the last chapter. The woman who wanted out, getting out, in the worst form on offer. |
 
 ### The Protagonist Geometry (Escape vs. Comprehension)
 
@@ -468,7 +472,7 @@ The agents succeed at understanding. They succeed at connecting. And then unders
 
 **That's the book.**
 
-**Epigraph / alternate-title candidate:** *Curiosity killed the cat — or kept it alive forever.*
+**The title** (adopted as working title): *Curiosity Killed the Cat (While Turning It Immortal)*. It works three ways at once: the Schrödinger's-cat nod — the cat that is killed and kept alive simultaneously, which is exactly what the simulation does to its agents; the literal description of going to glass forever; and the plain reading — it was curiosity, Caius's and Dandelion's, that did this to everyone. Conversational variant for epigraph use: *"Curiosity killed the cat — or kept it alive forever."*
 
 ### Tone and Genre: A Horror Novel That Doesn't Read Like One
 

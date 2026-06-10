@@ -1,4 +1,6 @@
-# 10,000 Years of Solitude - Project Overview
+# Curiosity Killed the Cat (While Turning It Immortal) — Project Overview
+
+*Working title, adopted 2026-06-10 (a Schrödinger's-cat nod and a literal description of going to glass forever). Formerly: 10,000 Years of Solitude; the repository keeps the old name.*
 
 ## Core Concept
 A global "Groundhog Day" scenario where the entire world is trapped reliving the same calendar date (October 23rd) indefinitely. Each reset is called an "iteration" and is numbered sequentially. Different characters have experienced different numbers of iterations, creating a complex narrative structure.

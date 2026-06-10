@@ -1,4 +1,11 @@
-# STATUS — 10,000 Years of Solitude
+# STATUS — Curiosity Killed the Cat (While Turning It Immortal)
+
+## Ad-hoc Manuscript Task: New Working Title + Meredith Preface (2026-06-10)
+
+- Adopted the new working title, "Curiosity Killed the Cat (While Turning It Immortal)" — Schrödinger's-cat nod plus a literal description of going to glass forever. Applied to the build tooling title page (build.py, export.sh), pyproject/CLI descriptions, THE_BIBLE.md header and §10 title note, PROJECT_OVERVIEW.md, and this file's header. The repo keeps its old name.
+- Wrote the preface chapter, "The Final Iteration" (Manuscript/Meredith/The Final Iteration.md, ~410 words) — Meredith at Roanoke as the zero-entropy wavefront takes her, cleaned up from the author's dictated prose with the key images preserved (desert-road heat shimmer, light seeing around corners, the stratified lasagna of everything visible, the resin set, the gold medalist's grip, "if spacetime had given her the ability, she would shudder"). The ending teased on page one, not understood until the last chapter.
+- MANIFEST gained a Preface section so the book opens with it; bible Era 7 gained the canonical onset-from-inside phenomenology (lazy rendering collapsing to everything-at-once) cross-referenced to the preface; Meredith (late) registry row now points at the file.
+- Verified: preface parses and leads the build (24 chapters, 5 sections), 44 tests pass, built HTML carries the new title.
 
 ## Ad-hoc Manuscript Task: Canonized the Story Conversation (2026-06-10)
 

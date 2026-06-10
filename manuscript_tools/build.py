@@ -230,7 +230,7 @@ def build_manuscript(
     )
 
 
-TITLE = "10,000 Years of Solitude"
+TITLE = "Curiosity Killed the Cat (While Turning It Immortal)"
 
 
 def _run_pandoc(

@@ -17,7 +17,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 MANIFEST="$SCRIPT_DIR/MANIFEST"
 BUILD_DIR="$SCRIPT_DIR/build"
-TITLE="10,000 Years of Solitude"
+TITLE="Curiosity Killed the Cat (While Turning It Immortal)"
 AUTHOR=""
 
 FORMAT="${1:-pdf}"

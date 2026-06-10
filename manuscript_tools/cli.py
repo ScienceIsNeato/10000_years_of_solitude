@@ -13,7 +13,7 @@ def create_parser() -> argparse.ArgumentParser:
     """Create the argument parser."""
     parser = argparse.ArgumentParser(
         prog="manuscript",
-        description="Build tools for 10,000 Years of Solitude manuscript",
+        description="Build tools for the manuscript (working title: Curiosity Killed the Cat (While Turning It Immortal))",
     )
     parser.add_argument(
         "format",
