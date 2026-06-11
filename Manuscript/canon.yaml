@@ -67,10 +67,9 @@ files:
   - { file: "Caius/Jonas.rtf", header: "+2 hours", day: 945386, era: 6, pov: Jonas }
 
 # Deliberate violations the linter must not flag.
-exceptions:
-  # Jennifer-Egypt's October 24th is canon: the in-story tell that the
-  # traveler stayed awake through the night (LOGICAL_PROBLEMS #11).
-  - { file: "Jennifer/Jennifer - Egypt.rtf", header: "+25 hours", pattern: "October 24" }
+# (Jennifer-Egypt's old "October 24th" header was converted to "+25 hours",
+# which states the stayed-up-all-night tell directly; no exceptions remain.)
+exceptions: []
 
 # Wiki articles that are planned/referenced but not yet written
 # ([[links]] to these are fine; anything else gets a warning).

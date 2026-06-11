@@ -6,7 +6,7 @@
 # Lines starting with # are comments and are ignored.
 #
 # Reorder lines to reorder the manuscript. Add/remove as chapters are written.
-# The export script reads this file to build the final document.
+# The build tooling (manuscript_tools) reads this file to build the final document.
 
 # Vignettes run in ascending iteration order — the reader lives the loop's
 # social history (chaos -> adaptation -> institutions -> justice ->

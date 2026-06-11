@@ -44,14 +44,16 @@ def create_parser() -> argparse.ArgumentParser:
         "--status",
         type=str,
         default=None,
-        help="Minimum status threshold (placeholder/idea/sketch/draft/polished/final)",
+        choices=["placeholder", "idea", "sketch", "draft", "polished", "final"],
+        help="Minimum status threshold",
     )
     parser.add_argument(
         "--type",
         type=str,
         default=None,
         dest="type_filter",
-        help="Only include files of this type (wiki/chapter/interstitial/sketch)",
+        choices=["wiki", "chapter", "interstitial", "sketch"],
+        help="Only include files of this type",
     )
     return parser
 
@@ -90,13 +92,17 @@ def main(argv: list[str] | None = None) -> None:
 
         sys.exit(run_lint(manifest_path, args.canon))
 
-    result = build_manuscript(
-        manifest_path=manifest_path,
-        output_format=args.format,
-        min_status=args.status,
-        type_filter=args.type_filter,
-        output_dir=args.output_dir,
-    )
+    try:
+        result = build_manuscript(
+            manifest_path=manifest_path,
+            output_format=args.format,
+            min_status=args.status,
+            type_filter=args.type_filter,
+            output_dir=args.output_dir,
+        )
+    except (ValueError, RuntimeError) as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
 
     print(
         f"Built: {result.output_path} "

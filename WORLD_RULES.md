@@ -1,5 +1,8 @@
 # World Rules - 10,000 Years of Solitude
 
+> **DEPRECATED (2026-06-11):** This document predates the dual-engine revision and is superseded by THE_BIBLE.md (ground truth) and LOGICAL_PROBLEMS.md (open questions). Kept for archaeology only — do not write against it.
+
+
 > **⚠️ SUPERSEDED** — This document predates the REFACTOR_OVERVIEW and contains
 > mechanics that are no longer canon (quantum neurogenesis, hippocampal growth,
 > staggered reset timing, motor skill reset rules). Retained for reference only.

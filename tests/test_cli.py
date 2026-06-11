@@ -44,7 +44,7 @@ class TestFindManifest:
 
         manifest = tmp_path / "MANIFEST"
         manifest.write_text("## Section\nfile.md\n")
-        monkeypatch.setattr(os, "chdir", lambda p: None)  # type: ignore[attr-defined]
+        monkeypatch.setattr(os, "chdir", lambda _: None)  # type: ignore[attr-defined]
         # Patch Path to resolve relative to tmp_path
         with patch("manuscript_tools.cli.Path") as mock_path:
             # First candidate: Path("MANIFEST")
@@ -95,11 +95,11 @@ class TestMain:
 
     def test_main_missing_manifest_exits(self, tmp_path: Path) -> None:
         fake_manifest = tmp_path / "nonexistent" / "MANIFEST"
-        try:
+        import pytest
+
+        with pytest.raises(SystemExit) as exc:
             main(["pdf", "--manifest", str(fake_manifest)])
-            raise AssertionError("Should have exited")
-        except SystemExit as e:
-            assert e.code == 1
+        assert exc.value.code == 1
 
     def test_main_prints_warnings(self, tmp_path: Path, capsys: object) -> None:
         manifest = tmp_path / "MANIFEST"

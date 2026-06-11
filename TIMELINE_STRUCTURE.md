@@ -1,5 +1,7 @@
 # Timeline Structure and Iteration Numbering
 
+> **Note (2026-06-11):** The "Timeline Consistency Issues" and "Proposed Resolution Framework" sections below predate THE_BIBLE.md and are superseded by it where they conflict (era dates, reset mechanics, Jeff/Jonas chronology — see THE_BIBLE.md §7 and LOGICAL_PROBLEMS.md #13/#14). The chapter-header format (§3 below) and character reconciliation notes remain current.
+
 ## Core Concept Clarification
 **IMPORTANT**: The entire novel takes place on the same calendar date (October 23rd), but each "reset" increments the iteration counter. This is NOT about different calendar dates - it's about how many times each character has relived the same day.
 

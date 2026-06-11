@@ -129,7 +129,7 @@ class TestAssembleMarkdown:
                 body="Chapter B.",
             ),
         ]
-        combined, file_count, section_count = assemble_markdown(chapters)
+        combined, file_count, _ = assemble_markdown(chapters)
         assert file_count == 2
         assert "\\newpage" in combined
 
@@ -151,8 +151,8 @@ class TestAssembleMarkdown:
         combined, _, _ = assemble_markdown(chapters)
         # Both files had [^1], but they should now be unique
         assert "[^1]" not in combined
-        assert "[^a_md_1]" in combined
-        assert "[^b_md_1]" in combined
+        assert "[^a_md_0_1]" in combined
+        assert "[^b_md_1_1]" in combined
 
 
 class TestResolveChapters:
@@ -204,3 +204,55 @@ class TestResolveChapters:
         assert len(result) == 1
         assert isinstance(result[0], ChapterSource)
         assert result[0].frontmatter.type == "wiki"
+
+
+class TestBugbotFixes:
+    """Regression tests for the PR review findings."""
+
+    def _chapter(self, path: str, body: str = "Prose.") -> ChapterSource:
+        return ChapterSource(
+            path=Path(path),
+            manifest_entry=ManifestEntry(path=path, kind="file"),
+            frontmatter=Frontmatter(),
+            body=body,
+        )
+
+    def test_skipped_paths_are_recorded(self, tmp_path: Path) -> None:
+        manifest = tmp_path / "MANIFEST"
+        manifest.write_text("real.md\nghost.md\n")
+        (tmp_path / "real.md").write_text(
+            "---\ntitle: R\ntype: chapter\nstatus: draft\n---\n# R\n"
+        )
+        skipped: list[str] = []
+        resolved = resolve_chapters(parse_manifest(manifest), tmp_path, skipped=skipped)
+        assert skipped == ["ghost.md"]
+        assert len([c for c in resolved if isinstance(c, ChapterSource)]) == 1
+
+    def test_empty_sections_are_dropped(self) -> None:
+        chapters: list[ManifestEntry | ChapterSource] = [
+            ManifestEntry(path="", kind="section", section_title="Empty"),
+            ManifestEntry(path="", kind="section", section_title="Full"),
+            self._chapter("a.md"),
+        ]
+        combined, file_count, section_count = assemble_markdown(chapters)
+        assert section_count == 1
+        assert "# Empty" not in combined
+        assert "# Full" in combined
+
+    def test_non_pdf_formats_avoid_latex_newpage(self) -> None:
+        chapters: list[ManifestEntry | ChapterSource] = [
+            self._chapter("a.md"),
+            self._chapter("b.md"),
+        ]
+        combined, _, _ = assemble_markdown(chapters, "html")
+        assert "\\newpage" not in combined
+        assert "page-break-after" in combined
+
+    def test_footnote_prefixes_unique_for_colliding_paths(self) -> None:
+        chapters: list[ManifestEntry | ChapterSource] = [
+            self._chapter("a b.md", "X[^1].\n\n[^1]: from space"),
+            self._chapter("a_b.md", "Y[^1].\n\n[^1]: from underscore"),
+        ]
+        combined, _, _ = assemble_markdown(chapters)
+        assert "[^a_b_md_0_1]" in combined
+        assert "[^a_b_md_1_1]" in combined

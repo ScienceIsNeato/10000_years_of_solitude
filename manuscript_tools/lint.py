@@ -73,9 +73,14 @@ def load_canon(path: Path) -> dict[str, Any]:
 
 
 def _allowed(canon: dict[str, Any], filename: str, pattern: str) -> bool:
-    """Check the canon's exception list for a (file, pattern) pair."""
-    for exc in canon.get("exceptions", []):
-        if exc.get("file") == filename and exc.get("pattern", "") in pattern:
+    """Check the canon's exception list for a (file, pattern) pair.
+
+    Matching is case-insensitive: term scanning is case-insensitive, so
+    exceptions must suppress every casing of a deliberate violation.
+    """
+    needle = pattern.casefold()
+    for exc in canon.get("exceptions", []) or []:
+        if exc.get("file") == filename and exc.get("pattern", "").casefold() in needle:
             return True
     return False
 

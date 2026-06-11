@@ -13,7 +13,7 @@ The discovery established three things that the Lo-Fi Simulation Theory (see: [[
 
 1. Quantum randomness is not a feature of the physics engine. It is the output of a random number generator — an algorithm.
 2. That algorithm is losing entropy. The RNG's output is degrading, becoming more deterministic over spacetime distance from a fixed point.
-3. The fixed point is the checkpoint: October 23, 2011, at the checkpoint moment — an arbitrary instant of UTC time, famously not a round number — at the spatial coordinates of Earth at that moment.
+3. The fixed point is the checkpoint: the instant of restoration on October 23, 2011 — an arbitrary moment of UTC time, famously not a round number — at the spatial coordinates Earth occupied right then.
 
 ## The Leipzig Moment
 

@@ -427,12 +427,15 @@ A character discovers the wiki for the first time. Reads the Lo-Fi Theory articl
 Already written in `Manuscript/CERN/Physical Limits.rtf`. This is the *dialogue version* of the Lo-Fi article's content. The wiki article post-dates this conversation — Anaya's ideas become wiki canon.
 
 ### 3. An Editorial War (comedic interstitial)
+
 A loop in the life of a scribe. Snaps back to checkpoint, races to a terminal, discovers someone has already rewritten their article with subtle errors. The ensuing correction spiral. Could be played for comedy with real human stakes underneath — this person's identity is "the person who maintains Article X," and someone is trying to take that from them.
 
 ### 4. The Leipzig Moment Wiki Update
+
 The iteration after the beam splitter discovery. A new scribe tries to add the results to the RNG article. The existing maintainer resists — the data contradicts the Lo-Fi Theory's treatment of quantum uncertainty as floating-point error. If outcomes are *deterministic*, not imprecise, the whole framework needs rethinking. The editorial fight mirrors the scientific one.
 
 ### 5. Post-Timequake Silence
+
 The last article never gets finished. A scribe was mid-sentence when the wavefront arrived. The next iteration, there is no next iteration. The wiki dies unwritten for the first time in millennia.
 
 ---

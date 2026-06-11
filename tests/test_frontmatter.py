@@ -63,11 +63,12 @@ class TestParseFrontmatter:
         assert "Fix the ending" in fm.todos
         assert body == "Body text.\n"
 
-    def test_invalid_yaml_returns_defaults(self) -> None:
+    def test_invalid_yaml_returns_defaults_and_strips_fence(self) -> None:
+        # Broken metadata must not leak into the exported body (PR #2 review).
         text = "---\n: invalid: yaml: [broken\n---\nContent."
         fm, body = parse_frontmatter(text)
         assert fm.title == ""
-        assert body == text
+        assert body == "Content."
 
     def test_unclosed_frontmatter_returns_defaults(self) -> None:
         text = "---\ntitle: Oops\nNo closing delimiter"
@@ -81,11 +82,11 @@ class TestParseFrontmatter:
         assert fm.title == "Test"
         assert body == "Body."
 
-    def test_non_dict_yaml_returns_defaults(self) -> None:
+    def test_non_dict_yaml_returns_defaults_and_strips_fence(self) -> None:
         text = "---\n- a list\n- not a dict\n---\nBody."
         fm, body = parse_frontmatter(text)
         assert fm.title == ""
-        assert body == text
+        assert body == "Body."
 
 
 class TestStatusAtLeast:
@@ -134,7 +135,7 @@ class TestLoadFrontmatter:
     def test_rtf_without_sidecar_uses_filename(self, tmp_path: Path) -> None:
         rtf = tmp_path / "My Story.rtf"
         rtf.write_text("{\\rtf1 content}")
-        fm, body = load_frontmatter(rtf)
+        fm, _ = load_frontmatter(rtf)
         assert fm.title == "My Story"
         assert fm.type == "chapter"
         assert fm.status == "draft"
@@ -162,3 +163,34 @@ class TestLoadFrontmatter:
         fm, body = load_frontmatter(txt)
         assert fm.title == "notes"
         assert body == ""
+
+
+class TestReviewFixes:
+    """Regression tests for the PR review findings."""
+
+    def test_invalid_draft_does_not_crash(self) -> None:
+        fm, _ = parse_frontmatter("---\ntitle: T\ndraft: definitely\n---\nBody.")
+        assert fm.draft == 1
+
+    def test_unknown_status_threshold_raises(self) -> None:
+        import pytest
+
+        fm = Frontmatter(status="draft")
+        with pytest.raises(ValueError, match="Unknown status threshold"):
+            fm.status_at_least("polishedd")
+
+    def test_dash_prefixed_yaml_line_does_not_close_fence(self) -> None:
+        # A YAML line that merely STARTS with --- (e.g. '---draft notes')
+        # must not be mistaken for the closing fence.
+        text = "---\ntitle: A\nnote: >-\n  x\nera: ---unstable---\nstatus: draft\n---\nBody here."
+        fm, body = parse_frontmatter(text)
+        assert fm.status == "draft"
+        assert body == "Body here."
+
+    def test_fence_with_trailing_spaces_closes(self) -> None:
+        fm, body = parse_frontmatter("---\ntitle: T\n---   \nBody.")
+        assert fm.title == "T"
+        assert body == "Body."
+
+    def test_status_order_is_shared_class_state(self) -> None:
+        assert Frontmatter.STATUS_ORDER is Frontmatter().STATUS_ORDER

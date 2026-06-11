@@ -87,12 +87,19 @@ def rewrite_footnotes(markdown: str, prefix: str) -> str:
 
 def convert_rtf_to_markdown(rtf_path: Path) -> str:
     """Convert an RTF file to markdown using pandoc."""
-    result = subprocess.run(
-        ["pandoc", str(rtf_path), "-t", "markdown", "--wrap=none"],
-        capture_output=True,
-        text=True,
-        check=True,
-    )
+    try:
+        result = subprocess.run(
+            ["pandoc", str(rtf_path), "-t", "markdown", "--wrap=none"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except subprocess.CalledProcessError as exc:
+        stderr = (exc.stderr or "").strip()
+        raise RuntimeError(
+            f"pandoc failed converting {rtf_path.name} (exit {exc.returncode})"
+            + (f":\n{stderr}" if stderr else "")
+        ) from exc
     return result.stdout
 
 
@@ -102,11 +109,15 @@ def resolve_chapters(
     *,
     min_status: str | None = None,
     type_filter: str | None = None,
+    skipped: list[str] | None = None,
 ) -> list[ManifestEntry | ChapterSource]:
     """Resolve manifest entries to chapter sources with frontmatter.
 
     Filters by status and type if specified.
     Returns a mixed list of ManifestEntry (for sections) and ChapterSource (for files).
+    Manifest paths that do not exist on disk are recorded in `skipped`
+    (if provided) so callers can surface them instead of dropping chapters
+    silently.
     """
     resolved: list[ManifestEntry | ChapterSource] = []
 
@@ -117,6 +128,8 @@ def resolve_chapters(
 
         filepath = base_dir / entry.path
         if not filepath.exists():
+            if skipped is not None:
+                skipped.append(entry.path)
             continue
 
         fm, body = load_frontmatter(filepath)
@@ -143,31 +156,65 @@ def resolve_chapters(
     return resolved
 
 
+def _page_break(output_format: str) -> str:
+    """Page-break separator appropriate to the output format.
+
+    Raw LaTeX \\newpage only means something to the PDF engine; in
+    html/epub/docx output it would appear as literal text.
+    """
+    if output_format == "pdf":
+        return "\n\\newpage\n"
+    return '\n\n<div style="page-break-after: always;"></div>\n\n'
+
+
+def _drop_empty_sections(
+    chapters: list[ManifestEntry | ChapterSource],
+) -> list[ManifestEntry | ChapterSource]:
+    """Remove section dividers that have no files under them after filtering."""
+    kept: list[ManifestEntry | ChapterSource] = []
+    pending_section: ManifestEntry | None = None
+    for item in chapters:
+        if isinstance(item, ManifestEntry):
+            pending_section = item
+            continue
+        if pending_section is not None:
+            kept.append(pending_section)
+            pending_section = None
+        kept.append(item)
+    return kept
+
+
 def assemble_markdown(
     chapters: list[ManifestEntry | ChapterSource],
+    output_format: str = "pdf",
 ) -> tuple[str, int, int]:
     """Assemble resolved chapters into a single markdown document.
 
     Returns (combined_markdown, file_count, section_count).
+    Sections left empty by status/type filtering are dropped rather than
+    rendered as orphaned title pages.
     """
     parts: list[str] = []
     file_count = 0
     section_count = 0
+    page_break = _page_break(output_format)
 
-    for item in chapters:
+    for index, item in enumerate(_drop_empty_sections(chapters)):
         if isinstance(item, ManifestEntry):
             # Section divider
             if file_count > 0 or section_count > 0:
-                parts.append("\n\\newpage\n")
+                parts.append(page_break)
             parts.append(f"# {item.section_title}\n")
             section_count += 1
             continue
 
         # Chapter source
         if file_count > 0:
-            parts.append("\n\\newpage\n")
+            parts.append(page_break)
 
-        prefix = make_footnote_prefix(item.manifest_entry.path)
+        # Index suffix keeps prefixes unique even when two distinct paths
+        # sanitize to the same string (e.g. "a b.md" and "a_b.md").
+        prefix = f"{make_footnote_prefix(item.manifest_entry.path)}_{index}"
         body = rewrite_footnotes(item.body, prefix)
         parts.append(body)
         parts.append("\n")
@@ -199,17 +246,30 @@ def build_manuscript(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     entries = parse_manifest(manifest_path)
+    skipped: list[str] = []
     chapters = resolve_chapters(
         entries,
         base_dir,
         min_status=min_status,
         type_filter=type_filter,
+        skipped=skipped,
     )
 
-    combined, file_count, section_count = assemble_markdown(chapters)
+    combined, file_count, section_count = assemble_markdown(chapters, output_format)
 
     if file_count == 0:
-        raise ValueError("No files matched the given filters")
+        if skipped and not any(isinstance(c, ChapterSource) for c in chapters):
+            raise ValueError(
+                "No buildable files: all manifest paths were missing on disk "
+                f"({', '.join(skipped)})"
+            )
+        filters = []
+        if min_status:
+            filters.append(f"--status {min_status}")
+        if type_filter:
+            filters.append(f"--type {type_filter}")
+        detail = f" matching {' '.join(filters)}" if filters else ""
+        raise ValueError(f"No files{detail} resolved from the manifest")
 
     # Write combined markdown to temp file for pandoc
     with tempfile.NamedTemporaryFile(
@@ -227,6 +287,8 @@ def build_manuscript(
         output_path=output_path,
         chapter_count=file_count,
         section_count=section_count,
+        skipped=skipped,
+        warnings=[f"manifest path not found, chapter omitted: {s}" for s in skipped],
     )
 
 
@@ -258,7 +320,14 @@ def _run_pandoc(
     format_args = _get_format_args(output_format)
 
     cmd = [*common_args, *format_args, "-o", str(output_path)]
-    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    try:
+        subprocess.run(cmd, check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as exc:
+        stderr = (exc.stderr or "").strip()
+        raise RuntimeError(
+            f"pandoc failed (exit {exc.returncode})"
+            + (f":\n{stderr}" if stderr else "")
+        ) from exc
 
     return output_path
 
