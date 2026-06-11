@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "agent": {
+    "status": "Worked through the bot review on the big PR - fixed a dozen real bugs in the build tools, retired the broken legacy export script, tidied the docs",
+    "direction": "Resolving the review threads, then the PR is truly ready to merge",
+    "last_update": "2026-06-11T07:16:09Z"
+  }
+}

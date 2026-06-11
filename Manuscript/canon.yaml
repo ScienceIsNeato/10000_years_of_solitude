@@ -1,0 +1,94 @@
+# Machine-readable canon registry for `manuscript lint`.
+# Ground truth lives in THE_BIBLE.md; this file is its checkable shadow.
+# When the bible changes, change this file in the same commit.
+
+wiki_dir: Interstitials/Wiki
+
+# Sections of the MANIFEST whose files must run in ascending canon day order.
+ordered_sections:
+  - The Loop, In Order
+
+# Era year ranges (THE_BIBLE.md §7). Eras with no entry are unbounded/skip.
+eras:
+  "1": [0, 10]
+  "2": [10, 200]
+  "3": [200, 800]
+  "4": [400, 600]
+  "5": [400, 1200]
+  "6": [800, 10005]
+  "7": [9900, 10010]
+
+# Day <-> year arithmetic the bible asserts (checked with day/365.25).
+assertions:
+  - { day: 945366, years_approx: 2588, tolerance: 10 }   # Jeff/Thud ≈ 2,590y
+  - { day: 945386, years_approx: 2588, tolerance: 10 }   # Jonas, +20 days
+  - { day: 3650753, years_approx: 9995, tolerance: 10 }  # late Meredith ≈ 10,000y
+  - { day: 1825, years_approx: 5, tolerance: 1 }         # Egypt at the 5-year mark
+
+# Canonical character spellings and forbidden drift variants.
+characters:
+  - name: Caius
+    forbidden_variants: [Cauis, Gaius, Kaius, Kyas, Caios]
+  - name: Meredith
+    forbidden_variants: [Meridith, Merideth]
+  - name: Furukawa
+    forbidden_variants: [Furakawa, Furukowa]
+  - name: Taneisha
+    forbidden_variants: [Tanisha, Taniesha]
+  - name: Anaya
+    forbidden_variants: [Anya Patel, Anaiya]
+  - name: Knowles
+    forbidden_variants: [Knowls, Noles]
+
+# Stale-model vocabulary (the loop has no shared clock; THE_BIBLE.md §3).
+forbidden_terms:
+  - pattern: 'midnight UTC'
+    severity: error
+    reason: "there is no midnight reset — the checkpoint is an arbitrary instant"
+  - pattern: '00:00:00 UTC'
+    severity: error
+    reason: "no shared clock; use the +X hours convention"
+  - pattern: 'resets at midnight'
+    severity: error
+    reason: "resets are per-agent on consciousness loss, not scheduled"
+
+# MANIFEST file registry: canonical day/era/pov per file.
+files:
+  - { file: "Meredith/The Final Iteration.md", header: "+26 hours", day: 3650753, era: 7, pov: Meredith }
+  - { file: "One-Off Stories/Meredith.rtf", header: "+3 hours", day: 1, era: 1, pov: Meredith }
+  - { file: "One-Off Stories/Sydney.rtf", header: "+1 hour", day: 5, era: 1, pov: Sydney }
+  - { file: "One-Off Stories/Unnamed (Baby).rtf", header: "+2 hours", day: 93, era: 1, pov: Bura Samay }
+  - { file: "Jennifer/Jennifer.rtf", header: "+14 hours", day: 121, era: 1, pov: Jennifer }
+  - { file: "One-Off Stories/This is CNN.rtf", header: "+12 hours", day: 500, era: 2, pov: Ann }
+  - { file: "Jennifer/Jennifer - Egypt.rtf", header: "+25 hours", day: 1825, era: 1, pov: Dana }
+  - { file: "Furukawa/Furukawa.md", header: "+11 minutes", day: 2191, era: 1, pov: Satoshi Furukawa }
+  - { file: "One-Off Stories/Taneisha.rtf", header: "+1 hour", day: 3859, era: 2, pov: Taneisha }
+  - { file: "Thud/Thud.rtf", header: "+2 hours", day: 945366, era: 6, pov: Jeff }
+  - { file: "Caius/Jonas.rtf", header: "+2 hours", day: 945386, era: 6, pov: Jonas }
+
+# Deliberate violations the linter must not flag.
+# (Jennifer-Egypt's old "October 24th" header was converted to "+25 hours",
+# which states the stayed-up-all-night tell directly; no exceptions remain.)
+exceptions: []
+
+# Wiki articles that are planned/referenced but not yet written
+# ([[links]] to these are fine; anything else gets a warning).
+planned_articles:
+  - The Reset
+  - Project Dandelion
+  - The Eidetic Census
+  - Going to Glass
+  - The Boundary / Vitrification (Going to Glass)
+  - Bug 1 Theories
+  - Engine Mismatch Phenomena
+  - Memory Degradation
+  - The Wakefulness Economy
+  - Loop Couriers
+  - The Agent-Engine Question
+  - Wildlife Determinism
+  - The Florida Squirrel
+  - The Gentleman-Scientist Revolution
+  - Eidetic Consensus Drift
+  - Jeff (Thud)
+  - The Reputation Economy
+  - Satoshi Furukawa

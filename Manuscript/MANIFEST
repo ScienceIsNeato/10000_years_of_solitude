@@ -1,0 +1,58 @@
+# Manuscript Chapter Ordering
+#
+# Each non-blank, non-comment line is a path relative to Manuscript/.
+# Lines starting with ## are section dividers — they produce a part/section
+# title page in the output.
+# Lines starting with # are comments and are ignored.
+#
+# Reorder lines to reorder the manuscript. Add/remove as chapters are written.
+# The build tooling (manuscript_tools) reads this file to build the final document.
+
+# Vignettes run in ascending iteration order — the reader lives the loop's
+# social history (chaos -> adaptation -> institutions -> justice ->
+# transcendence) just by reading in order. Caius's Day spine chapters
+# (THE_BIBLE.md §11) will interleave here as they are written.
+# Cut from the flow: CERN/Phyiscal Limits.rtf (replaced by a journal
+# vignette per Fork 3) and Interstitials/On Memory.rtf (vestigial — its
+# material migrated into The Boards).
+
+## Preface
+
+Meredith/The Final Iteration.md
+
+## The Loop, In Order
+
+# Day 1
+One-Off Stories/Meredith.rtf
+# Day 5
+One-Off Stories/Sydney.rtf
+# Day 93
+One-Off Stories/Unnamed (Baby).rtf
+# Day 121
+Jennifer/Jennifer.rtf
+# Day 500
+One-Off Stories/This is CNN.rtf
+# Day 1,825
+Jennifer/Jennifer - Egypt.rtf
+# Day 2,191
+Furukawa/Furukawa.md
+# Day 3,859
+One-Off Stories/Taneisha.rtf
+# Day 945,366
+Thud/Thud.rtf
+# Day 945,386
+Caius/Jonas.rtf
+
+## Wiki Articles
+
+Interstitials/Wiki/The Lo-Fi Simulation Theory.md
+Interstitials/Wiki/The RNG Degradation.md
+Interstitials/Wiki/The Boards.md
+Interstitials/Wiki/Caius Middleton.md
+Interstitials/Wiki/WTFreality.md
+Interstitials/Wiki/Selected Loop Records.md
+Interstitials/Wiki/Sleep.md
+Interstitials/Wiki/Air Travel in the Loop.md
+Interstitials/Wiki/Pets in the Loop.md
+Interstitials/Wiki/Neuroscience in the Loop.md
+Interstitials/Wiki/Crime and Justice in the Loop.md
