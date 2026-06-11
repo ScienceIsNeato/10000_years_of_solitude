@@ -239,9 +239,9 @@ def _run_pandoc(
     output_dir: Path,
 ) -> Path:
     """Run pandoc to produce the final output."""
-    from datetime import datetime, timezone
+    from datetime import UTC, datetime
 
-    timestamp = datetime.now(tz=timezone.utc).strftime("%Y%m%d")
+    timestamp = datetime.now(tz=UTC).strftime("%Y%m%d")
     output_path = output_dir / f"manuscript_{timestamp}.{output_format}"
 
     common_args = [

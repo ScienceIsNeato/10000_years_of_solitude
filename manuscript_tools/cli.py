@@ -19,8 +19,14 @@ def create_parser() -> argparse.ArgumentParser:
         "format",
         nargs="?",
         default="pdf",
-        choices=["pdf", "docx", "epub", "html"],
-        help="Output format (default: pdf)",
+        choices=["pdf", "docx", "epub", "html", "lint"],
+        help="Output format, or 'lint' to run the continuity linter (default: pdf)",
+    )
+    parser.add_argument(
+        "--canon",
+        type=Path,
+        default=None,
+        help="Path to canon.yaml for lint (default: canon.yaml next to MANIFEST)",
     )
     parser.add_argument(
         "--manifest",
@@ -78,6 +84,11 @@ def main(argv: list[str] | None = None) -> None:
     if not manifest_path.exists():
         print(f"Error: MANIFEST not found at {manifest_path}", file=sys.stderr)
         sys.exit(1)
+
+    if args.format == "lint":
+        from manuscript_tools.lint import run_lint
+
+        sys.exit(run_lint(manifest_path, args.canon))
 
     result = build_manuscript(
         manifest_path=manifest_path,

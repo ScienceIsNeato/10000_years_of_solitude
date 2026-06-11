@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "Big structural review digested — the book now has its spine (Caius's groundhog morning), a reordered table of contents that tells the story by itself, and four fork decisions locked in",
-    "direction": "Next: the continuity linter, then writing the Caius's Day chapters",
-    "last_update": "2026-06-11T04:36:40Z"
+    "status": "The continuity linter is alive — first run caught every error the human review found by hand, plus one nobody had noticed",
+    "direction": "Three flagged continuity calls for Will, then on to writing the spine chapters",
+    "last_update": "2026-06-11T04:54:05Z"
   }
 }

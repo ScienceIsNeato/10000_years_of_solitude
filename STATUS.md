@@ -1,5 +1,13 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Tooling Task: The Continuity Linter (2026-06-10)
+
+- Built `manuscript lint`: a continuity linter that checks every MANIFEST file (including inside the RTFs, via a built-in RTF text stripper) against a new machine-readable canon registry, Manuscript/canon.yaml — the bible's checkable shadow (character spellings + forbidden variants, era year ranges, file↔day↔era↔POV mappings, day↔year arithmetic assertions, stale-model vocabulary, deliberate-exception list, planned wiki articles).
+- Checks: name spelling drift, impossible calendar dates (with canon exceptions — Jennifer-Egypt's Oct 24 is whitelisted as the deliberate tell), iteration/era consistency, frontmatter validity, MANIFEST ascending-day ordering, unresolved [[wiki links]], day↔year math. 21 new tests (65 total).
+- First run against the real manuscript caught everything the structural review found by hand, plus one more: 6× "Cauis" spelling drift (fixed in Meredith.rtf and Jonas.rtf), both impossible "October 25" headers (Taneisha, Baby — left flagged as real work items), and a genuine bible bug (Ann's CNN chapter: Day 500 is ~year 1.4, but the registry says Era 2 — author needs to move either the day or the era).
+- Cleanup en route: ruff TC003/UP017/F401 fixes in build.py and frontmatter.py (including repairing ruff's own broken UTC auto-fix, which tests wouldn't have caught since the pandoc path is untested).
+- Current lint state: 3 errors, 0 warnings — all three are genuine open authorial items, not noise.
+
 ## Ad-hoc Manuscript Task: Structural Feedback Round — Forks Called and Canonized (2026-06-10)
 
 - Processed the full-manuscript structural review. The four creative forks were called by the author and are now canon:
