@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "Every chapter header now tells time the only way this world can — hours since the anomaly — and the linter enforces it",
-    "direction": "One continuity call left for Will (the news anchor's date), then the spine chapters",
-    "last_update": "2026-06-11T05:22:14Z"
+    "status": "Session wrapped and polished — tests, gates, and the book all green; PR is dressed for review",
+    "direction": "Merge when Will's ready, then the spine chapters begin on a fresh branch",
+    "last_update": "2026-06-11T05:32:45Z"
   }
 }

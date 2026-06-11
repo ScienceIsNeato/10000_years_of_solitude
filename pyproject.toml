@@ -50,8 +50,13 @@ addopts = "-q"
 
 [tool.coverage.run]
 source = ["manuscript_tools"]
-omit = ["tests/*"]
+omit = ["tests/*", "inspect_repos.py"]
 
 [tool.coverage.report]
 fail_under = 80
 show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

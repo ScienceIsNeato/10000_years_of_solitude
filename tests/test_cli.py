@@ -128,3 +128,51 @@ class TestMain:
             )
             captured = capsys.readouterr()  # type: ignore[union-attr]
             assert "Some warning" in captured.err
+
+
+class TestLintDispatch:
+    def test_lint_runs_and_exits_clean(self, tmp_path: Path) -> None:
+        chapter = tmp_path / "a.md"
+        chapter.write_text(
+            "---\ntitle: A\ntype: chapter\nstatus: draft\n---\n# A\n\nProse.\n"
+        )
+        (tmp_path / "MANIFEST").write_text("a.md\n")
+        (tmp_path / "canon.yaml").write_text("characters: []\n")
+        import pytest
+
+        with pytest.raises(SystemExit) as exc:
+            main(["lint", "--manifest", str(tmp_path / "MANIFEST")])
+        assert exc.value.code == 0
+
+    def test_lint_exits_nonzero_on_errors(self, tmp_path: Path) -> None:
+        chapter = tmp_path / "a.md"
+        chapter.write_text(
+            "---\ntitle: A\ntype: chapter\nstatus: draft\n---\n# A\n\n"
+            "It happened on October 26.\n"
+        )
+        (tmp_path / "MANIFEST").write_text("a.md\n")
+        (tmp_path / "canon.yaml").write_text("characters: []\n")
+        import pytest
+
+        with pytest.raises(SystemExit) as exc:
+            main(["lint", "--manifest", str(tmp_path / "MANIFEST")])
+        assert exc.value.code == 1
+
+
+class TestErrorExits:
+    def test_missing_manifest_exits(self, tmp_path: Path) -> None:
+        import pytest
+
+        with pytest.raises(SystemExit) as exc:
+            main(["html", "--manifest", str(tmp_path / "NOPE")])
+        assert exc.value.code == 1
+
+    def test_find_manifest_failure_exits(self) -> None:
+        import pytest
+
+        with (
+            patch("pathlib.Path.exists", return_value=False),
+            pytest.raises(SystemExit) as exc,
+        ):
+            find_manifest()
+        assert exc.value.code == 1
