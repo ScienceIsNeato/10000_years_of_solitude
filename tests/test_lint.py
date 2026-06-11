@@ -8,6 +8,7 @@ from manuscript_tools.lint import (
     Finding,
     check_calendar_dates,
     check_file_canon,
+    check_header_convention,
     check_manifest_order,
     check_name_drift,
     check_wiki_links,
@@ -31,7 +32,7 @@ CANON = {
         }
     ],
     "files": [
-        {"file": "a.md", "day": 100, "era": 1, "pov": "Caius"},
+        {"file": "a.md", "day": 100, "era": 1, "pov": "Caius", "header": "+3 hours"},
         {"file": "b.md", "day": 5000, "era": 2, "pov": "Caius"},
     ],
     "exceptions": [{"file": "allowed.md", "pattern": "October 24"}],
@@ -140,6 +141,29 @@ class TestManifestOrder:
         m = tmp_path / "MANIFEST"
         m.write_text("## Appendix\n\nb.md\na.md\n")
         assert check_manifest_order(CANON, m) == []
+
+
+class TestHeaderConvention:
+    def test_missing_loop_time_marker_flagged(self) -> None:
+        found = check_header_convention(
+            CANON, "a.md", "October 23rd, Roanoke\n1\nMeredith\n\nProse."
+        )
+        assert len(found) == 1 and "+3 hours" in found[0].message
+
+    def test_marker_present_passes(self) -> None:
+        found = check_header_convention(
+            CANON, "a.md", "October 23rd, +3 hours, Roanoke\n1\nMeredith\n"
+        )
+        assert found == []
+
+    def test_clock_time_flagged(self) -> None:
+        found = check_header_convention(
+            CANON, "b.md", "October 23rd, 7:15 am, Brooklyn\n5\nT\n"
+        )
+        assert len(found) == 1 and "clock time" in found[0].message
+
+    def test_unregistered_file_only_clock_checked(self) -> None:
+        assert check_header_convention(CANON, "z.md", "Plain prose opening.") == []
 
 
 class TestWikiLinks:

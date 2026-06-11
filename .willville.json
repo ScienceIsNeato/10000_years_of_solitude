@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "agent": {
-    "status": "The continuity linter is alive — first run caught every error the human review found by hand, plus one nobody had noticed",
-    "direction": "Three flagged continuity calls for Will, then on to writing the spine chapters",
-    "last_update": "2026-06-11T04:54:05Z"
+    "status": "Every chapter header now tells time the only way this world can — hours since the anomaly — and the linter enforces it",
+    "direction": "One continuity call left for Will (the news anchor's date), then the spine chapters",
+    "last_update": "2026-06-11T05:22:14Z"
   }
 }

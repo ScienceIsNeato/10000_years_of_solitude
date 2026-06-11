@@ -123,6 +123,46 @@ def check_calendar_dates(
     return findings
 
 
+def check_header_convention(
+    canon: dict[str, Any], filename: str, prose: str
+) -> list[Finding]:
+    """Chapter headers must use '+X hours' loop time, never clock time.
+
+    For canon-registered files with a declared header offset, the literal
+    must appear in the opening of the file. Clock times (e.g. '7:15 am')
+    near the top are flagged regardless.
+    """
+    findings = []
+    opening = prose[:400]
+    mapping = {f["file"]: f for f in canon.get("files", [])}
+    entry = mapping.get(filename)
+
+    if entry and entry.get("header"):
+        expected = entry["header"]
+        if expected not in opening:
+            findings.append(
+                Finding(
+                    "error",
+                    filename,
+                    f"header missing loop-time marker '{expected}' "
+                    "(headers show +X hours since the anomaly, not local time)",
+                )
+            )
+
+    for m in re.finditer(r"\b\d{1,2}:\d{2}\s*(?:am|pm|AM|PM)\b", opening):
+        if _allowed(canon, filename, m.group(0)):
+            continue
+        findings.append(
+            Finding(
+                "error",
+                filename,
+                f"clock time '{m.group(0)}' in header — local time is "
+                "meaningless in the loop; use +X hours since the anomaly",
+            )
+        )
+    return findings
+
+
 def check_forbidden_terms(
     canon: dict[str, Any], filename: str, prose: str
 ) -> list[Finding]:
@@ -299,6 +339,7 @@ def lint_manuscript(
         prose = read_prose(path)
         findings += check_name_drift(canon, entry.path, prose)
         findings += check_calendar_dates(canon, entry.path, prose)
+        findings += check_header_convention(canon, entry.path, prose)
         findings += check_forbidden_terms(canon, entry.path, prose)
         findings += check_file_canon(canon, entry.path, path)
         findings += check_wiki_links(canon, entry.path, prose, wiki_dir)

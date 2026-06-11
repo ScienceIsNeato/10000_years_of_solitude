@@ -7,7 +7,7 @@ iteration: 2191
 era: "1"
 ---
 
-October 23rd, 408 kilometers over the Pacific
+October 23rd, +11 minutes, 408 kilometers over the Pacific
 2,191
 Satoshi
 

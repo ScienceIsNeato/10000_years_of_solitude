@@ -58,12 +58,18 @@
 - **Personal Count**: How many iterations since becoming aware
 - **Experience Level**: Novice (<100), Intermediate (100-10,000), Veteran (10,000+), Ancient (100,000+)
 
-### 3. Chapter Headers Format
+### 3. Chapter Headers Format (updated 2026-06-11 — loop time, never local time)
 ```
-Chapter Title
-Character Name - Iteration #[PERSONAL COUNT] (Day #[GLOBAL COUNT])
-October 23rd
+October 23rd, +[X] hours, [Location]
+[GLOBAL DAY COUNT]
+[Character Name]
 ```
+The "+X hours" is time since the anomaly (loop start, per THE_BIBLE.md §3's
+convention). Local time is meaningless in this novel — time since waking up
+is what matters. "October 23rd" stays as the ritual drumbeat even when an
+agent's continuous span has physically crossed into the next calendar day
+(e.g. Jennifer-Egypt at +25 hours). Header offsets are registered per file
+in Manuscript/canon.yaml and enforced by `manuscript lint`.
 
 ### 4. Character Timeline Reconciliation
 

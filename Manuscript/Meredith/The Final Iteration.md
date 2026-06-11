@@ -7,7 +7,7 @@ iteration: 3650753
 era: "7"
 ---
 
-October 23rd, Roanoke, Virginia
+October 23rd, +26 hours, Roanoke, Virginia
 3,650,753
 Meredith
 

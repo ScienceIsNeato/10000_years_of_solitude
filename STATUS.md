@@ -1,5 +1,11 @@
 # STATUS — Curiosity Killed the Cat (While Turning It Immortal)
 
+## Ad-hoc Manuscript Task: Headers Converted to Loop Time (2026-06-11)
+
+- All eleven chapter headers now show "+X hours" since the anomaly instead of local clock time — local time is meaningless in this novel; time since waking is what matters. "October 23rd" stays as the ritual drumbeat. Values chosen per scene: Meredith +3h (the session), Sydney +1h, the Baby +2h, Jennifer +14h (evening diary), CNN +12h (evening broadcast), Egypt +25h (the stayed-up-all-night tell, now stated directly — the old "October 24th" parenthetical is gone), Furukawa +11 minutes (his canonical wake), Taneisha +1h, Thud and Jonas both +2h (Caius's same-morning rounds), the preface +26h (the failed vigil).
+- The convention is now enforced: canon.yaml registers each file's header offset, and a new `manuscript lint` check requires the marker in every chapter opening and bans clock times (am/pm) outright. TIMELINE_STRUCTURE.md's header format spec updated. 4 new tests (69 total).
+- Lint is down to exactly one error: the CNN chapter's Day 500 vs Era 2 contradiction, which is an authorial call.
+
 ## Ad-hoc Tooling Task: The Continuity Linter (2026-06-10)
 
 - Built `manuscript lint`: a continuity linter that checks every MANIFEST file (including inside the RTFs, via a built-in RTF text stripper) against a new machine-readable canon registry, Manuscript/canon.yaml — the bible's checkable shadow (character spellings + forbidden variants, era year ranges, file↔day↔era↔POV mappings, day↔year arithmetic assertions, stale-model vocabulary, deliberate-exception list, planned wiki articles).

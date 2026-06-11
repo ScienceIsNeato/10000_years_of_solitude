@@ -54,23 +54,23 @@ forbidden_terms:
 
 # MANIFEST file registry: canonical day/era/pov per file.
 files:
-  - { file: "Meredith/The Final Iteration.md", day: 3650753, era: 7, pov: Meredith }
-  - { file: "One-Off Stories/Meredith.rtf", day: 1, era: 1, pov: Meredith }
-  - { file: "One-Off Stories/Sydney.rtf", day: 5, era: 1, pov: Sydney }
-  - { file: "One-Off Stories/Unnamed (Baby).rtf", day: 93, era: 1, pov: Bura Samay }
-  - { file: "Jennifer/Jennifer.rtf", day: 121, era: 1, pov: Jennifer }
-  - { file: "One-Off Stories/This is CNN.rtf", day: 500, era: 2, pov: Ann }
-  - { file: "Jennifer/Jennifer - Egypt.rtf", day: 1825, era: 1, pov: Dana }
-  - { file: "Furukawa/Furukawa.md", day: 2191, era: 1, pov: Satoshi Furukawa }
-  - { file: "One-Off Stories/Taneisha.rtf", day: 3859, era: 2, pov: Taneisha }
-  - { file: "Thud/Thud.rtf", day: 945366, era: 6, pov: Jeff }
-  - { file: "Caius/Jonas.rtf", day: 945386, era: 6, pov: Jonas }
+  - { file: "Meredith/The Final Iteration.md", header: "+26 hours", day: 3650753, era: 7, pov: Meredith }
+  - { file: "One-Off Stories/Meredith.rtf", header: "+3 hours", day: 1, era: 1, pov: Meredith }
+  - { file: "One-Off Stories/Sydney.rtf", header: "+1 hour", day: 5, era: 1, pov: Sydney }
+  - { file: "One-Off Stories/Unnamed (Baby).rtf", header: "+2 hours", day: 93, era: 1, pov: Bura Samay }
+  - { file: "Jennifer/Jennifer.rtf", header: "+14 hours", day: 121, era: 1, pov: Jennifer }
+  - { file: "One-Off Stories/This is CNN.rtf", header: "+12 hours", day: 500, era: 2, pov: Ann }
+  - { file: "Jennifer/Jennifer - Egypt.rtf", header: "+25 hours", day: 1825, era: 1, pov: Dana }
+  - { file: "Furukawa/Furukawa.md", header: "+11 minutes", day: 2191, era: 1, pov: Satoshi Furukawa }
+  - { file: "One-Off Stories/Taneisha.rtf", header: "+1 hour", day: 3859, era: 2, pov: Taneisha }
+  - { file: "Thud/Thud.rtf", header: "+2 hours", day: 945366, era: 6, pov: Jeff }
+  - { file: "Caius/Jonas.rtf", header: "+2 hours", day: 945386, era: 6, pov: Jonas }
 
 # Deliberate violations the linter must not flag.
 exceptions:
   # Jennifer-Egypt's October 24th is canon: the in-story tell that the
   # traveler stayed awake through the night (LOGICAL_PROBLEMS #11).
-  - { file: "Jennifer/Jennifer - Egypt.rtf", pattern: "October 24" }
+  - { file: "Jennifer/Jennifer - Egypt.rtf", header: "+25 hours", pattern: "October 24" }
 
 # Wiki articles that are planned/referenced but not yet written
 # ([[links]] to these are fine; anything else gets a warning).
