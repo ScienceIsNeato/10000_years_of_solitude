@@ -67,8 +67,8 @@
 **Problem**: If total loop duration is ~2,590 years (per Jeff/Jonas), why is Caius only at ~350 years? Need to establish whether counts are personal or global and make the system consistent across all chapters.
 
 ### 10. Jennifer's Two Stories
-**Status**: ⚠️ AWARE (likely not a problem)
-**Notes**: Day 121 (cruise) and Day 1825 (Egypt) are two different scenes at two different points in Jennifer's experience. These are consistent if the cruise story is ~4 months in and the Egypt story is ~5 years in. The TIMELINE_STRUCTURE.md was flagging this as inconsistent but it may just be two chapters at different times.
+**Status**: ✅ SUPERSEDED by #17 (2026-06-10)
+**Notes**: The two stories have incompatible checkpoints (ship off Baja vs. Des Moines), so they are now two characters: Jennifer (cruise) and "Dana" (provisional; Egypt/skydive). See #17.
 
 ### 11. October 24th Anomaly
 **Status**: ✅ RESOLVED (2026-06-10)
@@ -99,6 +99,22 @@
 **Status**: ✅ RESOLVED (2026-06-10, per author direction to "make sane choices")
 **Resolution**: Era 5 keeps Years 400–1200 (discovery: Furukawa's orbital contact at Year ~6 dismissed for centuries → Leipzig framework ~500 → ground seekers + orbital data + organized teams codify the boundary). Jeff's drive stays at Year ~2,590 and is reframed as an independent *rediscovery* by the loop's Rip Van Winkle — 2,500 years locked in a 3.8-second death loop, he never read the settled science; his account becomes the folklore. See THE_BIBLE.md §7 Era 5 "Chronology note" and the Jeff registry row. The Jonas Incident date is untouched.
 
+### 16. The Fallon Broadcast (Jonas chapter)
+**Status**: ✅ RESOLVED (2026-06-10 author direction)
+**Resolution**: Caius staged the tape. Live sweeps-week programming cannot exist (checkpoint TV is Sunday Oct 23 content; transmission dies as the world's loops close). The "live broadcast" Caius uses to prove stakes to Jonas was manufactured — the demonstration of consequences was itself a manipulation. Prose should plant one tell. See the Jonas registry row.
+
+### 17. Two Jennifers
+**Status**: ✅ RESOLVED (2026-06-10 author direction); name pending
+**Resolution**: One Jennifer — the cruise ship character (checkpoint aboard ship off Baja), a trans woman whose arc is becoming comfortable in her own skin across the novel. The Egypt/Des Moines skydiver is a separate character (provisional name "Dana"), anhedonia-to-seeker arc, Dandelion recruit in embryo. Egypt chapter needs the rename pass; author to confirm the name.
+
+### 18. The Infant vs. the Knowledge-Body Rule
+**Status**: ✅ RESOLVED (explicit carve-out, 2026-06-10)
+**Resolution**: No carve-out needed — the rule IS the premise, now stated explicitly in the Bura Samay registry row: the agent engine grows; the checkpoint body never develops one motor skill in ten thousand years. If chapter prose shows motor development, the prose is wrong, not the rule.
+
+### 19. Date Stamps and Header Drift (mechanical — for the linter)
+**Status**: ⚠️ AWARE — fix via continuity linter pass
+**Problem**: Taneisha and Mumbai chapters carry "Oct 25" headers (impossible; convert to the +X hours convention); the Baby chapter's "93 iterations" header sits over prose that narrates a much longer span; Caius/Cauis/Gaius spelling drifts across chapters (see #12). All of these are exactly the class of error a `manuscript lint` subcommand should catch against a machine-readable canon registry (characters, day↔year math, era ranges, name spellings, allowed time formats, wiki-link targets). The linter is the next tooling task.
+
 ## RESOLUTION PRIORITIES
 
 1. ~~CRITICAL: Memory/brain reset paradox~~ → ✅ Dual-engine architecture
@@ -112,4 +128,5 @@
 9. ~~HIGH: Multi-agent synchronization / rollback moment (13)~~ → ✅ Confirmed in substance by 2026-06-10 rulings (final-iteration "off"-state canon)
 10. ~~MEDIUM: Era 5 dates vs. Jeff/Jonas registry (14)~~ → ✅ Resolved (Jeff reframed as folk rediscoverer at Year ~2,590)
 11. **MEDIUM**: Checkpoint sleepers (15) — Sleep article carries provisional canon; ISS-crew status still deliberately unpinned
+12. **HIGH**: Build the continuity linter (19) — `manuscript lint` + canon registry; then run the mechanical fixes (date stamps, spelling, headers) through it
 

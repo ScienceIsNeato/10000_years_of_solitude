@@ -8,30 +8,40 @@
 # Reorder lines to reorder the manuscript. Add/remove as chapters are written.
 # The export script reads this file to build the final document.
 
+# Vignettes run in ascending iteration order — the reader lives the loop's
+# social history (chaos -> adaptation -> institutions -> justice ->
+# transcendence) just by reading in order. Caius's Day spine chapters
+# (THE_BIBLE.md §11) will interleave here as they are written.
+# Cut from the flow: CERN/Phyiscal Limits.rtf (replaced by a journal
+# vignette per Fork 3) and Interstitials/On Memory.rtf (vestigial — its
+# material migrated into The Boards).
+
 ## Preface
 
 Meredith/The Final Iteration.md
 
-## Character Chapters
+## The Loop, In Order
 
-Thud/Thud.rtf
-Jennifer/Jennifer.rtf
-Jennifer/Jennifer - Egypt.rtf
-Furukawa/Furukawa.md
-Caius/Jonas.rtf
-CERN/Phyiscal Limits.rtf
-
-## One-Off Stories
-
+# Day 1
 One-Off Stories/Meredith.rtf
+# Day 5
 One-Off Stories/Sydney.rtf
-One-Off Stories/Taneisha.rtf
-One-Off Stories/This is CNN.rtf
+# Day 93
 One-Off Stories/Unnamed (Baby).rtf
-
-## Interstitials
-
-Interstitials/On Memory.rtf
+# Day 121
+Jennifer/Jennifer.rtf
+# Day 500
+One-Off Stories/This is CNN.rtf
+# Day 1,825
+Jennifer/Jennifer - Egypt.rtf
+# Day 2,191
+Furukawa/Furukawa.md
+# Day 3,859
+One-Off Stories/Taneisha.rtf
+# Day 945,366
+Thud/Thud.rtf
+# Day 945,386
+Caius/Jonas.rtf
 
 ## Wiki Articles
 
