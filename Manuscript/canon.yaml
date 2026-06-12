@@ -63,6 +63,7 @@ files:
   - { file: "Jennifer/Jennifer - Egypt.rtf", header: "+25 hours", day: 1825, era: 1, pov: Dana }
   - { file: "Furukawa/Furukawa.md", header: "+11 minutes", day: 2191, era: 1, pov: Satoshi Furukawa }
   - { file: "One-Off Stories/Taneisha.rtf", header: "+1 hour", day: 3859, era: 2, pov: Taneisha }
+  - { file: "Caius/Drawdown.md", header: "+16 hours", day: 182625, era: 3, pov: Caius }
   - { file: "Thud/Thud.rtf", header: "+2 hours", day: 945366, era: 6, pov: Jeff }
   - { file: "Caius/Jonas.rtf", header: "+2 hours", day: 945386, era: 6, pov: Jonas }
 
@@ -92,3 +93,13 @@ planned_articles:
   - Jeff (Thud)
   - The Reputation Economy
   - Satoshi Furukawa
+
+# Blocks of prose that must repeat character-identically wherever they appear.
+# If a file contains the trigger substring, it must contain the full text
+# verbatim — drift in these is the one unforgivable continuity error.
+# (A future chapter may *deliberately* drift the journal fragment as a plot
+# event; when that day comes, the drifted version gets its own entry.)
+verbatim_blocks:
+  - name: oct22-journal-fragment
+    trigger: "never random at all"
+    text: "…the longer I watch the thing work the more I think the market was never random at all, just patient — and if that's true of the market there's no reason it couldn't be true of bigger things. Worth chasing down properly. Tomorrow, first thing"

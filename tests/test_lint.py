@@ -11,6 +11,7 @@ from manuscript_tools.lint import (
     check_header_convention,
     check_manifest_order,
     check_name_drift,
+    check_verbatim_blocks,
     check_wiki_links,
     lint_manuscript,
     strip_rtf,
@@ -37,6 +38,13 @@ CANON = {
     ],
     "exceptions": [{"file": "allowed.md", "pattern": "October 24"}],
     "planned_articles": ["Planned Article"],
+    "verbatim_blocks": [
+        {
+            "name": "ritual",
+            "trigger": "never random",
+            "text": "the market was never random at all, just patient",
+        }
+    ],
 }
 
 
@@ -164,6 +172,20 @@ class TestHeaderConvention:
 
     def test_unregistered_file_only_clock_checked(self) -> None:
         assert check_header_convention(CANON, "z.md", "Plain prose opening.") == []
+
+
+class TestVerbatimBlocks:
+    def test_exact_repetition_passes(self) -> None:
+        prose = "He read it again: the market was never random at all, just patient."
+        assert check_verbatim_blocks(CANON, "x.md", prose) == []
+
+    def test_drifted_block_flagged(self) -> None:
+        prose = "He read it again: the market was never random, only patient."
+        found = check_verbatim_blocks(CANON, "x.md", prose)
+        assert len(found) == 1 and "drifted" in found[0].message
+
+    def test_absent_trigger_ignored(self) -> None:
+        assert check_verbatim_blocks(CANON, "x.md", "Unrelated prose.") == []
 
 
 class TestWikiLinks:

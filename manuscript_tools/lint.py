@@ -168,6 +168,29 @@ def check_header_convention(
     return findings
 
 
+def check_verbatim_blocks(
+    canon: dict[str, Any], filename: str, prose: str
+) -> list[Finding]:
+    """Canonical prose blocks must repeat character-identically.
+
+    If a file contains a block's trigger substring, the full canonical
+    text must appear verbatim — guarding ritual passages (e.g. the
+    Oct 22nd journal fragment) against drift between chapters.
+    """
+    findings = []
+    for block in canon.get("verbatim_blocks", []) or []:
+        if block["trigger"] in prose and block["text"] not in prose:
+            findings.append(
+                Finding(
+                    "error",
+                    filename,
+                    f"verbatim block '{block['name']}' present (trigger matched) "
+                    "but text has drifted from the canonical version",
+                )
+            )
+    return findings
+
+
 def check_forbidden_terms(
     canon: dict[str, Any], filename: str, prose: str
 ) -> list[Finding]:
@@ -345,6 +368,7 @@ def lint_manuscript(
         findings += check_name_drift(canon, entry.path, prose)
         findings += check_calendar_dates(canon, entry.path, prose)
         findings += check_header_convention(canon, entry.path, prose)
+        findings += check_verbatim_blocks(canon, entry.path, prose)
         findings += check_forbidden_terms(canon, entry.path, prose)
         findings += check_file_canon(canon, entry.path, path)
         findings += check_wiki_links(canon, entry.path, prose, wiki_dir)
